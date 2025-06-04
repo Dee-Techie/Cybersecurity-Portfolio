@@ -13,8 +13,3 @@ Welcome to my Cybersecurity Portfolio! I am actively transitioning into the fiel
 - 📛 **Certificates and Badges** – Completion proof from Google, Cisco, IBM, etc.
 
 ---
-
-## 📫 Connect With Me
-
-- **LinkedIn:** https://www.linkedin.com/in/dikshabhatnagar/
-- **Email:** deetechie27@gmail.com
