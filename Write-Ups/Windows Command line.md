@@ -6,6 +6,9 @@
 - driverquery | more: Lists installed drivers, showing one page at a time.
 - help: Displays help for specific commands.
 - cls: Clears the command prompt screen.
+- chkdsk: checks the file system and disk volumes for errors and bad sectors.
+- driverquery: displays a list of installed device drivers.
+- sfc /scannow: scans system files for corruption and repairs them if possible.
 
 ---
 
