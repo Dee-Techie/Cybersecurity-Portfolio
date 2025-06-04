@@ -4,7 +4,7 @@ This folder contains walkthroughs of rooms I've completed on TryHackMe to improv
 
 ## 📘 Write-Ups
 
-- [Room 1: Cyber Security 101](cyber-security-fundamentals.md)
+- [Room 1: Cyber Security 101](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Tryhackme-Writeups/Cyber-Security-101.md)
 - [Room 2: Blue Team Fundamentals](blue-team-fundamentals.md)
 - [Room 3: SOC Level 1](soc-level-1.md)
 - [Room 4: Splunk 101](splunk-101.md)
