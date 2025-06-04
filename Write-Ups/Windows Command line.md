@@ -53,3 +53,5 @@
 
 ### 📑 Task and Process Management
 - tasklist: Displays a list of running processes.
+- tasklist /FI "imagename eq [process_name]": Filters the tasklist for a specific process (e.g., notepad.exe).
+- taskkill /PID [pid]: Terminates a process by its process ID (PID).
