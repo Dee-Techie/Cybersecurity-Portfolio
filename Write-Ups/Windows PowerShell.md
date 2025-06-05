@@ -80,4 +80,7 @@ Piping lets you connect commands so that one command's result goes straight into
 ## 🎞Scripting
 - <ins>Invoke-Command</ins> is essential for executing commands on remote systems.
   - To get more help use <ins>Get-Help Invoke-Command -examples</ins>
-> E.g. <ins>Invoke-Command -ComputerName HoneyBadger -ScriptBlock { Get-Service }</ins> is the syntax to execute the command Get-Service on a remote computer named "HoneyBadger", when you do not have the credentials to login..
+> E.g. <ins>Invoke-Command -ComputerName HoneyBadger -ScriptBlock { Get-Service }</ins> is the syntax to execute the command Get-Service on a remote computer named "HoneyBadger".
+
+<sub>🔗 References & Resources:
+TryHackMe — Windows PowerShell | Cyber Security 101 (THM) [TryHackMe](https://tryhackme.com/room/windowspowershell)</sub>
