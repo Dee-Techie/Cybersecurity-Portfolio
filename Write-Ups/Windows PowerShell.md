@@ -76,5 +76,8 @@ Piping lets you connect commands so that one command's result goes straight into
 - <ins>Get-FileHash</ins> creates a unique code (hash) for a file. It's helpful in cybersecurity to check if a file has been changed or tampered with.
 > E.g. Get-Service | Where-Object { $_.DisplayName -like "*$motto*" } | Select-Object Name, DisplayName
 
-
-
+---
+## 🎞Scripting
+- <ins>Invoke-Command</ins> is essential for executing commands on remote systems.
+  - To get more help use <ins>Get-Help Invoke-Command -examples</ins>
+> E.g. <ins>Invoke-Command -ComputerName HoneyBadger -ScriptBlock { Get-Service }</ins> is the syntax to execute the command Get-Service on a remote computer named "HoneyBadger", when you do not have the credentials to login..
