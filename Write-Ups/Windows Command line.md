@@ -1,4 +1,4 @@
-# 📝 Write Up - Windows Command Line
+# 📝 Windows Command Line
 
 ## 🔐 Basic System Information
 - ver: Shows the operating system version.
