@@ -67,5 +67,14 @@ Piping lets you connect commands so that one command's result goes straight into
 - <ins>Get-LocalUser</ins> lists all the local user accounts on the system.
 - <ins>Get-NetIPConfiguration</ins> provides detailed information about the network interfaces on the system, including IP addresses, DNS servers, and gateway configurations.
 - <ins>Get-NetIPAddress</ins> cmdlet will show details for all IP addresses configured on the system, including those that are not currently active.
-- 
+
+---
+## ⏰Real-Time System Analysis
+- <ins>Get-Process</ins> shows all running programs on your system, including how much CPU and memory they’re using. It’s a handy tool for checking what’s going on and fixing issues.
+- <ins>Get-Service</ins> shows which services on a computer are running, stopped, or paused. It’s useful for troubleshooting and for spotting anything unusual on the system.
+- <ins>Get-NetTCPConnection</ins> shows all current TCP network connections. It's useful in incident response or malware checks to spot suspicious or hidden connections to attackers.
+- <ins>Get-FileHash</ins> creates a unique code (hash) for a file. It's helpful in cybersecurity to check if a file has been changed or tampered with.
+> E.g. Get-Service | Where-Object { $_.DisplayName -like "*$motto*" } | Select-Object Name, DisplayName
+
+
 
