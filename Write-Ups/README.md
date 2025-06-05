@@ -51,7 +51,7 @@ These writeups are meant to:
 - 📘 Obsidian for note-taking
 - 🔭Remmina for Remote Desktop
 - 🐙 GitHub for version control  
-- 🎓 ChatGPT (yes, you!)  
+- 🎓 ChatGPT (yes, I did!)  
 - 💻 PowerShell, Wireshark, Netstat, and friends
 
 ---
