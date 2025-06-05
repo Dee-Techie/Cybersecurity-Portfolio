@@ -25,8 +25,7 @@ PowerShell uses cmdlets (command-lets), which follow a consistent Verb-Noun nami
 
 ### ⚓Common Commands:
 
-- <ins>Get-Content</ins> (read file content) – similar to type in CMD and cat in Linux.
-- <ins>Set-Location</ins> (change directory) – similar to cd in CMD/Linux.
+- <ins>Set-Location</ins> (change directory) – similar to cd in CMD/Linux. E.g. <ins>Set-Location C:\Users\XYZ</ins> to change directory
 - <ins>Get-Command</ins> (list all commands) – helps discover available cmdlets. E.g. <ins>Get-Command -Name Remove*</ins> retrieves a list of commands that start with the verb Remove.
 - <ins>Get-Help</ins> - it provides detailed information about cmdlets, including usage, parameters, and examples. E.g. <ins>Get-Help New-LocalUser -examples</ins> retrieves some example usage for the cmdlet New-LocalUser
 - <ins>Get-Alias</ins> - lists all aliases available (lists alternative names for cmdlets— for many traditional Windows commands).
@@ -46,4 +45,27 @@ Piping lets you connect commands so that one command's result goes straight into
 
 >E.g. <ins>get-childitem | sort-object length</ins> here <ins>Get-ChildItem</ins> lists all the files, and the | (pipe) sends those files to Sort-Object, which organizes them by their size.
 - <ins>Sort-object</ins> sorts the files
-- <ins>Where-Object</ins> filters the files by their Extension property (.txt)
+- <ins>Where-Object</ins> filters the files by their Extension property (.txt). We can use <ins>comparision operators</ins> to define the extension property. Here are some commonly used comparision operators
+  - -eq: "equal to"
+  - -ne: "not equal"
+  - -gt: "greater than"
+  - -ge: "greater than or equal to"
+  - -lt: "less than"
+  - -le: "less than or equal to"
+  - -like: selecting properties that match
+
+> E.g. GetChildItem | Where -Object -Property "Name" -like "Ship*"
+- <ins>Select-Object</ins> is used to select specific properties from objects or limit the number of objects returned.
+- <ins>Select-String</ins> searches for text patterns within files, similar to grep in Unix-based systems or findstr in Windows Command Prompt.
+
+> E.g. Get-ChildItem | Where-Object -Property Length -gt 100 to retrieve the items in the current directory with size greater than 100.
+
+---
+
+## 💻System and Network Information
+- <ins>Get-ComputerInfo</ins> cmdlet retrieves comprehensive system information, including operating system information, hardware specifications, BIOS details, and more.
+- <ins>Get-LocalUser</ins> lists all the local user accounts on the system.
+- <ins>Get-NetIPConfiguration</ins> provides detailed information about the network interfaces on the system, including IP addresses, DNS servers, and gateway configurations.
+- <ins>Get-NetIPAddress</ins> cmdlet will show details for all IP addresses configured on the system, including those that are not currently active.
+- 
+
