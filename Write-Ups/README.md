@@ -22,6 +22,7 @@ These writeups are meant to:
 |-------------------------------|------------------------------------|-----------------|
 | 🖥️ Windows Basics              | [Windows Command Line 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Windows%20Command%20line.md)           | ✅ Complete     |
 | 💻 PowerShell Fundamentals     | [Windows PowerShell 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Windows%20PowerShell.md)                | ✅ Complete |
+| 💻 LinuxShells      | [Linux Shells 📎]()                | 🛠️ In Progress |
 | 🌐 Networking        | Network                 | 🛠️ In Progress |
 | 🧶 Cryptography        | Cryptography Basics                 | 🛠️ In Progress |
 | 🔐 Exploitation           | Exploitation Basics            | 🛠️ In Progress |
@@ -38,9 +39,11 @@ These writeups are meant to:
 ## 📌 What's Next?
 
 🔜 Coming soon:  
-- Linux Terminal Basics  
-- Blue Team Tools & Logs  
-- Active Directory Recon  
+- Web Hacking
+- Offensive Security Tooling
+- Defensive Security Tooling
+- Security Tools
+- Blue Team Tools & Logs   
 - PowerShell for DFIR  
 
 ---
