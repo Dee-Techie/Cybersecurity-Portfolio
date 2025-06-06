@@ -161,7 +161,8 @@ Comments don’t affect the working of any script but make it easier to read.  A
 ![image](https://github.com/user-attachments/assets/7f470824-309f-4ed5-a40b-c0fe66849b77)
 
 ## 🚠 Basic Authentication Script examples
-![image](https://github.com/user-attachments/assets/947e5f3c-0449-4926-936e-119a6feee8f6)
+![image](https://github.com/user-attachments/assets/1464d5fa-97f4-46a9-9cde-4cd3e8ada733)
+
 
 
 
