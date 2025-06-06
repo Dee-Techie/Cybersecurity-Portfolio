@@ -154,11 +154,15 @@ Output to an un-authorized user
 
 ![image](https://github.com/user-attachments/assets/83711272-76ef-4117-a85c-d1e33c5620f8)
 
+---
+
 ### 🚨  A good script always has some comments. 
 
 Comments don’t affect the working of any script but make it easier to read.  A comment is a sentence that we write in our code just for the sake of our understanding. It is written with a # sign followed by a space and the sentence we need to write.
 
 ![image](https://github.com/user-attachments/assets/7f470824-309f-4ed5-a40b-c0fe66849b77)
+
+---
 
 ## 🚠 Basic Authentication Script examples
 ![image](https://github.com/user-attachments/assets/1464d5fa-97f4-46a9-9cde-4cd3e8ada733)
