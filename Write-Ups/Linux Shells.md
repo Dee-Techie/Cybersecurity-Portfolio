@@ -123,10 +123,10 @@ Now execute your script by typing:
 
 ### Next, there are some fundamental building blocks of a script that together make an efficient script.
 
-### Variables :
+### <ins>Variables</ins>:
 A variable stores a value inside it. Suppose you need to use some complex values, like a URL, a file path, etc., several times in your script. Instead of memorizing and writing them repeatedly, you can store them in a variable and use the variable name wherever you need it. In the example above <ins>"name" is a variable in which the input would be stored</ins>.
 
-### Loop :
+### <ins>Loop</ins> :
 Loop, as the name suggests, is something that is repeating. let’s write a loop that will display all numbers starting from 1 to 10 on the screen. First, create a new file named loop_script.sh, then enter the code below. Save your file by pressing CRTL+X, then confirm with y and then ENTER.
 
 ![image](https://github.com/user-attachments/assets/12ba21f4-ec76-4416-9796-ec646b3e5389)
@@ -137,7 +137,7 @@ The output will be
 
 ![image](https://github.com/user-attachments/assets/2cca9546-cd4d-4060-bfc0-86299ac23032)
 
-### Conditional Statements :
+### <ins>Conditional Statements</ins> :
 Conditional statements are an essential part of scripting. They help you execute a specific code only when a condition is satisfied. For eg if we want to make a script that shows the user a secret. However, we want it to be shown to only some users (the high-authority user). We will create a conditional statement that will first ask the user their name, and if that name matches the high authority user’s name, it will display the secret. 
 
 To do so, we first, create a new file named conditional_script.sh, then enter the code below. Save your file by pressing CRTL+X, then confirm with y and then ENTER.
