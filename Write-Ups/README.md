@@ -22,7 +22,7 @@ These writeups are meant to:
 |-------------------------------|------------------------------------|-----------------|
 | 🖥️ Windows Basics              | [Windows Command Line 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Windows%20Command%20line.md)           | ✅ Complete     |
 | 💻 PowerShell Fundamentals     | [Windows PowerShell 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Windows%20PowerShell.md)                | ✅ Complete |
-| 💻 LinuxShells      | [Linux Shells 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Linux%20Shells.md)                | 🛠️ In Progress |
+| 💻 LinuxShells      | [Linux Shells 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Linux%20Shells.md)                | ✅ Complete |
 | 🌐 Networking        | Network                 | 🛠️ In Progress |
 | 🧶 Cryptography        | Cryptography Basics                 | 🛠️ In Progress |
 | 🔐 Exploitation           | Exploitation Basics            | 🛠️ In Progress |
