@@ -51,3 +51,6 @@ Many modern textbooks (e.g., *Computer Networking: A Top-Down Approach* by Kuros
 3. Network  
 4. Link  
 5. Physical
+
+<sub>🔗 References & Resources:
+TryHackMe — Networking Concepts | Cyber Security 101 (THM) [TryHackMe](https://tryhackme.com/room/networkingconcepts)</sub>
