@@ -14,7 +14,7 @@ Let’s deconstruct the web one packet at a time! 🧵🔍
 | 📌 Topic | 🔗 Link |
 |----------|---------|
 | OSI Model | [OSI_Model.md](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/OSI_Model.md) |
-| TCP/IP Model | [TCP_IP_Model.md]() |
+| TCP/IP Model | [TCP_IP_Model.md](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/TCP_IP_Model.md) |
 | IP Addressing & Subnetting | [IP_Subnetting.md]() |
 | Ports & Protocols | [Ports_Protocols.md]() |
 | DNS & DHCP | [DNS_DHCP.md]() |
