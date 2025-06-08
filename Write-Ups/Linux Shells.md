@@ -167,7 +167,10 @@ Comments don’t affect the working of any script but make it easier to read.  A
 ## 🚠 Basic Authentication Script examples
 ![image](https://github.com/user-attachments/assets/1464d5fa-97f4-46a9-9cde-4cd3e8ada733)
 
+---
 
+<sub>🔗 References & Resources:
+TryHackMe — Linux Shells | Cyber Security 101 (THM) [TryHackMe](https://tryhackme.com/room/linuxshells)</sub>
 
 
 
