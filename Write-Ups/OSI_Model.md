@@ -49,4 +49,5 @@ Examples of Layer 7 protocols are HTTP, FTP, DNS, POP3, SMTP, and IMAP.
 | 2              | Data Link Layer     | Reliable data transfer between adjacent nodes     | Ethernet (802.3), WiFi (802.11)                 |
 | 1              | Physical Layer      | Physical data transmission media                  | Electrical, optical, and wireless signals       |
 
-
+<sub>🔗 References & Resources:
+TryHackMe — Networking Concepts | Cyber Security 101 (THM) [TryHackMe](https://tryhackme.com/room/networkingconcepts)</sub>
