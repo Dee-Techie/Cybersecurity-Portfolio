@@ -120,6 +120,8 @@ Understand the difference between public and private IPs.
 
 Routers forward data using IP addresses and make communication possible across networks.
 
+---
+
 <sub>🔗 References & Resources:
 TryHackMe — Networking Concepts | Cyber Security 101 (THM) [TryHackMe](https://tryhackme.com/room/networkingconcepts)</sub>
 
