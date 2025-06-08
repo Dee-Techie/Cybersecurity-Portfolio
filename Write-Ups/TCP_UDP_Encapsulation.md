@@ -37,7 +37,18 @@ Let’s consider the scenario where we search for something on Google.
 - The IP layer **adds the source IP address**, i.e., our computer, and the destination IP address. For this packet to reach the router, our laptop delivers it to the layer below it, the link layer.
 - Depending on the protocol, The link layer **adds the proper link layer header and trailer**, and the packet is sent to the router.
 - The router **removes the link layer header and trailer, inspects the IP destination, among other fields, and routes the packet to the proper link**. Each router repeats this process until it reaches the router of the target server.
-- The steps will then be reversed as the packet reaches the router of the destination network. 
+- The steps will then be reversed as the packet reaches the router of the destination network.
+
+---
+
+Quick Questions & Answers :
+
+- On a WiFi, within what will an IP packet be encapsulated?
+  > Frame
+- What do you call the UDP data unit that encapsulates the application data?
+  > Datagram
+- What do you call the data unit that encapsulates the application data sent over TCP?
+  > Segment
 
 <sub>🔗 References & Resources:
 TryHackMe — Networking Concepts | Cyber Security 101 (THM) [TryHackMe](https://tryhackme.com/room/networkingconcepts)</sub>
