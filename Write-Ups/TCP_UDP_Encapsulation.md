@@ -1,4 +1,4 @@
-#🧵 Data Delivery & Communication Protocols
+# 🧵 Data Delivery & Communication Protocols
 
 The IP protocol allows us to reach a destination host on the network; the host is identified by its IP address. We need protocols that would enable processes on networked hosts to communicate with each other. There are two transport protocols to achieve that: UDP and TCP (both operate at Layer 4 - ISO OSI Model).
 
