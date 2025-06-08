@@ -7,6 +7,10 @@ This is where I break down complex networking topics into fun, practical, and cy
 
 Let’s deconstruct the web one packet at a time! 🧵🔍
 
+--- 
+
+## 📚 Topics Covered
+
 | 📌 Topic | 🔗 Link |
 |----------|---------|
 | OSI Model | [OSI_Model.md](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/OSI_Model.md) |
