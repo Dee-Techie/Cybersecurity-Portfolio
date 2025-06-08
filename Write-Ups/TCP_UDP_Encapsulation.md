@@ -41,7 +41,7 @@ Let’s consider the scenario where we search for something on Google.
 
 ---
 
-Quick Questions & Answers :
+Quick Questions & Answers from what has been covered so far :
 
 - On a WiFi, within what will an IP packet be encapsulated?
   > Frame
@@ -49,6 +49,13 @@ Quick Questions & Answers :
   > Datagram
 - What do you call the data unit that encapsulates the application data sent over TCP?
   > Segment
+
+---
+
+## 🛰️ Telenet
+Teletype Network Protocol or Telenet is a network protocol for remote terminal connection. A TELNET client, allows us to connect to and communicate with a remote system and issue text commands. Although initially it was used for remote administration, we can use telnet to connect to any server listening on a TCP port number. Currently it’s widely replaced by more secure protocols like SSH, but it is still used in some network environments.
+
+---
 
 <sub>🔗 References & Resources:
 TryHackMe — Networking Concepts | Cyber Security 101 (THM) [TryHackMe](https://tryhackme.com/room/networkingconcepts)</sub>
