@@ -61,3 +61,8 @@
 - tasklist: Displays a list of running processes.
 - tasklist /FI "imagename eq [process_name]": Filters the tasklist for a specific process (e.g., notepad.exe).
 - taskkill /PID [pid]: Terminates a process by its process ID (PID).
+
+---
+
+<sub>🔗 References & Resources:
+TryHackMe — Windows Command Line | Cyber Security 101 (THM) [TryHackMe](https://tryhackme.com/room/windowscommandline)</sub>
