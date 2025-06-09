@@ -32,7 +32,7 @@ These writeups are meant to:
 
 ## ✍️ Featured Writeups
 
-#### 🚧 Common Abbreviations [Click Here to view](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Common_Abbreviations.md)
+#### 🚧 🆘 Lost in Acronyms? [Start Here](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Common_Abbreviations.md)
 
 ---
 
