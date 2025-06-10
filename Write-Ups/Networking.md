@@ -14,8 +14,8 @@ Let’s deconstruct the web one packet at a time! 🧵🔍
 | 📌 Topic | 🔗 Link |
 |----------|---------|
 | OSI Model | [Open Systems Interconnection Model](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/OSI_Model.md) |
-| TCP/IP Model | [TCP/IP Model](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/TCP_IP_Model.md) |
-| IP Addressing & Subnetting | [IP Subnetting](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/IP_Subnetting.md) |
+| TCP/IP Model | [Transmission Control Protocol / Internet Protocol Model](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/TCP_IP_Model.md) |
+| IP Addressing & Subnetting | [IP Address & Routing](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/IP_Subnetting.md) |
 | Data Delivery & Communication Protocols | [TCP, UDP & Encapsulation](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/TCP_UDP_Encapsulation.md) |
 | Networking Essentials | [DHCP, ARP, NAT & ICMP](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Networking_Essentials.md) |
 | DNS & DHCP | [DNS_DHCP.md]() |
