@@ -118,7 +118,7 @@ Think of Ping like a game of digital "ping-pong" 🏓
 When you type ping 192.168.11.1, your computer sends four "pings" and then shows you how many came back and how long each took. If it says "0% packet loss," that's great! It means all your messages got through. 🎉
 </br>
 
-- 2. <ins>Traceroute (or Tracert)</ins>: "Show Me the Way!" 🗺️
+- 2. <ins>Traceroute (or Tracert)</ins>: "Show Me the Way!" 🗺️ </br>
 Have you ever wondered how your data travels across the internet to reach a website thousands of miles away? Traceroute (or Tracert on Windows) is your guide! It shows you every "stop" (router) your data takes on its journey.
 
   - How it works:
