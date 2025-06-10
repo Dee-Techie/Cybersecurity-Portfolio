@@ -19,7 +19,7 @@ You could manually type in all these numbers every time you connect to a new net
 - 📡 DHCP Discover: The client broadcasts a DHCPDISCOVER message seeking the local DHCP server if one exists.
   - (Your laptop asks): "Is there a DHCP server out there?"
   - Your laptop broadcasts a message to everyone on the network because it doesn't even have an IP address yet! It's like shouting into a crowd.
-  - (You'll see it send from 0.0.0.0 to 255.255.255.255 because it has no assigned IP, and to ff:ff:ff:ff:ff:ff for the MAC address to reach everyone.)
+  - You'll see it send from 0.0.0.0 (Source IP) to 255.255.255.255 (destination IP) because it has no assigned IP, and to ff:ff:ff:ff:ff:ff for the MAC address to reach everyone.
 
 - 🎁 DHCP Offer: The server responds with a DHCPOFFER message with an IP address available for the client to accept.
   - The DHCP server responds): "Yes, I'm here! I have an IP address for you: 192.168.66.133!"
