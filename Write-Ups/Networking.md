@@ -18,8 +18,8 @@ Let’s deconstruct the web one packet at a time! 🧵🔍
 | IP Addressing & Subnetting | [IP Address & Routing](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/IP_Subnetting.md) |
 | Data Delivery & Communication Protocols | [TCP, UDP & Encapsulation](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/TCP_UDP_Encapsulation.md) |
 | Networking Essentials | [DHCP, ARP, ICMP & NAT](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Networking_Essentials.md) |
-| Routing Protocol | [OSRF, EIGRP, BGP, RIP](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Routing_Protocols.md) |
-| NAT & PAT | [NAT_PAT.md]() |
+| Routing Protocols | [OSRF, EIGRP, BGP, RIP](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Routing_Protocols.md) |
+| Core Protocols | [WHOIS, DNS, HTTP and FTP, SMTP, POP3, and IMAP](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Core_Protocols.md) |
 | Firewalls & VPNs | [Firewalls_VPNs.md]() |
 | Packet Capture & Analysis (Wireshark/tcpdump) | [Packet_Analysis.md]() |
 | Common Network Attacks | [Network_Attacks.md]() |
