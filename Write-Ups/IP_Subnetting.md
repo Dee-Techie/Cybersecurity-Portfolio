@@ -120,6 +120,7 @@ Understand the difference between public and private IPs.
 
 Routers forward data using IP addresses and make communication possible across networks.
 
+[To view the most commonly used Routing Protocols, click here](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Routing_Protocols.md)
 ---
 
 <sub>🔗 References & Resources:
