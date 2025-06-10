@@ -1,3 +1,14 @@
+# 📢 Networking essentials 🚀
+Ever wondered how your devices chat online, find each other, or get their internet superpowers automatically? You've come to the right place! This guide breaks down some fundamental networking concepts into simple, digestible pieces.
+
+### Here's what we'll cover in this adventure:
+- ⚡️ Dynamic Host Configuration Protocol (DHCP)
+- 📍 Address Resolution Protocol (ARP)
+- 🏠 Network Address Translation (NAT)
+- 🗣️ Internet Control Message Protocol (ICMP)
+  - Ping 🏓
+  - Traceroute 🗺️
+
 # DHCP 🎯 (targets correct IP address) or 🛠️ (network tool)
 
 Dynamic Host Configuration Protocol is an application-level protocol that relies on **UDP**; the server listens on UDP port 67, and the client sends from UDP port 68. Our smartphone and laptop are configured to use DHCP by default.
@@ -75,7 +86,7 @@ So, how does your computer figure out the other device's MAC address if it only 
 ## 🧭 Important to Remember:
 - Temporary Knowledge: Devices don't store everyone's MAC address forever. They only look them up when they need to communicate.
 - Direct Encapsulation: ARP requests and replies are special; they are put directly into the "data link frame" (Ethernet or Wi-Fi frame) and not inside an IP packet or UDP packet. This shows how fundamental ARP is to getting data moving on the local network.
-- Bridge Between Layers: While IP addresses are about "Layer 3" (how data travels across different networks), and MAC addresses are about "Layer 2" (how data travels on a single local network), ARP acts as a bridge, translating between these two types of addresses.
+- Bridge Between Layers: While <ins>IP addresses are about "Layer 3" (how data travels across different networks), and MAC addresses are about "Layer 2" (how data travels on a single local network)</ins>, ARP acts as a bridge, translating between these two types of addresses.
 So, even though we often think about communication using IP addresses, ARP is the unsung hero that helps devices find each other's physical locations on the same local network so they can actually exchange information.
 
 
