@@ -43,10 +43,12 @@ Most Linux distributions use Bash (Bourne Again Shell) as their default shell. H
 Linux distributions come with several types of shells, each with its own unique set of features.
 > - To see which shell you are using, type the following command: echo $SHELL
 > - To list down the available shells in your Linux OS use : **cat /etc/shells**
-![image](https://github.com/user-attachments/assets/4615546f-c668-4ee2-ab16-3eec565ee3eb)
+
+<img src="https://github.com/user-attachments/assets/4615546f-c668-4ee2-ab16-3eec565ee3eb" alt="Type of Shells" width="600" />
 
 > - To switch between the shells, just type the shell name
-![image](https://github.com/user-attachments/assets/fdbd122e-7342-4bd0-8aea-51cdb085d691)
+
+<img src="https://github.com/user-attachments/assets/fdbd122e-7342-4bd0-8aea-51cdb085d691" alt="Switch between Shells" width="600" />
  
 > - To permanently change the default Shell use : **chsh -s /usr/bin/__ (replace __ with bash, zsh, tmux, etc.)**
 
@@ -129,30 +131,30 @@ A variable stores a value inside it. Suppose you need to use some complex values
 ### <ins>Loop</ins> :
 Loop, as the name suggests, is something that is repeating. let’s write a loop that will display all numbers starting from 1 to 10 on the screen. First, create a new file named loop_script.sh, then enter the code below. Save your file by pressing CRTL+X, then confirm with y and then ENTER.
 
-![image](https://github.com/user-attachments/assets/12ba21f4-ec76-4416-9796-ec646b3e5389)
+<img src="https://github.com/user-attachments/assets/12ba21f4-ec76-4416-9796-ec646b3e5389" alt="Shell Loops" width="600" />
 
 Here do indicates the start of the loop code, and done indicates the end.
 
 The output will be
 
-![image](https://github.com/user-attachments/assets/2cca9546-cd4d-4060-bfc0-86299ac23032)
+<img src="](https://github.com/user-attachments/assets/2cca9546-cd4d-4060-bfc0-86299ac23032" alt="Output" width="600" />
 
 ### <ins>Conditional Statements</ins> :
 Conditional statements are an essential part of scripting. They help you execute a specific code only when a condition is satisfied. For eg if we want to make a script that shows the user a secret. However, we want it to be shown to only some users (the high-authority user). We will create a conditional statement that will first ask the user their name, and if that name matches the high authority user’s name, it will display the secret. 
 
 To do so, we first, create a new file named conditional_script.sh, then enter the code below. Save your file by pressing CRTL+X, then confirm with y and then ENTER.
 
-![image](https://github.com/user-attachments/assets/338c300c-9a71-4f5b-91dc-ec6d8128e7ee)
+<img src="https://github.com/user-attachments/assets/338c300c-9a71-4f5b-91dc-ec6d8128e7ee" alt="Conditional Script" width="600" />
 
 The above script takes the user’s name as input and stores it into a variable. The conditional statement starts with if and compares the value of that variable with the string Stewart; if it’s a match, it will display the secret to the user, or else it will not. The fi is used to end the for loop.
 
 Output to an authorized user
 
-![image](https://github.com/user-attachments/assets/b4b24aae-d8df-4027-a44e-63174140151a)
+<img src="https://github.com/user-attachments/assets/b4b24aae-d8df-4027-a44e-63174140151a" alt="Authorized User" width="600" />
 
 Output to an un-authorized user
 
-![image](https://github.com/user-attachments/assets/83711272-76ef-4117-a85c-d1e33c5620f8)
+<img src="https://github.com/user-attachments/assets/83711272-76ef-4117-a85c-d1e33c5620f8" alt="Authorized User Output" width="600" />
 
 ---
 
@@ -160,12 +162,14 @@ Output to an un-authorized user
 
 Comments don’t affect the working of any script but make it easier to read.  A comment is a sentence that we write in our code just for the sake of our understanding. It is written with a # sign followed by a space and the sentence we need to write.
 
-![image](https://github.com/user-attachments/assets/7f470824-309f-4ed5-a40b-c0fe66849b77)
+<img src="https://github.com/user-attachments/assets/7f470824-309f-4ed5-a40b-c0fe66849b77" alt="Comment" width="600" />
+![image]()
 
 ---
 
 ## 🚠 Basic Authentication Script examples
-![image](https://github.com/user-attachments/assets/1464d5fa-97f4-46a9-9cde-4cd3e8ada733)
+
+<img src="https://github.com/user-attachments/assets/1464d5fa-97f4-46a9-9cde-4cd3e8ada733" alt="Basic Auth Script Example" width="600" />
 
 ---
 
