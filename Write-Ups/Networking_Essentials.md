@@ -43,7 +43,7 @@ At the end of the DHCP process, our device would have received all the configura
 - A <ins>DNS server</ins> to resolve domain names (more on this later)
 ---
 
-# 🔌 ARP (Address resolution Protocol)
+# 🔌 ARP (Address resolution Protocol - The Network's "Find My MAC Address" Service)
 
 ## 🧠 How Devices Chat on Your Network
 Imagine you want to send a letter to a friend. You know their home address (like an IP address on a network), but to actually deliver the letter, you also need to know their exact mailbox number (like a MAC address). Computers work in a similar way when they communicate on the same local network, like your home Wi-Fi or an office Ethernet cable.
