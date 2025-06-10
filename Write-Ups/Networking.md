@@ -17,8 +17,8 @@ Let’s deconstruct the web one packet at a time! 🧵🔍
 | TCP/IP Model | [Transmission Control Protocol / Internet Protocol Model](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/TCP_IP_Model.md) |
 | IP Addressing & Subnetting | [IP Address & Routing](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/IP_Subnetting.md) |
 | Data Delivery & Communication Protocols | [TCP, UDP & Encapsulation](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/TCP_UDP_Encapsulation.md) |
-| Networking Essentials | [DHCP, ARP, NAT & ICMP](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Networking_Essentials.md) |
-| DNS & DHCP | [DNS_DHCP.md]() |
+| Networking Essentials | [DHCP, ARP, ICMP & NAT](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Networking_Essentials.md) |
+| Routing Protocol | [OSRF, EIGRP, BGP, RIP](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Routing_Protocols.md) |
 | NAT & PAT | [NAT_PAT.md]() |
 | Firewalls & VPNs | [Firewalls_VPNs.md]() |
 | Packet Capture & Analysis (Wireshark/tcpdump) | [Packet_Analysis.md]() |
