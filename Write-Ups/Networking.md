@@ -13,10 +13,10 @@ Let’s deconstruct the web one packet at a time! 🧵🔍
 
 | 📌 Topic | 🔗 Link |
 |----------|---------|
-| OSI Model | [OSI_Model.md](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/OSI_Model.md) |
-| TCP/IP Model | [TCP_IP_Model.md](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/TCP_IP_Model.md) |
-| IP Addressing & Subnetting | [IP_Subnetting.md](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/IP_Subnetting.md) |
-| Data Delivery & Communication Protocols | [TCP_UDP_Encapsulation.md](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/TCP_UDP_Encapsulation.md) |
+| OSI Model | [OSI Model](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/OSI_Model.md) |
+| TCP/IP Model | [TCP/IP Model](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/TCP_IP_Model.md) |
+| IP Addressing & Subnetting | [IP Subnetting](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/IP_Subnetting.md) |
+| Data Delivery & Communication Protocols | [TCP, UDP & Encapsulation](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/TCP_UDP_Encapsulation.md) |
 | Networking Essentials | [DHCP, ARP, NAT & ICMP](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Networking_Essentials.md) |
 | DNS & DHCP | [DNS_DHCP.md]() |
 | NAT & PAT | [NAT_PAT.md]() |
