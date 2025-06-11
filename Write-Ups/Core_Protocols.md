@@ -67,7 +67,7 @@ HTTP (HyperText Transfer Protocol) is the web's basic language for your browser 
 ## 🔒 HTTPS: The Web's Secure Chat 🤫 </br>
 HTTPS (HyperText Transfer Protocol Secure) is simply HTTP with a security upgrade using SSL/TLS encryption. It's like talking in a secret code – only your browser and the server understand. This protects sensitive info like passwords and credit cards. Look for the padlock icon! ✅
 
-## 🎯 Web "Commands" (Methods): What Your Browser Asks For </br>
+### 🎯 Web "Commands" (Methods): What Your Browser Asks For </br>
 When your browser talks HTTP/S, it uses these "commands" to tell the server what to do:
 
 - GET ➡️: Retrieve data. "Give me this webpage!" (e.g., loading a website).
@@ -76,3 +76,33 @@ When your browser talks HTTP/S, it uses these "commands" to tell the server what
 - DELETE 🗑️: Remove data. "Delete this picture." (e.g., deleting a photo).
 - PATCH ✂️: Partially update data. "Just change my email address." (e.g., changing only one field).
 - HEAD 📋: Get only headers. "Just tell me the page's info, don't send the whole page." (e.g., checking if a file exists).
+
+---
+
+## 📁 FTP: The File Transfer Workhorse 🚀
+While HTTP is built for Browse webpages, FTP (File Transfer Protocol) is specifically designed for efficiently moving files around. It can often transfer files faster than HTTP because it's optimized for that single job.
+
+### 🛠️ How FTP Works: Commands & Ports
+FTP uses a set of specific commands to manage file transfers:
+- USER: Enter username.
+- PASS: Enter password.
+- RETR (retrieve): Download a file from the FTP server to your computer.
+- STOR (store): Upload a file from your computer to the FTP server.
+
+> An FTP server typically "listens" for commands on TCP Port 21. But here's a neat trick: the actual file data is transferred over a separate connection, often using other ports.
+
+### 🧪 FTP in Action: A Quick Example
+
+Imagine you want to grab a file from an FTP server:
+Using a terminal FTP client:
+
+```bash
+ftp 10.10.110.98       # Connect to FTP server  
+Name: anonymous         # Login with anonymous user  
+Password: (leave blank)  
+ls                     # List available files  
+type ascii             # Set transfer mode for text files  
+get flag.txt         # Download the file  
+```
+<img src="https://github.com/user-attachments/assets/5749216b-b80f-406b-b7f0-115474f73991" alt="FTP in action" width="600" />
+
