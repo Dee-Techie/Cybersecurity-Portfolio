@@ -127,11 +127,11 @@ To fix this, **Tatu Ylönen** created the **SSH (Secure Shell)** protocol in 199
 
 ## 🔑 Key Benefits of SSH
 
-- **🔐 Secure Authentication**: Supports password, public key, and even two-factor auth.
-- **🕵️‍♂️ Confidentiality**: End-to-end encryption blocks eavesdropping.
-- **🛡️ Integrity**: Ensures data hasn’t been tampered with.
-- **🔄 Tunneling**: Routes other protocols securely through SSH, like a mini VPN.
-- **🖥️ X11 Forwarding**: Run remote GUI apps over SSH (e.g., launching Wireshark remotely).
+- **Secure Authentication**: Supports password, public key, and even two-factor auth.
+- **Confidentiality**: End-to-end encryption blocks eavesdropping.
+- **🛡Integrity**: Ensures data hasn’t been tampered with.
+- **Tunneling**: Routes other protocols securely through SSH, like a mini VPN.
+- **X11 Forwarding**: Run remote GUI apps over SSH (e.g., launching Wireshark remotely).
 
 
 ## 📡 Usage & Ports
@@ -142,7 +142,7 @@ To fix this, **Tatu Ylönen** created the **SSH (Secure Shell)** protocol in 199
   *(TELNET used the insecure **port 23**)*
 
 🧠 Extra Note:
-SSH is foundational in cybersecurity and system administration. It's not just for remote logins — it's also used in:
+SSH is not just for remote logins — it's also used in:
 - Secure file transfer (SFTP)
 - 🛠Git over SSH
 - Port forwarding
