@@ -58,3 +58,21 @@ You can easily look up WHOIS information for almost any registered domain name.
 - Online Services: Many websites offer free WHOIS lookup tools. Just search for "WHOIS lookup" online.
 - Command Line: If you're using a Linux system, you can use the whois command directly in your terminal. For example, whois example.com would show you its details. 💻
 So, while DNS makes it easy to remember website names, domain registration and WHOIS records are the foundational pieces that ensure accountability and ownership of those names on the vast internet.
+
+---
+
+## 🗣️ HTTP: The Web's Plain Talk 💬 </br>
+HTTP is the web's basic language for your browser and web servers to chat. It's like talking in plain text – everyone can understand. The big catch? No encryption, so data sent over HTTP isn't private. 🚫🔒
+
+## 🔒 HTTPS: The Web's Secure Chat 🤫 </br>
+HTTPS is simply HTTP with a security upgrade using SSL/TLS encryption. It's like talking in a secret code – only your browser and the server understand. This protects sensitive info like passwords and credit cards. Look for the padlock icon! ✅
+
+## 🎯 Web "Commands" (Methods): What Your Browser Asks For </br>
+When your browser talks HTTP/S, it uses these "commands" to tell the server what to do:
+
+- GET ➡️: Retrieve data. "Give me this webpage!" (e.g., loading a website).
+- POST ✍️: Send data to create/process. "Here's a new comment to add." (e.g., submitting a form, creating a user).
+- PUT 🔄: Update/replace data completely. "Replace this whole file with my new version." (e.g., updating an entire profile).
+- DELETE 🗑️: Remove data. "Delete this picture." (e.g., deleting a photo).
+- PATCH ✂️: Partially update data. "Just change my email address." (e.g., changing only one field).
+- HEAD 📋: Get only headers. "Just tell me the page's info, don't send the whole page." (e.g., checking if a file exists).
