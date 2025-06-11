@@ -50,7 +50,7 @@ Part of registering a domain means providing accurate contact information about 
 - When it's set to expire.
 - The domain registrar (the company you bought the domain from, like GoDaddy or Namecheap).
 
-### Privacy Options: </br>
+#### Privacy Options: </br>
 Worried about your personal details being public? Don't fret! Most domain registrars offer privacy services. For a small fee, they can hide your personal contact information from the public WHOIS records, replacing it with their own generic contact details. This is great for privacy-conscious individuals or small businesses. 🤫
 
 ### How to Look Up WHOIS Records:
@@ -107,6 +107,38 @@ get flag.txt         # Download the file
 <img src="https://github.com/user-attachments/assets/5749216b-b80f-406b-b7f0-115474f73991" alt="FTP in action" width="600" />
 
 ---
+
+## 📬 SMTP – Simple Mail Transfer Protocol
+
+Just like sending a package at the post office 📦, sending an email follows a process — and that process is handled by **SMTP**.
+
+SMTP (Simple Mail Transfer Protocol) defines how:
+- 💻 Mail clients communicate with mail servers
+- 📡 Mail servers talk to one another
+
+By default, **SMTP uses TCP port 25**.
+
+#### 🛠️ Common SMTP Commands:
+- `HELO` / `EHLO` – 👋 Start the session
+- `MAIL FROM:` – 🧑‍💻 Specify sender’s email address
+- `RCPT TO:` – 📥 Specify recipient’s email address
+- `DATA` – ✍️ Start writing the email message
+- `.` – ✅ End of the email message
+
+#### 🧪 Example (via `telnet`):
+You can simulate sending an email by connecting to an SMTP server using Telnet:
+```bash
+telnet smtp.example.com 25
+HELO yourdomain.com
+MAIL FROM:<you@example.com>
+RCPT TO:<friend@example.com>
+DATA
+Subject: Hello!
+This is a test email.
+.
+QUIT
+```
+<img src="https://github.com/user-attachments/assets/30f966c7-29e8-4137-81b5-d2983a73f7d8" alt="SMTP in action" width="600" />
 
 ---
 <sub>🔗 References & Resources:
