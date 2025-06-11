@@ -8,7 +8,7 @@ That’s where [**TLS**]() comes in — it wraps these existing protocols with *
 
 - 🛡 **HTTPS** – [Secure Web Browsing](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Secure_Protocols.md#-http-vs--https--whats-the-difference)
 - 📤 **SMTPS** – [Secure Mail Sending](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Secure_Protocols.md#-securing-email--web-protocols-with-tls)
-- 📬 **POP3S** – [Secure Mail Retrieval](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Secure_Protocols.md#-securing-email--web-protocols-with-tls)
+- 📬 **POP3S** – [Secure Mail Download](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Secure_Protocols.md#-securing-email--web-protocols-with-tls)
 - 📧 **IMAPS** – [Secure Mail Retrieval](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Secure_Protocols.md#-securing-email--web-protocols-with-tls)
 - 💻 **SSH** – Secure Remote Access Replacing Telnet
 - 🌍 **VPNs** – Secure Tunnels over Insecure Networks
@@ -64,7 +64,6 @@ To enable TLS, servers use **digital certificates** issued by trusted **Certific
 
 ⚠️ Without encryption, **login credentials, session data, and private messages** can be exposed to attackers sniffing the network.
 
----
 
 ### 🔒 HTTPS – Secure Browsing with TLS
 - **HTTPS = HTTP over TLS** (default port: **443**).
@@ -77,7 +76,6 @@ To enable TLS, servers use **digital certificates** issued by trusted **Certific
 
 🧠 Note: In packet captures (like in Wireshark), HTTPS traffic shows up as **“Application Data”**, because the actual contents are **unreadable without the decryption key**.
 
----
 
 ### 🗝️ Decrypting HTTPS (If You Have the Key)
 - Normally, you **can't see HTTPS data** unless you **own the server** or **have the session’s private key**.
@@ -97,7 +95,6 @@ Just like HTTP becomes **HTTPS** when wrapped in TLS, the same applies to common
 
 These secure versions operate over **TLS**, providing 🔒 **confidentiality**, 📦 **integrity**, and 🧾 **authenticity** — the same benefits we discussed with HTTPS.
 
----
 
 ### 📊 Core Protocols vs. Secure Versions
 
@@ -107,8 +104,8 @@ These secure versions operate over **TLS**, providing 🔒 **confidentiality**, 
 | SMTP       | 25             | SMTPS              | 465, 587       |
 | POP3       | 110            | POP3S              | 995            |
 | IMAP       | 143            | IMAPS              | 993            |
+| TELNET     | 23             | SSH                | 22             |
 
----
 
 ### 💡 Key Takeaway
 > - TLS only secures data in transit. It doesn’t protect data at rest or guard against weak authentication. Always combine TLS with strong password policies and MFA for complete security.
@@ -119,6 +116,39 @@ These secure versions operate over **TLS**, providing 🔒 **confidentiality**, 
 ✅ No changes to the server’s content.  
 🔐 Just **secure-by-default** communication.
 
+---
+
+## 🛡️ SSH: A Secure TELNET Replacement
+
+TELNET was once the go-to protocol for remote system access — but it had a major flaw: **everything was transmitted in plain text**, including usernames and passwords 😬. This made it easy for attackers to intercept credentials.
+
+To fix this, **Tatu Ylönen** created the **SSH (Secure Shell)** protocol in 1995, offering encrypted communication 🧪🔐. A year later, **SSH-2** was released with stronger security, and in 1999, **OpenSSH** — the widely used open-source implementation — became the standard.
+
+
+## 🔑 Key Benefits of SSH
+
+- **🔐 Secure Authentication**: Supports password, public key, and even two-factor auth.
+- **🕵️‍♂️ Confidentiality**: End-to-end encryption blocks eavesdropping.
+- **🛡️ Integrity**: Ensures data hasn’t been tampered with.
+- **🔄 Tunneling**: Routes other protocols securely through SSH, like a mini VPN.
+- **🖥️ X11 Forwarding**: Run remote GUI apps over SSH (e.g., launching Wireshark remotely).
+
+
+## 📡 Usage & Ports
+
+- **Command**: `ssh username@hostname`  
+  *(Or just `ssh hostname` if the username matches your local one)*
+- **Secure Port**: SSH uses **port 22**  
+  *(TELNET used the insecure **port 23**)*
+
+## 🧠 Extra Note
+
+> SSH is foundational in cybersecurity and system administration.  
+> It's not just for remote logins — it's also used in:
+> - 🔄 Secure file transfer (SFTP)
+> - 🛠️ Git over SSH
+> - 🎯 Port forwarding
+> - 🔐 VPN-like secure tunnels
 ---
 <sub>🔗 References & Resources:
 TryHackMe — Networking Core Protocols | Cyber Security 101 (THM) [TryHackMe](https://tryhackme.com/room/networkingcoreprotocols)</sub>ey help secure your digital world.
