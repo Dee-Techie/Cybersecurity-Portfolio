@@ -37,7 +37,7 @@ These writeups are meant to:
 
 
 - ### 🚪📨 Who’s Listening? Common Protocols & Their Ports
-Every protocol has a home — here’s [where they live!]()
+Every protocol has a home — here’s [where they live!](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Common_Protocols_and_Ports.md)
 
 ---
 
