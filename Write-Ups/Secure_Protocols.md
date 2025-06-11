@@ -10,7 +10,7 @@ That’s where [**TLS**]() comes in — it wraps these existing protocols with *
 - 📤 **SMTPS** – [Secure Mail Sending](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Secure_Protocols.md#-securing-email--web-protocols-with-tls)
 - 📬 **POP3S** – [Secure Mail Download](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Secure_Protocols.md#-securing-email--web-protocols-with-tls)
 - 📧 **IMAPS** – [Secure Mail Retrieval](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Secure_Protocols.md#-securing-email--web-protocols-with-tls)
-- 💻 **SSH** – Secure Remote Access Replacing Telnet
+- 💻 **SSH** – [Secure Remote Access Replacing Telnet](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Secure_Protocols.md#%EF%B8%8F-ssh-a-secure-telnet-replacement)
 - 🌍 **VPNs** – Secure Tunnels over Insecure Networks
 
 We’ll break down each protocol, show real examples, and explain the key benefits TLS brings to the table. 🔒🚀
@@ -107,7 +107,7 @@ These secure versions operate over **TLS**, providing 🔒 **confidentiality**, 
 | TELNET     | 23             | SSH                | 22             |
 
 
-### 💡 Key Takeaway
+### 💡 Important:
 > - TLS only secures data in transit. It doesn’t protect data at rest or guard against weak authentication. Always combine TLS with strong password policies and MFA for complete security.
 > - TLS 1.0 and 1.1 are deprecated due to security flaws; most services now require TLS 1.2 or higher, with TLS 1.3 preferred for its enhanced security and performance.
 > TLS enhances HTTP **without changing TCP/IP** or the HTTP protocol itself. It adds a **security wrapper** around existing communications — making the internet safer without breaking what already works.
@@ -141,14 +141,40 @@ To fix this, **Tatu Ylönen** created the **SSH (Secure Shell)** protocol in 199
 - **Secure Port**: SSH uses **port 22**  
   *(TELNET used the insecure **port 23**)*
 
-## 🧠 Extra Note
+🧠 Extra Note:
+SSH is foundational in cybersecurity and system administration. It's not just for remote logins — it's also used in:
+- Secure file transfer (SFTP)
+- 🛠Git over SSH
+- Port forwarding
+- VPN-like secure tunnels
 
-> SSH is foundational in cybersecurity and system administration.  
-> It's not just for remote logins — it's also used in:
-> - 🔄 Secure file transfer (SFTP)
-> - 🛠️ Git over SSH
-> - 🎯 Port forwarding
-> - 🔐 VPN-like secure tunnels
+---
+
+## 📁 SFTP vs FTPS – Secure File Transfers Explained
+
+### 🔐 SFTP (SSH File Transfer Protocol)
+- Built into the SSH protocol suite
+- Uses port 22 (same as SSH)
+- Provides secure file transfers over an encrypted SSH connection
+- SFTP commands are Unix-like and differ from FTP
+  - ✅ Simple to set up via OpenSSH – just enable SFTP in the SSH server config.
+
+### 🔐 FTPS (File Transfer Protocol Secure)
+- Adds TLS encryption to traditional FTP
+- Uses port 990 by default
+- Requires a TLS certificate and setup is more complex
+- Not firewall-friendly due to separate control/data connections
+- Similar to HTTPS, SMTPS, etc., which use TLS for security
+
+🧠 Additional Note:
+SFTP and FTPS are not the same:
+  - SFTP is SSH-based
+  - FTPS is TLS-based
+
+When choosing between them:
+- Use SFTP for simplicity, strong encryption, and firewall-friendliness
+- Use FTPS when required for legacy systems or specific compliance standards
+
 ---
 <sub>🔗 References & Resources:
 TryHackMe — Networking Core Protocols | Cyber Security 101 (THM) [TryHackMe](https://tryhackme.com/room/networkingcoreprotocols)</sub>ey help secure your digital world.
