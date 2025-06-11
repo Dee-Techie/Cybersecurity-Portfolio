@@ -140,6 +140,48 @@ QUIT
 ```
 <img src="https://github.com/user-attachments/assets/30f966c7-29e8-4137-81b5-d2983a73f7d8" alt="SMTP in action" width="600" />
 
+ #### ⚠️ Note: SMTP does not encrypt your message by default. Use SMTPS (port 465) or STARTTLS (port 587) for secure transmission 🔐.
+
+---
+
+## 📥 POP3 – Post Office Protocol v3
+
+Received an email and want to download it to your local device? 🖥️ That’s what **POP3** is for!
+
+**POP3 (Post Office Protocol v3)** is used by email clients to **retrieve messages** from a mail server. Think of it like checking your home mailbox 🏠 for new letters 📫.
+
+- ✉️ **SMTP** = You send your mail to the post office.
+- 📬 **POP3** = You pick up new mail from your personal mailbox.
+
+By default, **POP3 uses TCP port 110**.
+
+---
+
+#### 🛠️ Common POP3 Commands:
+- `USER <username>` – 🧑 Identify yourself
+- `PASS <password>` – 🔐 Enter your password
+- `STAT` – 🧮 See how many messages you have
+- `LIST` – 📄 List all messages with sizes
+- `RETR <msg#>` – ⬇️ Retrieve a specific message
+- `DELE <msg#>` – 🗑️ Mark a message for deletion
+- `QUIT` – 🚪 Exit the session (applies deletions)
+
+---
+
+#### 🧪 Example (via Telnet):
+```bash
+telnet 10.10.110.98 110
+USER your_username
+PASS your_password
+STAT
+LIST
+RETR 1
+DELE 1
+QUIT
+```
+<img src="https://github.com/user-attachments/assets/eb8c2567-0f71-4d1a-98ec-57852ec5116a" alt="POP3 in action" width="600" />
+
+
 ---
 <sub>🔗 References & Resources:
 TryHackMe — Networking Core Protocols | Cyber Security 101 (THM) [TryHackMe](https://tryhackme.com/room/networkingcoreprotocols)</sub>
