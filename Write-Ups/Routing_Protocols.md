@@ -1,5 +1,11 @@
 # 🚦 Routing Protocols: The Internet's GPS System 🗺️ </br>
 
+Welcome to the world of routing! This section explains how your data finds its way across the internet, guided by clever systems called routing protocols. I have covered 4 most commonly used protocols here :
+- OSPF [(Open Shortest Path First)](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Routing_Protocols.md#1-ospf-open-shortest-path-first--)
+- EIGRP [(Enhanced Interior Gateway Routing Protocol)](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Routing_Protocols.md#2-eigrp-enhanced-interior-gateway-routing-protocol--)
+- BGP [(Border Gateway Protocol)](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Routing_Protocols.md#3-bgp-border-gateway-protocol--)
+-  RIP [(Routing Information Protocol)](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Routing_Protocols.md#4-rip-routing-information-protocol-%EF%B8%8F-)
+
 Imagine the internet as a massive road network. For your data (like an email or a video stream) to get from your computer to its destination, it needs directions! That's where routing protocols come in. They are like smart GPS systems that help routers (the traffic cops of the internet) figure out the best and most efficient paths for data to travel.
 
 Let's look at some of the most common ones:
