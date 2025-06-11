@@ -4,8 +4,8 @@
 
 - [🌐 DNS: The Internet's Phonebook!](#-dns-the-internets-phonebook--)
 - [🔑 Domain Name Registration](#-domain-name-registration-owning-your-corner-of-the-internet)
-- [🗣️ HTTP – The Web's Plain Talk](#-http-the-webs-plain-talk--)
-- [🔒 HTTPS – The Web's Secure Chat](#-https--web-commands-methods-what-your-browser-asks-for-)
+- [🗣️ HTTP – The Web's Plain Talk](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Core_Protocols.md#%EF%B8%8F-http-the-webs-plain-talk--)
+- [🔒 HTTPS – The Web's Secure Chat](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Core_Protocols.md#-https-the-webs-secure-chat--)
 - [📬 SMTP – Simple Mail Transfer Protocol](#-smtp--simple-mail-transfer-protocol)
 - [📥 POP3 – Post Office Protocol v3](#-pop3--post-office-protocol-v3)
 - [📧 IMAP – Internet Message Access Protocol](#-imap--internet-message-access-protocol)
