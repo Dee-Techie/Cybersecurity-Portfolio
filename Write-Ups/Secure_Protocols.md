@@ -6,12 +6,12 @@ The internet wasn’t built with security in mind — protocols like **HTTP**, *
 
 That’s where [**TLS**]() comes in — it wraps these existing protocols with **encryption**, **integrity checks**, and **authentication**, giving rise to:
 
-- 🛡 **HTTPS** – [Secure Web Browsing]()
-- 📤 **SMTPS** – [Secure Mail Sending]()
-- 📬 **POP3S** – [Secure Mail Retrieval]()
-- 📧 **IMAPS** – [Secure Mail Retrieval]()
-- 💻 **SSH** – [Secure Remote Access Replacing Telnet]()
-- 🌍 **VPNs** – [Secure Tunnels over Insecure Networks]()
+- 🛡 **HTTPS** – Secure Web Browsing
+- 📤 **SMTPS** – Secure Mail Sending
+- 📬 **POP3S** – Secure Mail Retrieval
+- 📧 **IMAPS** – Secure Mail Retrieval
+- 💻 **SSH** – Secure Remote Access Replacing Telnet
+- 🌍 **VPNs** – Secure Tunnels over Insecure Networks
 
 We’ll break down each protocol, show real examples, and explain the key benefits TLS brings to the table. 🔒🚀
 
@@ -87,15 +87,6 @@ To enable TLS, servers use **digital certificates** issued by trusted **Certific
 
 ---
 
-### 🧩 Key Takeaway
-> TLS enhances HTTP **without changing TCP/IP** or the HTTP protocol itself. It adds a **security wrapper** around existing communications — making the internet safer without breaking what already works.
-
-✅ No changes to your browser.  
-✅ No changes to the server’s content.  
-🔐 Just **secure-by-default** communication.
-
----
-
 ## 📬 Securing Email & Web Protocols with TLS
 
 Just like HTTP becomes **HTTPS** when wrapped in TLS, the same applies to common email protocols:
@@ -122,6 +113,11 @@ These secure versions operate over **TLS**, providing 🔒 **confidentiality**, 
 ### 💡 Key Takeaway
 > - TLS only secures data in transit. It doesn’t protect data at rest or guard against weak authentication. Always combine TLS with strong password policies and MFA for complete security.
 > - TLS 1.0 and 1.1 are deprecated due to security flaws; most services now require TLS 1.2 or higher, with TLS 1.3 preferred for its enhanced security and performance.
+> TLS enhances HTTP **without changing TCP/IP** or the HTTP protocol itself. It adds a **security wrapper** around existing communications — making the internet safer without breaking what already works.
+
+✅ No changes to your browser.  
+✅ No changes to the server’s content.  
+🔐 Just **secure-by-default** communication.
 
 ---
 <sub>🔗 References & Resources:
