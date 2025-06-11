@@ -11,6 +11,7 @@ That’s where [**TLS**]() comes in — it wraps these existing protocols with *
 - 📬 **POP3S** – [Secure Mail Download](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Secure_Protocols.md#-securing-email--web-protocols-with-tls)
 - 📧 **IMAPS** – [Secure Mail Retrieval](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Secure_Protocols.md#-securing-email--web-protocols-with-tls)
 - 💻 **SSH** – [Secure Remote Access Replacing Telnet](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Secure_Protocols.md#%EF%B8%8F-ssh-a-secure-telnet-replacement)
+- 📑 **SFTP vs FTPS** - [Secure File Transfer](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Secure_Protocols.md#-sftp-vs-ftps--secure-file-transfers-explained)
 - 🌍 **VPNs** – Secure Tunnels over Insecure Networks
 
 We’ll break down each protocol, show real examples, and explain the key benefits TLS brings to the table. 🔒🚀
