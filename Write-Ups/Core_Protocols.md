@@ -1,5 +1,16 @@
 # 🕹⚓ Networking Core Protocols
 
+# 🗂️ Quick Index
+
+- [🌐 DNS: The Internet's Phonebook!](#-dns-the-internets-phonebook-)
+- [🔑 Domain Name Registration](#-domain-name-registration-owning-your-corner-of-the-internet)
+- [🗣️ HTTP – The Web's Plain Talk](#-http-the-webs-plain-talk-)
+- [🔒 HTTPS – The Web's Secure Chat](#-https-the-webs-secure-chat-)
+- [📁 FTP – The File Transfer Workhorse](#-ftp-the-file-transfer-workhorse-)
+- [📬 SMTP – Simple Mail Transfer Protocol](#-smtp--simple-mail-transfer-protocol)
+- [📥 POP3 – Post Office Protocol v3](#-pop3--post-office-protocol-v3)
+- [📧 IMAP – Internet Message Access Protocol](#-imap--internet-message-access-protocol)
+
 ## 🌐 DNS: The Internet's Phonebook! 📚 </br>
 Instead of memorizing complicated IP addresses (like 172.17.2.172), DNS lets you use easy-to-remember names like google.com. When you type a website name into your browser, DNS works behind the scenes to find the correct IP address so your computer knows where to go.
 
@@ -181,6 +192,89 @@ QUIT
 ```
 <img src="https://github.com/user-attachments/assets/eb8c2567-0f71-4d1a-98ec-57852ec5116a" alt="POP3 in action" width="600" />
 
+#### 🧠 Tip: POP3 is simple and great for offline access, but it usually removes messages from the server after download, unlike IMAP.
+
+---
+
+## 📧 IMAP – Internet Message Access Protocol
+
+Do you check your email on multiple devices — like your 📱 smartphone, 💻 laptop, or 🖥️ work computer?
+
+**IMAP (Internet Message Access Protocol)** is designed exactly for that!
+
+While **POP3** is great for downloading mail to a single device (and often deletes it from the server afterward), **IMAP** keeps your email **synchronized across all your devices** 📲🖥️📩.
+
+---
+
+#### 🔄 Why Use IMAP?
+
+POP3 works fine when using a single device, like your desktop 🖥️. But if you want to access your inbox from your office computer, phone, or laptop — you need a better system.
+
+✅ IMAP keeps messages on the server  
+✅ Tracks what’s read, moved, or deleted across devices  
+✅ Keeps your inbox updated everywhere you check it  
+✅ Great for using email clients on **multiple devices**
+
+By default, **IMAP listens on TCP port 143**, or **993** if using encryption (IMAPS 🔐).
+
+---
+
+### 🧠 IMAP vs POP3:
+
+| Feature           | IMAP 📧                        | POP3 📥                       |
+|------------------|--------------------------------|-------------------------------|
+| Storage          | Emails stay on the server ☁️   | Emails downloaded & removed   |
+| Synchronization  | Across multiple devices 🔄     | Local device only             |
+| Suitable For     | Phones, tablets, multiple PCs  | Single desktop or laptop      |
+| Default Port     | 143 (993 secure)               | 110 (995 secure)              |
+
+---
+
+#### 🛠️ Common IMAP Commands:
+
+- `LOGIN <username> <password>` – 🔐 Authenticates the user
+- `SELECT <mailbox>` – 📂 Opens a mailbox (e.g., Inbox)
+- `FETCH <msg#> body[]` – ⬇️ Retrieves a specific email
+- `MOVE <msg#> <folder>` – 📁 Moves email to another folder
+- `COPY <msg#> <folder>` – 🗂️ Copies email to another folder
+- `LOGOUT` – 🚪 Ends the session
+
+---
+
+#### 🧪 Example IMAP Session via Telnet:
+
+Using telnet to connect to an IMAP server on **port 143** and retrieve a message:
+
+```bash
+user@TryHackMe$ telnet 10.10.41.192 143
+Trying 10.10.41.192...
+Connected to 10.10.41.192.
+Escape character is '^]'.
+* OK [CAPABILITY IMAP4rev1 ...] Dovecot (Ubuntu) ready.
+
+A LOGIN strategos
+A OK Logged in
+
+B SELECT inbox
+* 4 EXISTS
+B OK [READ-WRITE] Select completed
+
+C FETCH 3 body[]
+* 3 FETCH (BODY[] {
+Return-path: <user@client.thm>
+To: strategos@server.thm
+Subject: Telnet email
+
+Hello. I am using telnet to send you an email!
+})
+C OK Fetch completed
+
+D LOGOUT
+* BYE Logging out
+D OK Logout completed
+Connection closed by foreign host.
+```
+#### ⚠️ Note: IMAP may use **more server storage**, so be mindful of storage limits with your email provider.
 
 ---
 <sub>🔗 References & Resources:
