@@ -201,8 +201,6 @@ A VPN connects multiple company offices or remote users to the main branch **vir
 - External websites see the **VPN server’s IP address, not the user's real IP**.  
 - This helps bypass **geographical restrictions** and hides activity from the local ISP, preventing censorship or monitoring.  
 
----
-
 ## 👨‍💻 Important Considerations  
 - Some VPNs only provide access to private networks **without routing all Internet traffic**.  
 - VPN **IP leaks** and **DNS leaks** can expose your real location—use leak tests to verify.  
