@@ -6,10 +6,10 @@ The internet wasn’t built with security in mind — protocols like **HTTP**, *
 
 That’s where [**TLS**]() comes in — it wraps these existing protocols with **encryption**, **integrity checks**, and **authentication**, giving rise to:
 
-- 🛡 **HTTPS** – Secure Web Browsing
-- 📤 **SMTPS** – Secure Mail Sending
-- 📬 **POP3S** – Secure Mail Retrieval
-- 📧 **IMAPS** – Secure Mail Retrieval
+- 🛡 **HTTPS** – [Secure Web Browsing] (https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Secure_Protocols.md#-http-vs--https--whats-the-difference)
+- 📤 **SMTPS** – [Secure Mail Sending](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Secure_Protocols.md#-securing-email--web-protocols-with-tls)
+- 📬 **POP3S** – [Secure Mail Retrieval](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Secure_Protocols.md#-securing-email--web-protocols-with-tls)
+- 📧 **IMAPS** – [Secure Mail Retrieval](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Secure_Protocols.md#-securing-email--web-protocols-with-tls)
 - 💻 **SSH** – Secure Remote Access Replacing Telnet
 - 🌍 **VPNs** – Secure Tunnels over Insecure Networks
 
