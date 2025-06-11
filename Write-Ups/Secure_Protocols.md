@@ -12,7 +12,7 @@ That’s where [**TLS**]() comes in — it wraps these existing protocols with *
 - 📧 **IMAPS** – [Secure Mail Retrieval](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Secure_Protocols.md#-securing-email--web-protocols-with-tls)
 - 💻 **SSH** – [Secure Remote Access Replacing Telnet](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Secure_Protocols.md#%EF%B8%8F-ssh-a-secure-telnet-replacement)
 - 📑 **SFTP vs FTPS** - [Secure File Transfer](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Secure_Protocols.md#-sftp-vs-ftps--secure-file-transfers-explained)
-- 🌍 **VPNs** – Secure Tunnels over Insecure Networks
+- 🌍 **VPNs** – [Secure Tunnels over Insecure ]()
 
 We’ll break down each protocol, show real examples, and explain the key benefits TLS brings to the table. 🔒🚀
 
@@ -175,6 +175,47 @@ SFTP and FTPS are not the same:
 When choosing between them:
 - Use SFTP for simplicity, strong encryption, and firewall-friendliness
 - Use FTPS when required for legacy systems or specific compliance standards
+
+---
+
+## 🌐 VPN (Virtual Private Network) Explained
+
+## What is a VPN?  
+A VPN connects multiple company offices or remote users to the main branch **virtually**, allowing devices to access shared resources as if physically on the main network. The Internet is used as the underlying infrastructure, making VPNs a cost-effective solution.  
+- **V = Virtual:** Connects networks over the Internet virtually  
+- **P = Private:** Encrypts data to keep it secure and private  
+
+## 👁️‍🗨️ Why VPNs Are Needed  
+- The **Internet protocols (TCP/IP)** focus on reliable packet delivery but **do not protect data confidentiality or integrity**.  
+- VPNs provide **secure, encrypted tunnels** that protect data from interception or tampering during transit.  
+- Ideal for companies that need **private information exchange** across distributed locations.
+
+## ⚠️ How VPN Works  
+
+### Company Branches  
+- Remote branches run a **VPN client** that connects to a **VPN server** in the main office.  
+- Traffic between branches travels through an **encrypted VPN tunnel**, while decrypted traffic flows within the private network.  
+
+##  🧑‍💻 VPN and Internet Traffic  
+- When connected, **all Internet traffic can be routed through the VPN tunnel**.  
+- External websites see the **VPN server’s IP address, not the user's real IP**.  
+- This helps bypass **geographical restrictions** and hides activity from the local ISP, preventing censorship or monitoring.  
+
+---
+
+## 👨‍💻 Important Considerations  
+- Some VPNs only provide access to private networks **without routing all Internet traffic**.  
+- VPN **IP leaks** and **DNS leaks** can expose your real location—use leak tests to verify.  
+- VPN usage is **illegal or restricted in some countries**; always check local laws before using VPNs, especially when traveling.  
+
+## **Types of VPNs:**  
+  - **Site-to-site VPN:** Connects entire networks (offices) together.  
+  - **Remote-access VPN:** Connects individual devices to a network remotely.
+
+📲 **Encryption protocols:** Common VPN protocols include **OpenVPN, IKEv2/IPSec, WireGuard**, offering varying speeds and security levels.  
+❗ **Split tunneling:** Some VPNs allow you to choose which traffic goes through the VPN and which uses the regular Internet connection, balancing privacy and performance.
+
+*Use VPNs responsibly and always ensure your VPN provider follows strict no-logs policies to protect your privacy!* 🔒
 
 ---
 <sub>🔗 References & Resources:
