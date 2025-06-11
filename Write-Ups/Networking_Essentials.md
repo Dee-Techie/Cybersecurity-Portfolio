@@ -2,12 +2,12 @@
 Ever wondered how your devices chat online, find each other, or get their internet superpowers automatically? You've come to the right place! This guide breaks down some fundamental networking concepts into simple, digestible pieces.
 
 ### Here's what we'll cover in this adventure:
-- ⚡️ Dynamic Host Configuration Protocol (DHCP)
-- 📍 Address Resolution Protocol (ARP)
-- 🗣️ Internet Control Message Protocol (ICMP)
+- ⚡️ Dynamic Host Configuration Protocol [(DHCP)](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Networking_Essentials.md#1-dhcp--targets-correct-ip-address-or-%EF%B8%8F-network-tool)
+- 📍 Address Resolution Protocol [(ARP)](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Networking_Essentials.md#2--arp-address-resolution-protocol---the-networks-find-my-mac-address-service)
+- 🗣️ Internet Control Message Protocol [(ICMP)](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Networking_Essentials.md#3-icmp-the-internets-messenger-for-errors-and-info-)
   - Ping 🏓
   - Traceroute 🗺️
-- 🏠 Network Address Translation (NAT)
+- 🏠 Network Address Translation [(NAT)](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Networking_Essentials.md#4--nat-network-address-translation-)
 
 ---
 
