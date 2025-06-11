@@ -32,7 +32,12 @@ These writeups are meant to:
 
 ## ✍️ Featured Writeups
 
-#### 🚧 🆘 Lost in Acronyms? [Start Here](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Common_Abbreviations.md)
+- ### 🚧 🆘 Lost in Acronyms? </br>
+[Here is your go-to guide](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Common_Abbreviations.md) for making sense of all those abbreviations.
+
+
+- ### 🚪📨 Who’s Listening? Common Protocols & Their Ports
+Every protocol has a home — here’s [where they live!]()
 
 ---
 
