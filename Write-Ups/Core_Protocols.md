@@ -106,3 +106,9 @@ get flag.txt         # Download the file
 ```
 <img src="https://github.com/user-attachments/assets/5749216b-b80f-406b-b7f0-115474f73991" alt="FTP in action" width="600" />
 
+---
+
+---
+<sub>🔗 References & Resources:
+TryHackMe — Networking Core Protocols | Cyber Security 101 (THM) [TryHackMe](https://tryhackme.com/room/networkingcoreprotocols)</sub>
+
