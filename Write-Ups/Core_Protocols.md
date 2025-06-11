@@ -62,10 +62,10 @@ So, while DNS makes it easy to remember website names, domain registration and W
 ---
 
 ## 🗣️ HTTP: The Web's Plain Talk 💬 </br>
-HTTP is the web's basic language for your browser and web servers to chat. It's like talking in plain text – everyone can understand. The big catch? No encryption, so data sent over HTTP isn't private. 🚫🔒
+HTTP (HyperText Transfer Protocol) is the web's basic language for your browser and web servers to chat. It's like talking in plain text – everyone can understand. The big catch? No encryption, so data sent over HTTP isn't private. 🚫🔒
 
 ## 🔒 HTTPS: The Web's Secure Chat 🤫 </br>
-HTTPS is simply HTTP with a security upgrade using SSL/TLS encryption. It's like talking in a secret code – only your browser and the server understand. This protects sensitive info like passwords and credit cards. Look for the padlock icon! ✅
+HTTPS (HyperText Transfer Protocol Secure) is simply HTTP with a security upgrade using SSL/TLS encryption. It's like talking in a secret code – only your browser and the server understand. This protects sensitive info like passwords and credit cards. Look for the padlock icon! ✅
 
 ## 🎯 Web "Commands" (Methods): What Your Browser Asks For </br>
 When your browser talks HTTP/S, it uses these "commands" to tell the server what to do:
