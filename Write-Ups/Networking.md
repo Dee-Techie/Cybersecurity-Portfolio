@@ -19,8 +19,8 @@ Let’s deconstruct the web one packet at a time! 🧵🔍
 | Data Delivery & Communication Protocols | [TCP, UDP & Encapsulation](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/TCP_UDP_Encapsulation.md) |
 | Networking Essentials | [DHCP, ARP, ICMP & NAT](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Networking_Essentials.md) |
 | Routing Protocols | [OSRF, EIGRP, BGP, RIP](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Routing_Protocols.md) |
-| Core Protocols | [WHOIS, DNS, HTTP and FTP; SMTP, POP3, and IMAP](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Core_Protocols.md) |
-| Firewalls & VPNs | [Firewalls_VPNs.md]() |
+| Core Protocols | [WHOIS, DNS, HTTP and FTP; SMTP, POP3, IMAP](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Core_Protocols.md) |
+| Secure Protocols | [TLS, HTTPS, SMTPS, POP3S, IMAPS, SSH, SFTP, FTPS, VPN]() |
 | Packet Capture & Analysis (Wireshark/tcpdump) | [Packet_Analysis.md]() |
 | Common Network Attacks | [Network_Attacks.md]() |
 | Tools Every Analyst Should Know | [Networking_Tools.md]() |
