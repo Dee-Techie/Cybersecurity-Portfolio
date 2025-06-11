@@ -1,13 +1,12 @@
 # 🕵️‍♂️ Cybersecurity Writeups Vault
 
-Welcome to my **TryHackMe Writeups** repo!  
-This is my growing vault of hands-on cybersecurity learning, walkthroughs, and notes from rooms I've completed on [TryHackMe](https://tryhackme.com/).
+Welcome to my **Cybersecurity Writeups Vault** – a curated collection of notes, walkthroughs, and key takeaways from my hands-on learning journey across platforms like **TryHackMe**, **Cisco**, **Microsoft**, **IBM**, and more. This space serves as both a personal reference and a knowledge-sharing hub as I build and document my skills in ethical hacking, networking, and cyber defense.
 
 ---
 
 ## 🎯 Why This Exists
 
-As I journey through the world of **cybersecurity**, I’m documenting everything I learn — from command-line skills to threat hunting, and more.  
+As I journey through the world of **cybersecurity**, I’m documenting everything I learn — from core protocols and attack techniques to defense strategies and tool usage and more.  
 These writeups are meant to:
 
 - 💡 Help me retain and review knowledge
