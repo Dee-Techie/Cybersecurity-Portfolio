@@ -153,5 +153,6 @@ Reconstructs application-level data from packet streams (e.g., chat logs, creden
 
 <sub> 🔗 References & Resources: </sub>
 - <sub>TryHackMe —  Wireshark - the basics | Cyber Security 101 (THM) [TryHackMe](https://tryhackme.com/room/wiresharkthebasics)
+- <sub>TryHackMe - Wireshark: Operations | [TryHackMe](https://tryhackme.com/room/wiresharkpacketoperations)
 - <sub>[Wireshark Filters Cheat Sheet](https://cheatography.com/wireshark/)
 - <sub>[Sample PCAPs](https://www.malware-traffic-analysis.net/) </sub>
