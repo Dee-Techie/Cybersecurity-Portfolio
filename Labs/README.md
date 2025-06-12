@@ -4,7 +4,7 @@ This folder contains hands-on labs I've completed to build practical cybersecuri
 
 ## 🧰 Included Labs
 
-- 🔍 Wireshark Packet Analysis
+- 🔍 Wireshark [Packet Analysis (PCAP)]()
 - 📊 Splunk SIEM Investigations
 - 🧬 Network Traffic Analysis
 - 🖥️ Open Source Tools (e.g., Zeek, Suricata)
