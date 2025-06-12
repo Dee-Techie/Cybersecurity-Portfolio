@@ -17,7 +17,7 @@ These writeups are meant to:
 
 ## 🧭 Index of Writeups
 
-| 🗂️ Topic                        | 📖 Room Name                        | 📅 Status       |
+| 🗂️ Topic                        | 📖 Web Link                     | 📅 Status       |
 |-------------------------------|------------------------------------|-----------------|
 | 🖥️ Windows Basics              | [Windows Command Line 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Windows%20Command%20line.md)           | ✅ Complete     |
 | 💻 PowerShell Fundamentals     | [Windows PowerShell 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Windows%20PowerShell.md)                | ✅ Complete |
