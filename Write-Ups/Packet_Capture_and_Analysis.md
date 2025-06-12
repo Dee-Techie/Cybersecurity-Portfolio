@@ -4,7 +4,7 @@
 Wireshark is one of the best - open-source, cross-platform network packet analyser tool capable of sniffing and investigating live traffic and inspecting packet captures (PCAP). 
 
 - Wireshark's [Basics📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/edit/main/Write-Ups/Packet_Capture_and_Analysis.md#-wiresharks-basics)
-- Wireshark's [Advanced Features📎]()
+- Wireshark's [Advanced Features📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Packet_Capture_and_Analysis.md#-wiresharks-advanced-features)
 ---
 
 ## 🛡️ Real-World Application
