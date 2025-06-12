@@ -21,7 +21,7 @@ Let’s deconstruct the web one packet at a time! 🧵🔍
 | Networking Essentials | [DHCP, ARP, ICMP & NAT](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Networking_Essentials.md) |
 | Core Protocols | [WHOIS, DNS, HTTP and FTP; SMTP, POP3, IMAP](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Core_Protocols.md) |
 | Secure Protocols | [TLS, VPN & Securing Plaintext Protocols](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Secure_Protocols.md) |
-| Packet Capture & Analysis | [Wireshark](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Packet_Capture_and_Analysis.md) + [Tcpdump]() + [Nmap]()|
+| Packet Capture & Analysis | [Wireshark](https://github.com/Dee-Techie/Cybersecurity-Portfolio/edit/main/Write-Ups/Packet_Capture_and_Analysis.md) + [Tcpdump]() + [Nmap]()|
 | Common Network Attacks | [Network_Attacks.md]() |
 | Tools Every Analyst Should Know | [Networking_Tools.md]() |
 
