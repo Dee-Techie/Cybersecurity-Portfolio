@@ -3,8 +3,8 @@
 ## Background
 Wireshark is one of the best - open-source, cross-platform network packet analyser tool capable of sniffing and investigating live traffic and inspecting packet captures (PCAP). 
 
-Wireshark's Basics [📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/edit/main/Write-Ups/Packet_Capture_and_Analysis.md#-wiresharks-basics)
-Wireshark's Advance [📎]()
+- Wireshark's [Basics📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/edit/main/Write-Ups/Packet_Capture_and_Analysis.md#-wiresharks-basics)
+- Wireshark's [Advanced Features📎]()
 ---
 
 ## 🛡️ Real-World Application
@@ -142,6 +142,43 @@ Reconstructs application-level data from packet streams (e.g., chat logs, creden
 ![image](https://github.com/user-attachments/assets/da382ebe-00c6-4934-9eff-bc49eabc6605)
 
 > **Note:** To reset filters, click the ❌ on the Display Filter bar.
+
+---
+
+## 👩‍🎓 Wireshark's Advanced Features
+
+### 📊 Wireshark Statistics Overview
+
+Wireshark's **Statistics** menu gives a high-level view of captured traffic, helping analysts spot trends, protocols, endpoints, and conversations quickly.
+
+#### 🔎 Key Features
+
+- ✅ Resolved Addresses
+Shows IPs and hostnames found in the capture (from DNS responses).  
+Menu: `Statistics → Resolved Addresses`
+
+- 📚 Protocol Hierarchy
+Displays all protocols in a tree view with packet counts and percentages.  
+Menu: `Statistics → Protocol Hierarchy`
+
+- 🔁 Conversations
+Lists two-way traffic between endpoints for Ethernet, IPv4/6, TCP, and UDP.  
+Menu: `Statistics → Conversations`
+
+- 🧍 Endpoints
+Lists unique endpoints by layer (Ethernet, IP, TCP, UDP). Helps find key sources/destinations.  
+Menu: `Statistics → Endpoints`
+
+![image](https://github.com/user-attachments/assets/0322b7b1-b540-4aed-9b44-f34dc7e8f836)
+
+#### 🧠 Name Resolution & GeoIP
+- **MAC Name Resolution**: Converts MACs to manufacturer names (based on first 3 bytes).
+- **IP/Port Name Resolution**: Must be enabled under `Edit → Preferences → Name Resolution`.
+- **GeoIP Mapping**: Requires MaxMind DB. Set it up in `Edit → Preferences → Name Resolution → MaxMind database directories`.
+
+![image](https://github.com/user-attachments/assets/0169a35e-8101-4cf8-851b-3837f14b6ea7)
+
+Once enabled, resolved names and locations will appear in packet, conversation, and endpoint views.
 
 ---
 
