@@ -74,6 +74,7 @@ Each packet may contain 5–7 protocol layers. Here's a quick overview using an 
   | **App Protocol**    | Protocol used: HTTP, FTP, SMB, etc. (Application Layer).                       |
   | **App Data**        | Data exchanged by the application (payload-level insight).                     |
 
+![image](https://github.com/user-attachments/assets/afbb3885-22e4-4dd5-92ba-27633bd4bd0a)
 
 ### 6. 📦 Wireshark Packet Utilities
 - Each packet is assigned a unique number, making it easier to track and revisit specific events during analysis.
@@ -102,7 +103,7 @@ Each packet may contain 5–7 protocol layers. Here's a quick overview using an 
 
 You can view details under `Analyze → Expert Information`.
 
-### 🔍 Packet Filtering in Wireshark
+### 7. 🔍 Packet Filtering in Wireshark
 
 Wireshark offers two types of filters:
 
@@ -122,6 +123,7 @@ Generates the filter query but does not apply it until you press **Enter** or mo
 #### ➤ Conversation Filter
 Right-click on a packet → **Conversation Filter**  
 Filters all related packets in the same session (e.g., IP + Port). Useful for tracing a full conversation.
+![image](https://github.com/user-attachments/assets/099f2833-6ea6-43c0-af0a-db67bc056b45)
 
 #### ➤ Colourise Conversation
 Right-click → **Colorize Conversation**  
@@ -135,6 +137,7 @@ Adds the selected value as a visible column in the packet list pane for easier c
 #### ➤ Follow Stream
 Right-click → **Follow [TCP/UDP/HTTP] Stream**  
 Reconstructs application-level data from packet streams (e.g., chat logs, credentials). Opens in a separate window and auto-applies a stream-specific display filter.
+![image](https://github.com/user-attachments/assets/da382ebe-00c6-4934-9eff-bc49eabc6605)
 
 > **Note:** To reset filters, click the ❌ on the Display Filter bar.
 
