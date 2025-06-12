@@ -204,7 +204,8 @@ A VPN connects multiple company offices or remote users to the main branch **vir
 ## 👨‍💻 Important Considerations  
 - Some VPNs only provide access to private networks **without routing all Internet traffic**.  
 - VPN **IP leaks** and **DNS leaks** can expose your real location—use leak tests to verify.  
-- VPN usage is **illegal or restricted in some countries**; always check local laws before using VPNs, especially when traveling.  
+- VPN usage is **illegal or restricted in some countries**; always check local laws before using VPNs, especially when traveling.
+- VPN ≠ Antivirus:** A VPN encrypts your traffic but doesn't protect you from malware, phishing, or other direct attacks on your device. It's one layer of defense in a comprehensive security strategy.
 
 ## **Types of VPNs:**  
   - **Site-to-site VPN:** Connects entire networks (offices) together.  
