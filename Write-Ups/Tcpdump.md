@@ -23,6 +23,7 @@ A lightning overview of `tcpdump`, a powerful CLI packet capture tool (built on 
 | `-n`           | Do not resolve IPs to hostnames |
 | `-nn`          | Also avoid port name resolution |
 | `-v`, `-vv`, `-vvv` | Increase output verbosity :contentReference[oaicite:2]{index=2} |
+| `man` | To access tcpdump's manual (e.g. man pcap-filter |
 
 ---
 
@@ -39,9 +40,9 @@ A lightning overview of `tcpdump`, a powerful CLI packet capture tool (built on 
 ## 📌 Common Usage Examples
 
 - Capture 50 packets on Ethernet with verbose output:  
-  ```bash
-  sudo tcpdump -i eth0 -c 50 -v
-  ```
+```bash
+sudo tcpdump -i eth0 -c 50 -v
+```
   
 - Log Wi‑Fi traffic to file until stopped:
 ```bash
@@ -105,15 +106,89 @@ tcpdump "tcp[tcpflags] & tcp-syn != 0"
 tcpdump "tcp[tcpflags] & (tcp-syn|tcp-ack) != 0"
 ```
 
+## 🧮 Binary Operations
+
+Before proceeding, it is worth revisiting binary operations. A binary operation works on bits (i.e., 0s and 1s). These operations take one or two bits and return a single bit as the output.
+We will cover three basic binary operations: `&`, `|`, and `!`.
+
+### ✅ AND (`&`)
+
+The `&` (AND) operator takes **two bits** and returns `1` only if **both inputs are 1**.
+
+| Input 1 | Input 2 | Input1 & Input2 |
+|---------|---------|----------------|
+| 0       | 0       | 0              |
+| 0       | 1       | 0              |
+| 1       | 0       | 0              |
+| 1       | 1       | 1              |
+
+---
+
+### ✅ OR (`|`)
+
+The `|` (OR) operator takes **two bits** and returns `1` if **at least one input is 1**.
+
+| Input 1 | Input 2 | Input1 &#124; Input2 |
+|---------|---------|---------------------|
+| 0       | 0       | 0                   |
+| 0       | 1       | 1                   |
+| 1       | 0       | 1                   |
+| 1       | 1       | 1                   |
+
+---
+
+### ✅ NOT (`!`)
+
+The `!` (NOT) operator takes **one bit** and inverts it. `0` becomes `1` and `1` becomes `0`.
+
+| Input 1 | !Input1 |
+|---------|---------|
+| 0       | 1       |
+| 1       | 0       |
+
+---
+
 - Header-byte filters
-  Inspect raw header bytes using offsets:
+  - Inspect raw header bytes using offsets:
 ```bash
 ether[0] & 1 != 0    # multicast MAC
 ip[0] & 0xf != 5     # IP packets with options
 ```
+  - Using pcap-filter, Tcpdump allows us to refer to the contents of any byte in the header using the following syntax <ins>proto[expr:size]</ins>, where:
+    - proto refers to the protocol. For example, arp, ether, icmp, ip, ip6, tcp, and udp refer to ARP, Ethernet, ICMP, IPv4, IPv6, TCP, and UDP respectively.
+    - expr indicates the byte offset, where 0 refers to the first byte.
+    - size indicates the number of bytes that interest us, which can be one, two, or four. It is optional and is one by default.
 
+  - Use <ins>tcp[tcpflags]</ins> to refer to the TCP flags field. The following TCP flags are available to compare with:tcp-syn TCP SYN (Synchronize)
+    - tcp-ack TCP ACK (Acknowledge)
+    - tcp-fin TCP FIN (Finish)
+    - tcp-rst TCP RST (Reset)
+    - tcp-push TCP Push
 ---
 
+## Quick Questions :
+#### ❓ How many packets in traffic.pcap use the ICMP protocol? </br>
+    26
+  ```bash
+  sudo tcpdump -r traffic.pcap icmp -n | wc
+  ```
+![image](https://github.com/user-attachments/assets/21af09b0-5e36-424e-ac70-d9887fa48b3f)
+
+#### ❓ What is the IP address of the host that asked for the MAC address of 192.168.124.137?</br>
+    192-168-124-148
+  ```bash
+  sudo tcpdump -r traffic.pcap arp and host 192.168.124.137
+  ```
+![image](https://github.com/user-attachments/assets/896f083c-5486-42fb-ba82-8e34685932fd)
+
+#### ❓What hostname (subdomain) appears in the first DNS query?</br>
+    mirrors.rockylinux.org
+  ```bash
+  sudo tcpdump -r traffic.pcap port 53
+  ```
+![image](https://github.com/user-attachments/assets/b3eefcbe-a32b-454d-88e4-cfb18f63834e)
+
+---
 ## 🔍 Practical Tips
 - Always specify an interface (-i)—running without it only checks installation.
 - Use -n/-nn to speed up output and avoid clutter.
