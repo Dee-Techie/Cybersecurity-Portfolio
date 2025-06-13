@@ -89,7 +89,9 @@ nmap -sL 192.168.0.1/24
 | `-F`  | Fast scan (top 100 ports)                   |
 | `-p`  | Define specific port ranges or scan all     |
 
-(Refer toi the cheat sheet for more options.
+> If you run nmap 10.10.100.85 with local user privileges the scan will default to connect scan (-sT).
+
+(Refer to the cheat sheet for more options.
 
 ## 🪄 Limiting Port Range
 
