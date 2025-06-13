@@ -164,6 +164,12 @@ ip[0] & 0xf != 5     # IP packets with options
     - tcp-fin TCP FIN (Finish)
     - tcp-rst TCP RST (Reset)
     - tcp-push TCP Push
+
+👩‍💻Usage examples:
+- "tcp[tcpflags] == tcp-syn" to capture TCP packets with only the SYN (Synchronize) flag set, while all the other flags are unset.
+- "tcp[tcpflags] & tcp-syn != 0" to capture TCP packets with at least the SYN (Synchronize) flag set.
+- "tcp[tcpflags] & (tcp-syn|tcp-ack) != 0" to capture TCP packets with at least the SYN (Synchronize) or ACK (Acknowledge) flags set
+
 ---
 
 ## Quick Questions :
@@ -187,6 +193,27 @@ ip[0] & 0xf != 5     # IP packets with options
   sudo tcpdump -r traffic.pcap port 53
   ```
 ![image](https://github.com/user-attachments/assets/b3eefcbe-a32b-454d-88e4-cfb18f63834e)
+
+#### ❓How many packets have only the TCP Reset (RST) flag set?</br>
+    57
+  ```bash
+  sudo tcpdump -r traffic.pcap 'tcp[tcpflags] == tcp-rst' | wc
+  ```
+![image](https://github.com/user-attachments/assets/cf278403-b011-4276-af48-270414520a81)
+
+#### ❓What is the IP address of the host that sent packets larger than 15000 bytes?</br>
+    185.117.80.53
+  ```bash
+ sudo tcpdump -r traffic.pcap 'greater 15000' -n
+  ```
+![image](https://github.com/user-attachments/assets/d80fae8e-9a62-4b1b-bd38-36fed5e07193)
+
+#### ❓What is the IP address of the host that sent packets larger than 15000 bytes?</br>
+    52:54:00:7c:d3:5b
+  ```bash
+ sudo tcpdump -r traffic.pcap arp -e
+  ```
+![image](https://github.com/user-attachments/assets/3524264f-4371-4165-8fdd-e264dbfa2336)
 
 ---
 ## 🔍 Practical Tips
