@@ -1,197 +1,364 @@
 # 🦈 Wireshark Packet Analysis (PCAP)
 
-## Background
-Wireshark is one of the best - open-source, cross-platform network packet analyser tool capable of sniffing and investigating live traffic and inspecting packet captures (PCAP). 
-
 - Wireshark's [Basics📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/edit/main/Write-Ups/Packet_Capture_and_Analysis.md#-wiresharks-basics)
 - Wireshark's [Advanced Features📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Packet_Capture_and_Analysis.md#-wiresharks-advanced-features)
+
+## 📚 Overview
+
+Wireshark is a powerful open-source, cross-platform network packet analyzer used to:
+
+* Troubleshoot network issues
+* Detect suspicious or malicious traffic
+* Analyze network protocols (headers, payloads, etc.)
+
+> ⚠️ **Note:** Wireshark is **not** an Intrusion Detection System (IDS). It only captures and displays traffic. Effective use requires analyst expertise.
+
 ---
 
-## 🛡️ Real-World Application
-Wireshark serves several key purposes:
+## 🔧 Interface & Core Features
 
-- Troubleshooting network issues like congestion or failure points.
-- Identifying security threats such as suspicious traffic or rogue devices.
-- Analyzing network protocols by examining headers, payloads, and response codes.
+### 1. 🧰 Interface Overview
 
-> ⚠️ Wireshark is **not** an Intrusion Detection System (IDS). It doesn’t alter or block traffic—its strength lies in visibility. Accurate detection depends on the analyst’s expertise and ability to interpret packet data.
+* **Toolbar:** Access filters, start/stop capture, and export tools.
+* **Display Filter Bar:** Refine views using display filters.
+* **Recent Files:** Quick access to previously opened PCAPs.
+* **Capture Filter & Interfaces:** Set filters before capture; choose interfaces (e.g., `eth0`, `lo`, `ens33`).
+* **Status Bar:** Shows packet stats, profile info.
 
----
+![Wireshark Interface](https://github.com/user-attachments/assets/88f95b71-8a97-490e-9d65-69e191cb5993)
 
-## 📷 Wireshark's Basics
+### 2. 📂 Loading PCAP Files
 
-### 1. 🧰 Wireshark main Interface Overview :
-  - Toolbar: Offers quick access to core functions like filtering, capturing, exporting, and merging packets.
-  - Display Filter Bar: Main area for entering display filters to refine packet views.
-  - Recent Files: Shows recently opened capture files; double-click to reopen.
-  - Capture Filter & Sniffing Interfaces: Set filters to limit traffic before capturing + Lists available network interfaces (e.g., `eth0`, `lo`, `ens33`) for live traffic capture.
-  - Status Bar: Displays capture stats, profile in use, and packet counts.
+* Open via **Recent Files**, **File > Open**, or drag-and-drop.
 
-<img alt="Wireshark's main GUI" src="https://github.com/user-attachments/assets/88f95b71-8a97-490e-9d65-69e191cb5993" />
+![Loading PCAP](https://github.com/user-attachments/assets/2f303251-a73e-4f9b-aece-15d3d0cf1bab)
 
-### 2. 📦 Next comes - Loading PCAP files </br>
+### 3. 🎨 Packet Coloring Rules
 
-There are a few ways to load a PCAP file - you can either load a recently open file from "Recent files" section, use the "File" menu, drag and drop the file, or double-click on the file to load a pcap.
-</br>
+Helps highlight and categorize packet types.
 
-<img alt="Loading PCAP files" src="https://github.com/user-attachments/assets/2f303251-a73e-4f9b-aece-15d3d0cf1bab" /></br>
+* **Temporary Rules:** Session-based, created via right-click or View → Conversation Filter.
+* **Permanent Rules:** Persist via View → Coloring Rules.
+* **Toggle Coloring:** View → Colorize Packet List.
+* **Custom Rules:** Use filters to colorize specific traffic (e.g., HTTP GET).
 
-### 3.🩸 Coloring Rules for Packets </br>
+![Coloring Rules](https://github.com/user-attachments/assets/24c1dbb9-d155-4700-a98d-8a00d663a0ed)
 
-Coloring highlights important or unusual traffic (e.g., why most packets may appear green by default). It makes scanning captures more efficient.
+### 4. 🚦 Capturing Traffic
 
-Types of Coloring Rules:
-- Temporary Rules:
-  - Active only during the current session.
-  - Created via Right-click or View → Conversation Filter.
-- Permanent Rules:
-  - Saved in the user profile and persist between sessions.
-  - Created via View → Coloring Rules or Right-click.
+* **Blue Shark:** Start capture
+* **Red Square:** Stop capture
+* **Green Arrow:** Restart capture
+* **Status Bar:** Shows selected interface & packet count
 
-✅ We can toggle coloring on/off using View → Colorize Packet List.</br>
-✅ We can define your own color rules using display filters to highlight specific traffic (e.g., HTTP GET requests, DNS errors, etc.).</br>
-
-<img alt="Coloring Rules" src="https://github.com/user-attachments/assets/24c1dbb9-d155-4700-a98d-8a00d663a0ed" />
-
-### 4.🚦 Traffic Sniffing </br>
-
-The blue "shark button" starts network sniffing (capturing traffic), the red button stops the sniffing, and the green button restarts the sniffing process. In addition, the status bar also provides the used sniffing interface and the number of collected packets.
-
-<img alt="Traffic Sniffing" src="https://github.com/user-attachments/assets/193121ae-5ba9-405f-bbcd-140c2dc01a56" /></br>
+![Traffic Sniffing](https://github.com/user-attachments/assets/193121ae-5ba9-405f-bbcd-140c2dc01a56)
 
 ### 5. 🧪 Packet Dissection
 
-Packet dissection (or protocol dissection) refers to analyzing packet data by decoding its protocol layers. Wireshark supports hundreds of protocols and allows custom dissector scripts. It uses the OSI model to break down packets.
+Clicking on a packet shows its breakdown:
 
-Clicking on a packet in the **Packet List Pane** reveals its detailed breakdown in the **Details Pane**, and highlights the relevant bytes in the **Packet Bytes Pane**.
+| **Layer**       | **Description**                         |
+| --------------- | --------------------------------------- |
+| Frame           | Frame number, timestamp                 |
+| MAC             | Source & Destination MAC addresses (L2) |
+| IP              | Source & Destination IP addresses (L3)  |
+| TCP/UDP         | Transport layer info like ports (L4)    |
+| Protocol Errors | Retransmissions, issues (L4)            |
+| App Protocol    | Protocol (HTTP, FTP, SMB, etc.) (L7)    |
+| App Data        | Application payload data                |
 
-Each packet may contain 5–7 protocol layers. Here's a quick overview using an HTTP packet:
-  | **Layer**           | **Description**                                                                 |
-  |---------------------|---------------------------------------------------------------------------------|
-  | **Frame (Layer 1)** | Basic packet info (frame number, timestamp, physical layer data).              |
-  | **MAC (Layer 2)**   | Source & destination MAC addresses (Data Link Layer).                          |
-  | **IP (Layer 3)**    | Source & destination IP addresses (Network Layer).                             |
-  | **Protocol (L4)**   | TCP/UDP headers, ports (Transport Layer).                                      |
-  | **Protocol Errors** | Info on reassembly, retransmissions (part of Layer 4).                         |
-  | **App Protocol**    | Protocol used: HTTP, FTP, SMB, etc. (Application Layer).                       |
-  | **App Data**        | Data exchanged by the application (payload-level insight).                     |
-
-![image](https://github.com/user-attachments/assets/afbb3885-22e4-4dd5-92ba-27633bd4bd0a)
-
-### 6. 📦 Wireshark Packet Utilities
-- Each packet is assigned a unique number, making it easier to track and revisit specific events during analysis.
-- Use the **Go** menu or toolbar to jump to a specific packet, follow conversations, or navigate through sessions.
-- Use `Edit → Find Packet` to search for packets by content using:
-  - **Display filters**
-  - **Hex values**
-  - **Strings**
-  - **Regex** (Regular Expression)
-  - Search can target: Packet List, Details, or Bytes pane.
-- Market Packets: Right-click or use `Edit` to mark packets for review. Marked packets appear in black but are session-based and not saved.
-- Add comments to packets for documentation or team handoff. Unlike marks, comments are saved in the capture file.
-- Export selected packets via `File → Export Specified Packets` to isolate relevant data for deeper analysis or sharing.
-- Extract files from streams like HTTP, SMB, TFTP using `File → Export Objects`.
-- Adjust timestamp display via `View → Time Display Format`. Common options include:
-  - Seconds since capture
-  - UTC time
-- In addition, Wireshark highlights protocol issues by severity:
-
-| Severity | Color  | Description                          |
-|----------|--------|--------------------------------------|
-| Chat     | Blue   | Standard protocol flow               |
-| Note     | Cyan   | Notable events                       |
-| Warn     | Yellow | Unusual behavior or minor errors     |
-| Error    | Red    | Malformed or problematic packets     |
-
-You can view details under `Analyze → Expert Information`.
-
-### 7. 🔍 Packet Filtering in Wireshark
-
-Wireshark offers two types of filters:
-
-- **Capture Filters**: Apply before traffic is collected (for live sniffing).
-- **Display Filters**: Apply after capture, to narrow down visible traffic for analysis.
-
-#### 🧪 Filter Methods
-
-#### ➤ Apply as Filter
-Right-click on a field → **Apply as Filter**  
-Wireshark auto-generates and applies a display filter for that specific value.
-
-#### ➤ Prepare as Filter
-Right-click on a field → **Prepare as Filter**  
-Generates the filter query but does not apply it until you press **Enter** or modify with **AND/OR**.
-
-#### ➤ Conversation Filter
-Right-click on a packet → **Conversation Filter**  
-Filters all related packets in the same session (e.g., IP + Port). Useful for tracing a full conversation.
-![image](https://github.com/user-attachments/assets/099f2833-6ea6-43c0-af0a-db67bc056b45)
-
-#### ➤ Colourise Conversation
-Right-click → **Colorize Conversation**  
-Highlights related packets without filtering them out. Useful for visually grouping traffic without losing context.
-
-#### ➤ Apply as Column
-Right-click on a value → **Apply as Column**  
-Adds the selected value as a visible column in the packet list pane for easier comparison across packets.
-![image](https://github.com/user-attachments/assets/b988eb49-d866-4558-b0cd-42b11b9cec7e)
-
-#### ➤ Follow Stream
-Right-click → **Follow [TCP/UDP/HTTP] Stream**  
-Reconstructs application-level data from packet streams (e.g., chat logs, credentials). Opens in a separate window and auto-applies a stream-specific display filter.
-![image](https://github.com/user-attachments/assets/da382ebe-00c6-4934-9eff-bc49eabc6605)
-
-> **Note:** To reset filters, click the ❌ on the Display Filter bar.
+![Packet Dissection](https://github.com/user-attachments/assets/afbb3885-22e4-4dd5-92ba-27633bd4bd0a)
 
 ---
 
-## 👩‍🎓 Wireshark's Advanced Features
+## 🧰 Utilities & Advanced Analysis
 
-### 📊 Wireshark Statistics Overview
+### 6. 📦 Packet Utilities
 
-Wireshark's **Statistics** menu gives a high-level view of captured traffic, helping analysts spot trends, protocols, endpoints, and conversations quickly.
+* **Unique Packet Numbers:** Easy reference
+* **Navigation Tools:** Jump to packet, follow conversations
+* **Search Options:**
 
-#### 🔎 Key Features
+  * Display filters
+  * Hex values
+  * Strings
+  * Regex
+* **Marking Packets:** Temporary, not saved
+* **Adding Comments:** Persistent across saves
+* **Export Tools:**
 
-- ✅ Resolved Addresses
-Shows IPs and hostnames found in the capture (from DNS responses).  
-Menu: `Statistics → Resolved Addresses`
+  * File → Export Specified Packets
+  * File → Export Objects (HTTP, SMB, TFTP)
+* **Timestamps:** View → Time Display Format (UTC, seconds, etc.)
+* **Expert Info:** Analyze → Expert Information for severity flags
 
-- 📚 Protocol Hierarchy
-Displays all protocols in a tree view with packet counts and percentages.  
-Menu: `Statistics → Protocol Hierarchy`
+| Severity | Color  | Description              |
+| -------- | ------ | ------------------------ |
+| Chat     | Blue   | Normal traffic           |
+| Note     | Cyan   | Notable but not critical |
+| Warn     | Yellow | Minor issues             |
+| Error    | Red    | Malformed or problematic |
 
-- 🔁 Conversations
-Lists two-way traffic between endpoints for Ethernet, IPv4/6, TCP, and UDP.  
-Menu: `Statistics → Conversations`
+---
 
-- 🧍 Endpoints
-Lists unique endpoints by layer (Ethernet, IP, TCP, UDP). Helps find key sources/destinations.  
-Menu: `Statistics → Endpoints`
+## 🔍 Filtering Traffic
 
+### 7. 🧪 Filter Types
+
+* **Capture Filters:** Set **before** capture; limits what is recorded.
+* **Display Filters:** Set **after** capture; limits what is shown.
+
+### 🔎 Filtering Methods
+
+* **Apply as Filter:** Right-click → Apply → auto-applies filter.
+* **Prepare as Filter:** Right-click → Prepare → modify before applying.
+* **Conversation Filter:** Isolate full stream (IP + Port).
+* **Colorize Conversation:** Highlights traffic without filtering it out.
+* **Apply as Column:** Adds selected value as a visible column.
+* **Follow Stream:** Reconstructs application data (chat, creds, etc.)
+
+![Follow Stream](https://github.com/user-attachments/assets/da382ebe-00c6-4934-9eff-bc49eabc6605)
+
+> 🧹 **Reset Filters:** Click ❌ in the Display Filter Bar.
+
+---
+## 🧠 Mastering Wireshark – Advanced Features & Filtering
+
+### 📊 Wireshark Statistics Toolkit
+
+Wireshark offers a rich set of statistical views to help analyze captured traffic patterns, endpoints, and protocol behavior.
+
+### Key Tools:
+
+- **Resolved Addresses**  
+  Maps IPs to hostnames via DNS responses.  
+  `Menu: Statistics → Resolved Addresses`
+
+- **Protocol Hierarchy**  
+  Visualizes all protocols with usage metrics (counts and %).  
+  `Menu: Statistics → Protocol Hierarchy`
+
+- **Conversations**  
+  Displays bi-directional traffic between endpoints (Ethernet/IP/TCP/UDP).  
+  `Menu: Statistics → Conversations`
+
+- **Endpoints**  
+  Lists unique nodes by layer. Useful for identifying source/destination devices.  
+  `Menu: Statistics → Endpoints`
 ![image](https://github.com/user-attachments/assets/0322b7b1-b540-4aed-9b44-f34dc7e8f836)
 
-#### 🧠 Name Resolution & GeoIP
-- **MAC Name Resolution**: Converts MACs to manufacturer names (based on first 3 bytes).
-- **IP/Port Name Resolution**: Must be enabled under `Edit → Preferences → Name Resolution`.
-- **GeoIP Mapping**: Requires MaxMind DB. Set it up in `Edit → Preferences → Name Resolution → MaxMind database directories`.
+### 🌍 Name Resolution & GeoIP
 
-![image](https://github.com/user-attachments/assets/0169a35e-8101-4cf8-851b-3837f14b6ea7)
+- **MAC Name Resolution**: Resolves MAC addresses to vendors (based on OUI).
+- **IP/Port Name Resolution**: Enable in `Edit → Preferences → Name Resolution`.
+- **GeoIP Mapping**: Requires [MaxMind DB](https://dev.maxmind.com/geoip/docs/databases). Setup under:
+  `Edit → Preferences → Name Resolution → MaxMind database directories`.
 
-Once enabled, resolved names and locations will appear in packet, conversation, and endpoint views.
-
----
-
-## 🧠 Insights / What I Learned
-- Wireshark filtering is powerful for narrowing down traffic.
-- Reconstructing TCP streams reveals credentials in cleartext (in insecure protocols).
-- Learned how to correlate timestamps with suspicious actions.
-
+Once configured, Wireshark shows geographic data in conversation and endpoint views.
 
 ---
 
-<sub> 🔗 References & Resources: </sub>
-- <sub>TryHackMe —  Wireshark - the basics | Cyber Security 101 (THM) [TryHackMe](https://tryhackme.com/room/wiresharkthebasics)
-- <sub>TryHackMe - Wireshark: Operations | [TryHackMe](https://tryhackme.com/room/wiresharkpacketoperations)
-- <sub>[Wireshark Filters Cheat Sheet](https://cheatography.com/wireshark/)
-- <sub>[Sample PCAPs](https://www.malware-traffic-analysis.net/) </sub>
+### 🌐 Protocol-specific Stats
+
+- **IPv4 & IPv6**  
+  Separate traffic stats per IP version.  
+  `Menu: Statistics → IPvX Statistics`
+
+- **DNS Stats**  
+  View query types, response codes, and more.  
+  `Menu: Statistics → DNS`
+
+- **HTTP Stats**  
+  Inspect request methods, response codes, and URIs.  
+  `Menu: Statistics → HTTP`
+
+---
+
+## 🎯 Advanced Packet Filtering
+
+Wireshark supports two filter types: **Capture Filters** (set before capture) and **Display Filters** (used during/after capture).
+
+---
+
+### 🔐 Capture Filters (BPF Syntax)
+
+- Lightweight filters applied *before* packet capture.
+- Syntax is limited to basic protocol/port/host-based rules.
+- Example: `tcp port 80` (captures only HTTP traffic)
+- `Menu: Capture → Capture Filters`
+
+**Filter Building Blocks**:
+
+| Type       | Example            |
+|------------|--------------------|
+| Protocol   | `ip`, `tcp`, `udp` |
+| Host/IP    | `host 192.168.1.10`|
+| Port       | `port 443`         |
+| Net Range  | `net 192.168.0.0/16`|
+| Direction  | `src`, `dst`, `src or dst` |
+
+> ⚠️ Use capture filters carefully—if a filter misses traffic, you can’t recover it later.
+
+---
+
+### 👓 Display Filters (Post-Capture)
+
+Display filters are Wireshark’s true power feature—rich, flexible, and user-friendly.
+
+- Filter captured traffic live or post-analysis.
+- Syntax supports 3000+ protocols.
+- Example: `tcp.port == 443`
+- `Menu: Analyze → Display Filters`
+
+---
+
+## ⚙️ Operators in Display Filters
+
+### 🧮 Comparison Operators
+
+| Operation           | Symbol | Example                        |
+|---------------------|--------|--------------------------------|
+| Equal               | `==`   | `ip.src == 192.168.1.10`       |
+| Not Equal           | `!=`   | `ip.dst != 10.0.0.1`           |
+| Greater Than        | `>`    | `ip.ttl > 100`                 |
+| Less Than           | `<`    | `ip.ttl < 10`                  |
+| Greater or Equal    | `>=`   | `ip.ttl >= 64`                 |
+| Less or Equal       | `<=`   | `ip.ttl <= 128`                |
+
+> Supports both decimal (`128`) and hex (`0x80`) values.
+
+---
+
+### 🔗 Logical Operators
+
+| Operation | Symbol | Example                                                   |
+|-----------|--------|-----------------------------------------------------------|
+| AND       | `&&`   | `(ip.src == 192.168.1.10) && (tcp.port == 80)`            |
+| OR        | `||`   | `(ip.dst == 8.8.8.8) || (ip.dst == 1.1.1.1)`              |
+| NOT       | `!`    | `!(tcp.flags.syn == 1 && tcp.flags.ack == 1)`            |
+
+> 🔄 Prefer using `!(expr)` instead of `!=` for clarity.
+
+---
+
+### 🎨 Filter Toolbar Tips
+
+- **Autocomplete** assists with valid filter fields.
+- **Lowercase** is recommended for filter keywords.
+- **Color Indicators**:
+  - 🟢 Green: Valid filter
+  - 🟡 Yellow: Partially valid
+  - 🔴 Red: Invalid or unrecognized filter
+
+---
+
+## 🌐 Common Protocol Filters
+
+### 📦 IP (Network Layer)
+
+| Filter                      | Meaning                              |
+|-----------------------------|--------------------------------------|
+| `ip`                        | All IP traffic                       |
+| `ip.addr == 192.168.1.1`    | Any packet to/from this IP           |
+| `ip.src == 192.168.1.10`    | Source IP filter                     |
+| `ip.dst == 192.168.1.20`    | Destination IP filter                |
+| `ip.addr == 10.0.0.0/8`     | CIDR match for subnets               |
+
+---
+
+### 🚪 TCP/UDP (Transport Layer)
+
+| Filter                      | Description                          |
+|-----------------------------|--------------------------------------|
+| `tcp.port == 80`            | All HTTP (port 80) traffic           |
+| `udp.port == 53`            | All DNS queries/responses            |
+| `tcp.srcport == 443`        | TLS traffic from server              |
+| `udp.dstport == 5353`       | Multicast DNS to port 5353           |
+
+---
+
+### 🌍 HTTP & DNS (Application Layer)
+
+| Filter                          | Description                         |
+|----------------------------------|-------------------------------------|
+| `http`                          | All HTTP packets                    |
+| `http.request.method == "GET"`  | HTTP GET requests                   |
+| `http.response.code == 404`     | HTTP 404 Not Found                  |
+| `dns`                           | All DNS traffic                     |
+| `dns.flags.response == 1`       | DNS responses only                  |
+| `dns.qry.name == "google.com"`  | Queries for `google.com`            |
+
+---
+
+## 🧰 Display Filter Expression Tool
+
+- Launch: `Analyze → Display Filter Expression`
+- Helpful for:
+  - Browsing protocol fields
+  - Matching correct data types
+  - Exploring predefined values
+
+> 🛠 Ideal for beginners—acts like a GUI filter builder.
+
+---
+
+## 🧠 Advanced Filter Functions
+
+### 🔍 Keyword & Pattern Matching
+
+| Operator   | Purpose                             | Example                                    |
+|------------|-------------------------------------|--------------------------------------------|
+| `contains` | Checks for a substring (case-sensitive) | `http.server contains "Apache"`       |
+| `matches`  | Regex match (case-insensitive)         | `http.host matches "\.(php|html)$"`     |
+| `in`       | Set membership                        | `tcp.port in {80 443 8080}`             |
+
+---
+
+### 🔤 String Functions
+
+| Function      | Description                        | Example                                       |
+|---------------|------------------------------------|-----------------------------------------------|
+| `upper()`     | Converts to uppercase              | `upper(http.server) contains "NGINX"`         |
+| `lower()`     | Converts to lowercase              | `lower(http.server) contains "nginx"`         |
+| `string()`    | Casts to string (use with regex)   | `string(frame.number) matches "[13579]$"`     |
+
+---
+
+## ⭐ Filter Bookmarks & Profiles
+
+### 🔖 Bookmarks & Filter Buttons
+
+- Save frequent filters as buttons via the filter toolbar.
+- Quickly switch views without rewriting complex filters.
+
+### 👤 Profiles
+
+Profiles store:
+- Filter buttons
+- Colouring rules
+- Layout preferences
+
+Create/manage under:
+- `Edit → Configuration Profiles`
+- Or: Use the bottom-right corner of the status bar
+
+> 🎯 Great for switching between general, malware, DNS, or HTTP inspection setups.
+
+---
+
+## ✅ Key Takeaways
+
+- Wireshark filtering is essential for focused, efficient packet analysis.
+- Use **capture filters** to limit what gets recorded.
+- Use **display filters** to drill into specific data post-capture.
+- Mastering comparison and logical operators unlocks powerful filtering combos.
+- Tools like GeoIP, stats dashboards, and filter expressions enhance real-world analysis.
+
+---
+
+## 🔗 References & Resources
+
+- [Wireshark - The Basics (TryHackMe)](https://tryhackme.com/room/wiresharkthebasics)  
+- [Wireshark Packet Operations (TryHackMe)](https://tryhackme.com/room/wiresharkpacketoperations)  
+- [Wireshark Filters Cheat Sheet](https://cheatography.com/wireshark/)  
+- [Sample PCAPs for Practice](https://www.malware-traffic-analysis.net/)
