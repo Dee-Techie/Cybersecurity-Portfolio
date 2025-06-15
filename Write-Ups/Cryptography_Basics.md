@@ -22,7 +22,7 @@ Even though users may not interact with cryptographic algorithms directly, these
 ### 🧾 Regulatory Compliance
 Certain industries mandate cryptographic standards to ensure sensitive data is protected:
 - Finance: [PCI DSS](https://listings.pcisecuritystandards.org/documents/PCI_DSS_for_Large_Organizations_v1.pdf) requires encryption of credit card data at rest and in transit.
-- Healthcare: Data protection laws like HIPAA (US), GDPR (EU), and DPA (UK) mandate encryption of personal health information (PHI) to maintain privacy and security.
+- Healthcare: Data protection laws like [HIPAA](https://www.ncbi.nlm.nih.gov/books/NBK500019/) (US), [GDPR](https://gdpr-info.eu/) (EU), and [DPA](https://www.gov.uk/data-protection) (UK) mandate encryption of personal health information (PHI) to maintain privacy and security.
 
 These frameworks highlight that cryptography is not optional—it's a regulatory and ethical necessity in data-sensitive environments.
 
