@@ -10,7 +10,7 @@ Here we'll cover the basics of how digital secrets are kept (or broken), one pos
 
 | 🔢 # | 🔐 Topic              | 📝 Description                                  |
 |-----|------------------------|-----------------------------------------------|
-| 1   | [Cryptography Basics](./cryptography-basics.md) | What it is, why it matters, and key terms.     |
+| 1   | [Cryptography Basics](./cryptography_basics.md) | What it is, why it matters, and key terms.     |
 | 2   | [Public Key]()             | Intro to asymmetric encryption (RSA, etc.).   |
 | 3   | [Hashing Basics]()         | What are hashes, and why they're unbreakable-ish. |
 | 4   | [John the Ripper]()        | Learn how passwords get cracked (ethically!). |
