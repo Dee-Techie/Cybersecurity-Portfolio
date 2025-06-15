@@ -23,7 +23,7 @@ These writeups are meant to:
 | 💻 PowerShell Fundamentals     | [Windows PowerShell 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Windows%20PowerShell.md)                | ✅ Complete |
 | 💻 LinuxShells      | [Linux Shells 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Linux%20Shells.md)                | ✅ Complete |
 | 🌐 Networking        | [Network Essentials 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Networking.md)               | ✅ Complete |
-| 🧶 Cryptography        | Cryptography Basics                 | 🛠️ In Progress |
+| 🧶 Cryptography        | [Cryptography Basics 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cryptography.md)                 | 🛠️ In Progress |
 | 🔐 Exploitation           | Exploitation Basics            | 🛠️ In Progress |
 | 🧠 Blue Team Foundations       | SOC Level 1                         | 🔜 Coming Soon  |
 
