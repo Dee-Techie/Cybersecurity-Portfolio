@@ -3,8 +3,8 @@
 Page index
 - [📌 Importance of Cryptography](#-importance-of-cryptography)
 - [🧩 Key Terms](#-key-terms)
-- [🕰️ Historical Ciphers](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cryptography_Basics.md#%EF%B8%8F-historical-ciphers))
-- [‼️ Symmetric vs Asymmetric Encryption](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cryptography_Basics.md#%EF%B8%8Fsymmetric-vs-asymmetric-encryption)
+- [🕰️ Historical Ciphers](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cryptography_Basics.md#%EF%B8%8F-historical-ciphers)
+- [‼️Symmetric vs Asymmetric Encryption](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cryptography_Basics.md#%EF%B8%8Fsymmetric-vs-asymmetric-encryption)
 - [🧮 Basic Math in Cryptography](#-basic-math-in-cryptography)
 
 ## 📌 Importance of Cryptography
