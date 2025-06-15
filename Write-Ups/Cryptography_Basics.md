@@ -91,7 +91,7 @@ Used by Nazi Germany during WWII, the **Enigma Machine** was a complex electrome
 
 ---
 
-##‼️Symmetric vs Asymmetric Encryption
+## ‼️Symmetric vs Asymmetric Encryption
 
 Cryptography relies on two major types of encryption methods: **symmetric** and **asymmetric** encryption. Understanding their differences is essential to grasp how secure communication is established in modern systems.
 
