@@ -106,7 +106,7 @@ Symmetric encryption (also known as **private key encryption**) uses the **same 
 - **Challenge**: 
   - Securely sharing the key is difficult—especially if multiple recipients or untrusted networks are involved.
 - **Real-life example**: 
-  - Sending an encrypted document via email but needing to share the password in person or over a separate, secure channel.
+  - Encrypting data on your hard drive (like with BitLocker or FileVault), or within a VPN connection once the secure connection is established.
 
 #### 🔍 Examples of Symmetric Ciphers:
 | Algorithm | Key Size | Notes |
@@ -129,6 +129,9 @@ Asymmetric encryption (or **public key cryptography**) uses a **pair of keys**: 
 - **Benefit**: 
   - No need to share a secret key beforehand.
   - Supports secure key exchange and digital signatures.
+- **Real-life example**
+  - **Email encryption (PGP/GPG):** Used to encrypt emails so only the intended recipient can read them.
+  - **Digital Signatures:** Used to verify the authenticity and integrity of software, documents, and online transactions.
 
 #### 🔍 Examples of Asymmetric Algorithms:
 | Algorithm         | Key Size (Recommended) | Notes |
@@ -153,7 +156,12 @@ Asymmetric encryption (or **public key cryptography**) uses a **pair of keys**: 
 
 ---
 
-> 📝 **In practice**: Many secure systems (like HTTPS) use **both** types of encryption—**asymmetric encryption** to exchange a shared key, then **symmetric encryption** for fast, efficient data transfer.
+> 📝 **In practice** both symmetric and asymmetric encryption are used together in a "hybrid" approach.
+
+* **How it works:** Asymmetric encryption is used to securely exchange a *symmetric key*. Then, that symmetric key is used for the bulk of the data transfer because it's much faster. This combines the secure key exchange of asymmetric encryption with the speed of symmetric encryption. This is how most secure online communications, like those over HTTPS, work to give you both speed and strong security!
+
+- **Real-life example**
+  - **SSL/TLS (HTTPS):** When you see "HTTPS" in your browser's address bar, asymmetric encryption is used to *initially establish a secure connection* and securely exchange a symmetric key. Once that symmetric key is safely exchanged, the actual website data is encrypted with the faster symmetric encryption.
 
 ---
 
