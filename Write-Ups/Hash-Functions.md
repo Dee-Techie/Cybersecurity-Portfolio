@@ -22,15 +22,15 @@ Consider two text files:
 They differ by only **1 bit**, yet their hash values (using MD5, SHA1, and SHA-256) are **completely different**:
 
 ```bash
-# MD5
+# MD5 (md5sum file1.txt & md5sum file2.txt)
 file1.txt: b9ece18c950afbfa6b0fdbfa4ff731d3  
 file2.txt: 4c614360da93c0a041b22e537de151eb
 
-# SHA1
+# SHA1 (cmd : sha1sum file1.txt & sha1sum file2.txt)
 file1.txt: c2c53d66948214258a26ca9ca845d7ac0c17f8e7  
 file2.txt: b2c7c0caa10a0cca5ea7d69e54018ae0c0389dd6
 
-# SHA256
+# SHA256 (cmd : sha256sum file1.txt & sha256sum file2.txt)
 file1.txt: e632b7095b0bf32c260fa4c539e9fd7b852d0de454e9be26f24d0d6f91d069d3  
 file2.txt: a25513c7e0f6eaa80a3337ee18081b9e2ed09e00af8531c8f7bb2542764027e7
 ```
