@@ -2,9 +2,9 @@
 
 ## What is PGP and GPG?
 
-**PGP (Pretty Good Privacy)** is a software suite that enables secure communication through encryption and digital signatures. It’s commonly used to protect files and emails.
+🦋 **PGP (Pretty Good Privacy)** is a software suite that enables secure communication through encryption and digital signatures. It’s commonly used to protect files and emails.
 
-**GPG (GnuPG)** is the open-source implementation of the OpenPGP standard. It provides similar functionality to PGP and is widely used because it’s free and open-source.
+📖 **GPG (GnuPG)** is the open-source implementation of the OpenPGP standard. It provides similar functionality to PGP and is widely used because it’s free and open-source.
 
 ## What Can GPG Do?
 
