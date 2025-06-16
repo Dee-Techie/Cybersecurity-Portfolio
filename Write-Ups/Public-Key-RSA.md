@@ -79,7 +79,9 @@ CTF tasks often provide a subset of these values.
 
 > 📌 RSA underpins much of modern secure communication—and with the right tools and insight, even the math becomes manageable.
 
-
+---
+<sub>🔗 References & Resources:
+TryHackMe — Cryptography Public Key | Cyber Security 101 (THM) [TryHackMe](https://tryhackme.com/room/publickeycrypto)</sub>
 
 
 
