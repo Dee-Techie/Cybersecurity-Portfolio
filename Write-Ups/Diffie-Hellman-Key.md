@@ -107,3 +107,7 @@ Together, they prevent attacks like **Man-in-the-Middle (MitM)** by verifying id
 ## 📚 Related Concepts
 - **RSA**: Often used alongside DHKE for authentication and key transport
 - **Elliptic Curve Diffie-Hellman (ECDH)**: A more efficient variation using elliptic curves
+
+---
+<sub>🔗 References & Resources:
+TryHackMe — Cryptography Public Key | Cyber Security 101 (THM) [TryHackMe](https://tryhackme.com/room/publickeycrypto)</sub>
