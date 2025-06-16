@@ -16,6 +16,7 @@ Here we'll cover the basics of how digital secrets are kept (or broken), one pos
 | 4   | [Hashing Basics]()         | What are hashes, and why they're unbreakable-ish. |
 | 5   | [John the Ripper]()        | Learn how passwords get cracked (ethically!). |
 
+--- 
 - Cryptography is the science of securing communication and data using codes and ciphers.
 - Cryptanalysis is the study of methods to break or bypass cryptographic security systems without knowing the key.
 - Brute-Force Attack is an attack method that involves trying every possible key or password to decrypt a message.
