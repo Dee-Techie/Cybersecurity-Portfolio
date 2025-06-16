@@ -5,7 +5,6 @@ Page index
 - [🧩 Key Terms](#-key-terms)
 - [🕰️ Historical Ciphers](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cryptography_Basics.md#%EF%B8%8F-historical-ciphers)
 - [🔐 Symmetric vs Asymmetric Encryption](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cryptography_Basics.md#%EF%B8%8Fsymmetric-vs-asymmetric-encryption)
-- [🧮 Basic Math in Cryptography](#-basic-math-in-cryptography)
 
 ## 📌 Importance of Cryptography
 Cryptography is essential for ensuring secure communication in environments where adversaries may attempt to intercept or manipulate data. At its core, cryptography safeguards the confidentiality, integrity, and authenticity (CIA triad) of information by preventing unauthorized access or tampering.
