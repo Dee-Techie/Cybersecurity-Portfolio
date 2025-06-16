@@ -32,9 +32,7 @@ Since only you have the private key, this confirms that the data came from you. 
 
 ## What is a Certificate?
 
-A **digital certificate** binds a public key to an identity (e.g., a domain or person). It proves **who you are** in digital communications.
-
-Certificates are used widely, especially for securing websites via HTTPS.
+A **digital certificate** binds a public key to an identity (e.g., a domain or person). It proves **who you are** in digital communications. Certificates are used widely, especially for securing websites via HTTPS.
 
 ---
 
@@ -79,6 +77,7 @@ Any modern website **must** use HTTPS to secure communications.
 
 ---
 
-## Conclusion
+## 🏁 Conclusion
 
 Digital signatures and certificates are core to modern cybersecurity. Digital signatures ensure data authenticity and integrity, while certificates help establish trusted identities over the internet. Understanding these tools helps build secure systems and protects against spoofing and tampering.
+
