@@ -158,7 +158,8 @@ Asymmetric encryption (or **public key cryptography**) uses a **pair of keys**: 
 
 > 📝 **In practice** both symmetric and asymmetric encryption are used together in a "hybrid" approach.
 
-- **How it works:** Asymmetric encryption is used to securely exchange a *symmetric key*. Then, that symmetric key is used for the bulk of the data transfer because it's much faster. This combines the secure key exchange of asymmetric encryption with the speed of symmetric encryption. This is how most secure online communications, like those over HTTPS, work to give you both speed and strong security!
+- **How it works:**
+  - Asymmetric encryption is used to securely exchange a *symmetric key*. Then, that symmetric key is used for the bulk of the data transfer because it's much faster. This combines the secure key exchange of asymmetric encryption with the speed of symmetric encryption. This is how most secure online communications, like those over HTTPS, work to give you both speed and strong security!
 
 - **Real-life example**
   - **SSL/TLS (HTTPS):** When you see "HTTPS" in your browser's address bar, asymmetric encryption is used to *initially establish a secure connection* and securely exchange a symmetric key. Once that symmetric key is safely exchanged, the actual website data is encrypted with the faster symmetric encryption.
