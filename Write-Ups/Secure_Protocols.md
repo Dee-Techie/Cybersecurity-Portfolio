@@ -218,7 +218,7 @@ A VPN connects multiple company offices or remote users to the main branch **vir
 
 ---
 <sub>🔗 References & Resources:
-TryHackMe — Networking Core Protocols | Cyber Security 101 (THM) [TryHackMe](https://tryhackme.com/room/networkingcoreprotocols)</sub>ey help secure your digital world.
+TryHackMe — Networking Core Protocols | Cyber Security 101 (THM) [TryHackMe](https://tryhackme.com/room/networkingcoreprotocols)</sub>
 
 
 
