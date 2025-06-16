@@ -9,7 +9,7 @@ Imagine a private conversation over coffee—only - you and your partner can hea
 
 ---
 
-# 🔐 RSA: Cracking the Code of Secure Communication
+# 🔏 RSA: Cracking the Code of Secure Communication
 
 **RSA** is a widely-used public key cryptographic algorithm designed to securely transmit data over insecure channels—where eavesdropping is assumed.
 
