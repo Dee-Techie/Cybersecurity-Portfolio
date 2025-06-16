@@ -15,3 +15,8 @@ Here we'll cover the basics of how digital secrets are kept (or broken), one pos
 | 3   | Public Key           | [RSA](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Public-Key-RSA.md) + [Diffie-Hellman Key Exchange](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Diffie-Hellman-Key.md) + [SSH](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/SSH.md)  + [Digital Signatures & Certificates](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Digital-signatures-certificates.md) |
 | 4   | [Hashing Basics]()         | What are hashes, and why they're unbreakable-ish. |
 | 5   | [John the Ripper]()        | Learn how passwords get cracked (ethically!). |
+
+- Cryptography is the science of securing communication and data using codes and ciphers.
+- Cryptanalysis is the study of methods to break or bypass cryptographic security systems without knowing the key.
+- Brute-Force Attack is an attack method that involves trying every possible key or password to decrypt a message.
+- Dictionary Attack is an attack method where the attacker tries dictionary words or combinations of them.
