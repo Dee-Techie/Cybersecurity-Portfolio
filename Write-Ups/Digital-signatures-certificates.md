@@ -1,9 +1,10 @@
-# ![WaiverSighnGIF](https://github.com/user-attachments/assets/30fae190-6160-4246-9905-2c62c3b4b1f4)
-# Digital Signatures and Certificates
+# ✒️ Digital Signatures and Certificates
 
 ## Introduction
 
 Just like signing a paper in the physical world helps prove identity and agreement, in the digital world we use **digital signatures**. These ensure authenticity (who created it) and integrity (hasn't been tampered with) of data or documents.
+
+![WaiverSighnGIF (2)](https://github.com/user-attachments/assets/a75b2455-bb78-4d3c-9bfd-d0e4e7b39dd1)
 
 ---
 
