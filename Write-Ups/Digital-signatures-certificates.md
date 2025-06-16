@@ -81,3 +81,6 @@ Any modern website **must** use HTTPS to secure communications.
 
 Digital signatures and certificates are core to modern cybersecurity. Digital signatures ensure data authenticity and integrity, while certificates help establish trusted identities over the internet. Understanding these tools helps build secure systems and protects against spoofing and tampering.
 
+---
+<sub>🔗 References & Resources:
+TryHackMe — Cryptography Public Key | Cyber Security 101 (THM) [TryHackMe](https://tryhackme.com/room/publickeycrypto)</sub>
