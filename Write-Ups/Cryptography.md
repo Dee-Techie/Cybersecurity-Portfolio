@@ -12,6 +12,6 @@ Here we'll cover the basics of how digital secrets are kept (or broken), one pos
 |-----|------------------------|-----------------------------------------------|
 | 1   | [Cryptography Basics](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cryptography_Basics.md) | What it is, why it matters, and key terms.     |
 | 2   | [Cryptography - Basic Math](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Crypto-Basic-Math.md)             | [XOR](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Crypto-Basic-Math.md#-xor-exclusive-or-operation) + [Modulo](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Crypto-Basic-Math.md#-modulo-operation)|
-| 3   | Public Key           | [RSA](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Public-Key-RSA.md) + [Diffie-Hellman Key Exchange](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Diffie-Hellman-Key.md) |
+| 3   | Public Key           | [RSA](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Public-Key-RSA.md) + [Diffie-Hellman Key Exchange](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Diffie-Hellman-Key.md) + [SSH](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/SSH.md) |
 | 4   | [Hashing Basics]()         | What are hashes, and why they're unbreakable-ish. |
 | 5   | [John the Ripper]()        | Learn how passwords get cracked (ethically!). |
