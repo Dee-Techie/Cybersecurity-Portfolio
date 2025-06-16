@@ -26,7 +26,7 @@ This makes it a powerful tool for:
 
 The table below summarizes the key learning goals for this topic:
 
-| **Topic**                               | **Description**                                                                 |
+| 📝 **Topic**                               | 🔣 **Description**                                                                 |
 |----------------------------------------|---------------------------------------------------------------------------------|
 | Hash functions and collisions          | Understand how hash functions work and what happens when two inputs produce the same hash. |
 | The role of hashing in authentication  | Learn how hashing is used in password storage and login systems.                |
