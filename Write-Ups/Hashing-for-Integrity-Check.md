@@ -80,6 +80,12 @@ Use HMACs when both **data integrity** and **authentication** are required — s
     - Use[Hashcat Wiki](https://hashcat.net/wiki/doku.php?id=example_hashes) </br>
       ![image](https://github.com/user-attachments/assets/664d0562-cbaf-45bc-97ef-3984f64cb6ce)
 
+- ❓Use base64 to decode RU5jb2RlREVjb2RlCg==, saved as decode-this.txt in ~/Hashing-Basics/Task-8. What is the original word?
+  - ENcodeDEcode
+    - ```bash
+      base64 -d ~/Hashing-Basics/Task-8/decode-this.
+      ```
+
 ---
 
 <sub>🔗 References & Resources: TryHackMe — Hashing Basics | Cyber Security 101 (THM) TryHackMe</sub>
