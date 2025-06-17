@@ -73,64 +73,64 @@ As you progress in cybersecurity, especially into roles like incident response, 
 
 ## Advanced System & Process Management:
 
-htop: An interactive process viewer, more user-friendly than top.
-lsof: Lists open files and the processes that opened them (critical for understanding system activity).
-kill: Sends a signal to terminate a process by PID.
-pkill: Kills processes by name.
-nice / renice: Changes the scheduling priority of processes.
-bg / fg: Moves processes to the background or foreground.
-systemctl: Manages systemd services (start, stop, enable, disable services).
-service: Controls SysVinit scripts (older way to manage services).
-crontab: Schedules commands to run periodically.
-chroot: Changes the root directory for a process and its children (useful for forensics, isolation).
-strace: Traces system calls and signals (debugging and understanding program behavior).
-ltrace: Traces library calls (debugging and understanding program behavior).
+- htop: An interactive process viewer, more user-friendly than top.
+- lsof: Lists open files and the processes that opened them (critical for understanding system activity).
+- kill: Sends a signal to terminate a process by PID.
+- pkill: Kills processes by name.
+- nice / renice: Changes the scheduling priority of processes.
+- bg / fg: Moves processes to the background or foreground.
+- systemctl: Manages systemd services (start, stop, enable, disable services).
+- service: Controls SysVinit scripts (older way to manage services).
+- crontab: Schedules commands to run periodically.
+- chroot: Changes the root directory for a process and its children (useful for forensics, isolation).
+- strace: Traces system calls and signals (debugging and understanding program behavior).
+- ltrace: Traces library calls (debugging and understanding program behavior).
 
 ## Advanced Network & Security Tools:
 
-tcpdump: Command-line packet analyzer; captures network traffic.
-wireshark: GUI-based network protocol analyzer (often used with tcpdump for capture, then wireshark for analysis).
-nmap: Network discovery and security auditing tool (port scanning, OS detection, service version detection).
-iptables / nftables: Configures kernel firewall rules.
-ufw: Uncomplicated Firewall, a user-friendly interface for iptables.
-route: Shows/manipulates the IP routing table.
-arp: Displays or modifies the Address Resolution Protocol (ARP) cache.
-whois: Retrieves domain registration information.
-host: Simple utility for performing DNS lookups.
-openssl: Versatile command-line tool for SSL/TLS, certificates, cryptography.
-gpg: GNU Privacy Guard, for encryption and digital signatures (similar to PGP).
-john (John the Ripper): Password cracking tool.
-hydra: Brute-force login cracker.
-aircrack-ng: Suite of tools for auditing wireless networks.
-netcat (nc): A versatile networking utility for reading/writing to network connections (often called the "TCP/IP Swiss Army knife").
-socat: A more advanced netcat, often used for complex network redirections and tunnels.
-sshd_config (file, not command): The configuration file for the SSH daemon, essential for securing SSH.
-sysctl: Configures kernel parameters at runtime (e.g., enabling/disabling IP forwarding).
+- tcpdump: Command-line packet analyzer; captures network traffic.
+- wireshark: GUI-based network protocol analyzer (often used with tcpdump for capture, then wireshark for analysis).
+- nmap: Network discovery and security auditing tool (port scanning, OS detection, service version detection).
+- iptables / nftables: Configures kernel firewall rules.
+- ufw: Uncomplicated Firewall, a user-friendly interface for iptables.
+- route: Shows/manipulates the IP routing table.
+- arp: Displays or modifies the Address Resolution Protocol (ARP) cache.
+- whois: Retrieves domain registration information.
+- host: Simple utility for performing DNS lookups.
+- openssl: Versatile command-line tool for SSL/TLS, certificates, cryptography.
+- gpg: GNU Privacy Guard, for encryption and digital signatures (similar to PGP).
+- john (John the Ripper): Password cracking tool.
+- hydra: Brute-force login cracker.
+- aircrack-ng: Suite of tools for auditing wireless networks.
+- netcat (nc): A versatile networking utility for reading/writing to network connections (often called the "TCP/IP Swiss Army knife").
+- socat: A more advanced netcat, often used for complex network redirections and tunnels.
+- sshd_config (file, not command): The configuration file for the SSH daemon, essential for securing SSH.
+- sysctl: Configures kernel parameters at runtime (e.g., enabling/disabling IP forwarding).
 
 ## Log & File Analysis (Advanced):
 
-awk: Powerful text processing tool for pattern scanning and processing language.
-sed: Stream editor for filtering and transforming text.
-cut: Removes sections from each line of files.
-sort: Sorts lines of text files.
-uniq: Reports or omits repeated lines.
-wc: Prints newline, word, and byte counts for files.
-xargs: Builds and executes command lines from standard input (powerful for combining commands).
-find . -exec {} \;: Executes a command on each file found by find.
-grep -r: Recursive grep through directories.
+- awk: Powerful text processing tool for pattern scanning and processing language.
+- sed: Stream editor for filtering and transforming text.
+- cut: Removes sections from each line of files.
+- sort: Sorts lines of text files.
+- uniq: Reports or omits repeated lines.
+- wc: Prints newline, word, and byte counts for files.
+- xargs: Builds and executes command lines from standard input (powerful for combining commands).
+- find . -exec {} \;: Executes a command on each file found by find.
+- grep -r: Recursive grep through directories.
 
 ## User Management & Forensics (Advanced):
 
-useradd / adduser: Creates new user accounts.
-userdel / deluser: Deletes user accounts.
-usermod: Modifies user account properties.
-groupadd / addgroup: Creates new groups.
-groupdel / delgroup: Deletes groups.
-groups: Prints the names of the primary and any supplementary groups for each given USER.
-logrotate: Manages automatic rotation, compression, and removal of log files.
-strings: Finds printable strings in files (useful for binary analysis).
-file: Determines file type.
-dd: Converts and copies a file (useful for disk imaging in forensics).
-mount / umount: Mounts and unmounts file systems.
+- useradd / adduser: Creates new user accounts.
+- userdel / deluser: Deletes user accounts.
+- usermod: Modifies user account properties.
+- groupadd / addgroup: Creates new groups.
+- groupdel / delgroup: Deletes groups.
+- groups: Prints the names of the primary and any supplementary groups for each given USER.
+- logrotate: Manages automatic rotation, compression, and removal of log files.
+- strings: Finds printable strings in files (useful for binary analysis).
+- file: Determines file type.
+- dd: Converts and copies a file (useful for disk imaging in forensics).
+- mount / umount: Mounts and unmounts file systems.
 
 This list provides a solid foundation. The true power comes from understanding how to combine these commands using pipes (|), redirection (>, >>), and scripting (Bash, Python) to automate tasks and build more complex analysis workflows. Continuous learning and hands-on practice are key in cybersecurity!
