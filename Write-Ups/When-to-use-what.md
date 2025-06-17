@@ -109,7 +109,7 @@ Certificates can also be used for clients to authenticate to servers (less commo
 ## Think about the primary security goal you're trying to achieve:
 
 -  Need to securely exchange a secret key for a communication session?
-  -  Diffie-Hellman (DH/ECDH) is your go-to. It's specifically designed for this.
+  - Diffie-Hellman (DH/ECDH) is your go-to. It's specifically designed for this.
 - Need to encrypt and decrypt actual data (messages, files)?
   - For bulk data (large files, ongoing communication): You'll use a symmetric encryption algorithm (like AES), and you'll often use Diffie-Hellman to establish the key for that symmetric algorithm, or RSA (in a hybrid scheme) to encrypt that symmetric key.
   - For smaller, discrete pieces of data or a symmetric key itself: RSA can be used.
