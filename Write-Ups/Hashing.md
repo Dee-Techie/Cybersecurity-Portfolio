@@ -29,7 +29,7 @@ The table below summarizes the key learning goals for this topic:
 | 📝 **Topic**                               | 🔣 **Description**                                                                 |
 |----------------------------------------|---------------------------------------------------------------------------------|
 | [Hash functions and collisions](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Hash-Functions.md)          | Understand how hash functions work and what happens when two inputs produce the same hash. |
-| The role of hashing in authentication  | Learn how hashing is used in password storage and login systems.                |
+| The role of [hashing in authentication](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Hashing-in-authentication.md)  | Learn how hashing is used in password storage and login systems.                |
 | Recognizing stored hash values         | Identify hash values in systems and distinguish between hashing algorithms.     |
 | Cracking hash values                   | Understand basic techniques used to reverse-engineer or brute-force hash values.|
 | Hashing for integrity protection       | Learn how hashing ensures that files and messages haven’t been tampered with.   |
