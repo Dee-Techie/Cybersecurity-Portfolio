@@ -106,6 +106,17 @@ Feed the output into John:
 ```bash
 john --wordlist=/usr/share/wordlists/rockyou.txt rar_hash.txt
 ```
+---
+
+### 🧙‍♂️Example Steps :
+
+```bash
+/opt/john/rar2john secure_1605054844670.rar > rar_hashtest.txt
+cat rar_hashtest.txt
+john --wordlist=/usr/share/wordlists/rockyou.txt rar_hashtest.txt
+john --show rar_hashtest.txt
+```
+Reveals the password
 
 ---
 
