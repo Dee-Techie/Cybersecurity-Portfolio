@@ -167,7 +167,7 @@ john --list=formats | grep -iF "md5"
 
 ---
 
-## ✅ Summary Table
+## ✅ Summary so far
 
 | Task                             | Command Example                                                                 |
 |----------------------------------|----------------------------------------------------------------------------------|
@@ -175,3 +175,28 @@ john --list=formats | grep -iF "md5"
 | Identify hash type               | `python3 hash-id.py` (after downloading)                                        |
 | Crack specific hash format       | `john --format=raw-md5 --wordlist=rockyou.txt hash.txt`                         |
 | List supported hash formats      | `john --list=formats`                                                           |
+
+---
+
+## 🔐 Cracking Windows Authentication Hashes
+
+### 🧠 What Are Authentication Hashes?
+Authentication hashes are encrypted representations of user passwords stored by operating systems like Windows. These hashes can sometimes be **cracked via brute-force** or dictionary attacks using tools like **John the Ripper**, but usually require **privileged access** to obtain first.
+
+### 💾 NTHash / NTLM Overview
+
+| Feature              | Description                                                                 |
+|----------------------|-----------------------------------------------------------------------------|
+| **NTHash / NTLM**    | Modern Windows password hashing format (often called NTLM)                  |
+| **Legacy**           | Preceded by **LM (LAN Manager)**; both terms often appear together as NT/LM |
+| **Location**         | Stored in Windows' **SAM** database or **NTDS.dit** for Active Directory     |
+| **Tools to Extract** | Tools like **Mimikatz**, **samdump2**, or accessing Active Directory         |
+
+### 🏷️ A Bit of History
+The **NT** in NTHash originally stood for **"New Technology"**, a branding for Windows products that didn't rely on MS-DOS. Though the "NT" naming has since been retired, it still exists in technologies like NTLM.
+
+## 🛠️ Practical Use
+Once NTLM hashes are acquired, you can:
+- ✅ **Crack** them with John the Ripper (especially if weak passwords are used).
+- 🔁 **Pass the hash** to authenticate without cracking (commonly used in lateral movement or privilege escalation).
+
