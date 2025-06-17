@@ -4,68 +4,68 @@ A Level 1 SOC Analyst primarily focuses on monitoring, detection, and initial re
 
 ## File System & Navigation:
 
-ls: Lists files and directories in the current location.
-cd: Changes the current directory.
-pwd: Prints the full path of the current working directory.
-cat: Displays the content of a file.
-less: Views file content page by page, allowing scrolling.
-more: Similar to less, views file content page by page.
-head: Displays the first few lines of a file (useful for logs).
-tail: Displays the last few lines of a file (essential for live log monitoring).
-grep: Searches for patterns (text) within files or command output.
-find: Searches for files and directories based on various criteria (name, size, type, etc.).
-cp: Copies files and directories.
-mv: Moves or renames files and directories.
-rm: Removes files or directories (use with extreme caution!).
-mkdir: Creates a new directory.
-touch: Creates an empty file or updates a file's timestamp.
+- ls: Lists files and directories in the current location.
+- cd: Changes the current directory.
+- pwd: Prints the full path of the current working directory.
+- cat: Displays the content of a file.
+- less: Views file content page by page, allowing scrolling.
+- more: Similar to less, views file content page by page.
+- head: Displays the first few lines of a file (useful for logs).
+- tail: Displays the last few lines of a file (essential for live log monitoring).
+- grep: Searches for patterns (text) within files or command output.
+- find: Searches for files and directories based on various criteria (name, size, type, etc.).
+- cp: Copies files and directories.
+- mv: Moves or renames files and directories.
+- rm: Removes files or directories (use with extreme caution!).
+- mkdir: Creates a new directory.
+- touch: Creates an empty file or updates a file's timestamp.
 
 ## System Information & Monitoring:
 
-whoami: Displays the current username.
-id: Displays user and group information for the current user.
-ps: Displays a snapshot of current processes.
-top: Provides a dynamic, real-time view of running processes and system resources.
-df: Reports disk space usage of file systems.
-du: Estimates file space usage.
-free: Displays amount of free and used memory in the system.
-uptime: Shows how long the system has been running, number of users, and load averages.
-history: Displays previously executed commands.
-dmesg: Displays the kernel ring buffer messages (boot messages, hardware issues).
-journalctl: Queries and displays messages from the systemd journal (modern log viewing).
+- whoami: Displays the current username.
+- id: Displays user and group information for the current user.
+- ps: Displays a snapshot of current processes.
+- top: Provides a dynamic, real-time view of running processes and system resources.
+- df: Reports disk space usage of file systems.
+- du: Estimates file space usage.
+- free: Displays amount of free and used memory in the system.
+- uptime: Shows how long the system has been running, number of users, and load averages.
+- history: Displays previously executed commands.
+- dmesg: Displays the kernel ring buffer messages (boot messages, hardware issues).
+- journalctl: Queries and displays messages from the systemd journal (modern log viewing).
 
 ## Network Basics:
 
-ping: Tests network connectivity to a host.
-ip a (or ifconfig on older systems): Displays IP addresses and network interface information.
-netstat: Displays network connections, routing tables, and interface statistics (being deprecated by ss and ip).
-ss: Displays socket statistics, faster alternative to netstat.
-traceroute: Traces the route packets take to a network host.
-dig: A flexible tool for querying DNS name servers.
-nslookup: Queries internet domain name servers (DNS lookup).
+- ping: Tests network connectivity to a host.
+- ip a (or ifconfig on older systems): Displays IP addresses and network interface information.
+- netstat: Displays network connections, routing tables, and interface statistics (being deprecated by ss and ip).
+- ss: Displays socket statistics, faster alternative to netstat.
+- traceroute: Traces the route packets take to a network host.
+- dig: A flexible tool for querying DNS name servers.
+- nslookup: Queries internet domain name servers (DNS lookup).
 
 ## Permissions & Ownership:
 
-chmod: Changes file permissions.
-chown: Changes file owner and group.
+- chmod: Changes file permissions.
+- chown: Changes file owner and group.
 
 ## Basic Security & Utilities:
 
-sudo: Executes a command as the superuser (root) or another user.
-man: Displays the manual page for a command (e.g., man ls).
-date: Displays or sets the system date and time.
-passwd: Changes a user's password.
-ssh: Securely connects to a remote server.
-scp: Securely copies files between hosts using SSH.
-wget: Non-interactive network downloader.
-curl: Transfers data from or to a server using various protocols.
-tar: Archives and extracts files (often used for backups/log bundles).
-gzip: Compresses files.
-gunzip: Decompresses files.
-unzip: Extracts files from ZIP archives.
-apt (Debian/Ubuntu) / yum (CentOS/RHEL): Package managers for installing/removing software.
-who: Shows who is logged on.
-last: Shows a listing of last logged in users.
+- sudo: Executes a command as the superuser (root) or another user.
+- man: Displays the manual page for a command (e.g., man ls).
+- date: Displays or sets the system date and time.
+- passwd: Changes a user's password.
+- ssh: Securely connects to a remote server.
+- scp: Securely copies files between hosts using SSH.
+- wget: Non-interactive network downloader.
+- curl: Transfers data from or to a server using various protocols.
+- tar: Archives and extracts files (often used for backups/log bundles).
+- gzip: Compresses files.
+- gunzip: Decompresses files.
+- unzip: Extracts files from ZIP archives.
+- apt (Debian/Ubuntu) / yum (CentOS/RHEL): Package managers for installing/removing software.
+- who: Shows who is logged on.
+- last: Shows a listing of last logged in users.
 
 # More Advanced Linux Commands for Cybersecurity Professionals (Beyond SOC L1)
 
