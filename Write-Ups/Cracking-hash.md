@@ -69,14 +69,14 @@ Cracks bcrypt hashes using rockyou.txt.
   - spaceman
     - Method 1 : hashcat -m 1800 -a 0 hash.txt /usr/share/wordlists/rockyou.txt (It uses <ins>sha512crypt $6$, SHA512 (Unix) 2</ins> so the hash mode is 1800)
     - Method 2 : Use [Hashes.com](https://hashes.com/en/decrypt/hash)
-      ![image](https://github.com/user-attachments/assets/394bdecc-1db7-4409-9cc2-f3e73b7eca7f)
+     ![image](https://github.com/user-attachments/assets/394bdecc-1db7-4409-9cc2-f3e73b7eca7f)
 
 - ❓Crack the hash, b6b0d451bbf6fed658659a9e7e5598fe, saved in ~/Hashing-Basics/Task-6/hash4.txt.
   - funforyou
     - Method 1 : Use [CrackStation](https://crackstation.net/)
-    ![image](https://github.com/user-attachments/assets/8e2a1c3e-854e-4666-8967-303440c4b8fc)
-    - Method 2 : Use [Hashes.com](https://hashes.com/en/decrypt/hash)
-    ![image](https://github.com/user-attachments/assets/9ac92961-ffa0-45c6-8657-4c2abffdb2a5)
+     ![image](https://github.com/user-attachments/assets/8e2a1c3e-854e-4666-8967-303440c4b8fc)
+    - Method 2 : Use [Hashes.com](https://hashes.com/en/decrypt/hash)</br>
+     ![image](https://github.com/user-attachments/assets/9ac92961-ffa0-45c6-8657-4c2abffdb2a5)
 
 ---
 
