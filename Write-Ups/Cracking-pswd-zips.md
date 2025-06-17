@@ -19,12 +19,6 @@ zip2john [options] [zip file] > [output file]
 - `>`: Redirects output
 - `[output file]`: File to store the output
 
-**Example Usage:**
-
-```bash
-zip2john zipfile.zip > zip_hash.txt
-```
-
 ### Cracking
 
 Use John to crack the password:
@@ -32,6 +26,56 @@ Use John to crack the password:
 ```bash
 john --wordlist=/usr/share/wordlists/rockyou.txt zip_hash.txt
 ```
+---
+
+## 🧭 Step-by-Step Guide (extracting pswd for zip file):
+- 📁 1. Navigate to the directory
+  ```bash
+  cd ~/John-the-Ripper-The-Basics/Task09/
+  ```
+
+- 🧱 2. Extract the hash from the ZIP file using zip2john
+  ```bash
+  zip2john secure.zip > zip_hash.txt
+  ```
+  - This command:
+    - Converts secure.zip into a hash format John understands.
+    - Stores it in zip_hash.txt.
+
+- 🔍 3. Check the contents of the hash file (optional)
+  ```bash
+  cat zip_hash.txt
+  ```
+  
+- 🔨 4. Run John with the rockyou wordlist
+  ```bash
+  john --wordlist=/usr/share/wordlists/rockyou.txt zip_hash.txt
+  ```
+  
+   🧔‍♂️ John will now try cracking the hash using the rockyou.txt wordlist.
+
+- ⏳ 5. Wait until cracking is complete
+  John will test each password from the wordlist. If successful, it will stop and show the result.
+
+- 🔑 6. Display the cracked password
+  ```bash
+  john --show zip_hash.txt
+  ```
+  This will output something like:
+  ```bash
+  secure.zip:supersecret123
+  ```
+  
+- 🎉 Now you know the password for the secure.zip file!
+
+- 💡 Tips
+  If rockyou.txt isn't found, extract it:
+  ```bash
+  sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
+  ```
+You can use other custom wordlists by replacing the --wordlist value.
+
+![image](https://github.com/user-attachments/assets/4cffb8a2-a8ec-40e6-8968-09617f7d2ee6)
 
 ---
 
