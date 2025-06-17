@@ -95,5 +95,19 @@ Hash functions are fundamental in ensuring the integrity and authenticity of dig
 
 ---
 
+## Questions :
+
+- ❓What is the SHA256 hash of the passport.jpg file in ~/Hashing-Basics/Task-2?
+  - 77148c6f605a8df855f2b764bcc3be749d7db814f5f79134d2aa539a64b61f02
+    - sha256sum ~/Hashing-Basics/Task-2/passport.jpg
+
+- ❓What is the output size in bytes of the MD5 hash function?
+  - 16
+
+- ❓If you have an 8-bit hash output, how many possible hash values are there?
+  - 256 (2^8)
+  
+---
+
 <sub>🔗 References & Resources:
 TryHackMe — Hashing Basics | Cyber Security 101 (THM) [TryHackMe](https://tryhackme.com/room/hashingbasics)</sub>
