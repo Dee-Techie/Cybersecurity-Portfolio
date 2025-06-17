@@ -133,7 +133,7 @@ sudo apt install unrar
 ```
 ---
 
-## Cracking SSH Key Passwords
+## 🤺 Cracking SSH Key Passwords
 
 John can also crack SSH private key passwords (`id_rsa` files). These keys are used for key-based SSH authentication.
 
@@ -153,6 +153,11 @@ Or, if using the Python script:
 python3 /opt/john/ssh2john.py id_rsa > id_rsa_hash.txt
 ```
 
+For Kali user,
+```bash
+python/usr/share/john/ssh2john.py id_rsa_1605800988509.id_rsa > output.txt
+```
+
 **Example Usage:**
 
 ```bash
@@ -163,3 +168,36 @@ Now you can crack the SSH key password using:
 
 ```bash
 john --wordlist=/usr/share/wordlists/rockyou.txt id_rsa_hash.txt
+```
+
+---
+
+### 🐦‍🔥 Examples steps (Standard Python)
+
+```bash
+python3 /opt/john/ssh2john.py id_rsa_1605800988509.id_rsa > output.txt
+john --wordlist=/usr/share/wordlists/rockyou.txt output.txt
+john --show output.txt
+```
+![image](https://github.com/user-attachments/assets/73c8ae11-900a-4c90-b638-e0798e224a36)
+
+After we have the pswd :
+```bash
+ssh -i id_rsa username@target-ip
+```
+
+---
+
+### 🐉 Examples steps (Kali)
+
+```bash
+python/usr/share/john/ssh2john.py id_rsa_1605800988509.id_rsa > output.txt
+john --wordlist=/usr/share/wordlists/rockyou.txt output.txt
+john --show output.txt
+```
+![image](https://github.com/user-attachments/assets/73c8ae11-900a-4c90-b638-e0798e224a36)
+
+After we have the pswd :
+```bash
+ssh -i id_rsa username@target-ip
+```
