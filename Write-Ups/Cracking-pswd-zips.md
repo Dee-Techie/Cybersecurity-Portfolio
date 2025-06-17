@@ -119,8 +119,18 @@ john --show rar_hashtest.txt
 Reveals the password
 ![image](https://github.com/user-attachments/assets/17e746ac-8b08-4d83-aee6-7ea7800f9d01)</br>
 or</br>
-![image](https://github.com/user-attachments/assets/5e808f2e-f03e-47e0-a5b6-93816d8e2661)
+![image](https://github.com/user-attachments/assets/5e808f2e-f03e-47e0-a5b6-93816d8e2661)</br>
 
+#### Now that you have the password you can use "unrar" to see the files:
+
+```bash
+unrar e secure_1605054844670.rar
+```
+
+#### To install unrar:
+```bash
+sudo apt install unrar
+```
 ---
 
 ## Cracking SSH Key Passwords
