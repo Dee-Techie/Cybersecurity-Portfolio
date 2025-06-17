@@ -77,8 +77,8 @@ Use HMACs when both **data integrity** and **authentication** are required — s
 
 - ❓What’s the hashcat mode number for HMAC-SHA512 (key = $pass)?
   - 1750
-    - Use[Hashcat Wiki](https://hashcat.net/wiki/doku.php?id=example_hashes)
-        ![image](https://github.com/user-attachments/assets/664d0562-cbaf-45bc-97ef-3984f64cb6ce)
+    - Use[Hashcat Wiki](https://hashcat.net/wiki/doku.php?id=example_hashes) </br>
+      ![image](https://github.com/user-attachments/assets/664d0562-cbaf-45bc-97ef-3984f64cb6ce)
 
 ---
 
