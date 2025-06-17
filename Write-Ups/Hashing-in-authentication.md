@@ -113,3 +113,8 @@ Here’s how to securely hash and store passwords:
 
 - Use **secure hashing functions** with unique **salts** for each password.
 - Avoid encryption for password storage due to key risks.
+
+---
+
+<sub>🔗 References & Resources:
+TryHackMe — Hashing Basics | Cyber Security 101 (THM) [TryHackMe](https://tryhackme.com/room/hashingbasics)</sub>
