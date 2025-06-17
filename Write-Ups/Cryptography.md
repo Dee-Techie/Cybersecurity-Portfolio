@@ -15,7 +15,7 @@ Here we'll cover the basics of how digital secrets are kept (or broken), one pos
 | 3   | Public Key           | [RSA](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Public-Key-RSA.md) + [Diffie-Hellman Key Exchange](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Diffie-Hellman-Key.md) + [SSH](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/SSH.md)  + [Digital Signatures & Certificates](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Digital-signatures-certificates.md) + [PGP & GPG](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/PGP-GPG.md)|
 | 4   | Hashing Basics      | What is [Hashing<sup>1</sup>](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Hashing.md), and what are the [Hash functions<sup>2</sup>](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Hash-Functions.md) ?   |
 | 5   | [When to use what](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/When-to-use-what.md)        | Choosing the right cryptographic tool. |
-| 6   | [John the Ripper]()        | Learn how passwords get cracked (ethically!). |
+| 6   | [John the Ripper](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/John-the-Ripper.md)        | Learn how passwords get cracked (ethically!). |
 
 --- 
 # 50 Common Cryptography Terms in Cybersecurity
