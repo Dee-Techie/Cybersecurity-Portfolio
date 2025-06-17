@@ -77,3 +77,8 @@ strategos:$y$j9T$76UzfgEM5PnymhQ7TlJey1$/OOSg64dhfF.TigVPdzqiFang6uZA4QA1pzzegKd
 | What is the hash size in yescrypt?                             | `256`. The hash size in yescrypt is 256 bits. This is because yescrypt relies on SHA-256 as a core component of its cryptographic security. Specifically, yescrypt uses SHA-256, HMAC, and PBKDF2 for its password hashing and key derivation.     |
 | What’s the Hash-Mode listed for Cisco-ASA MD5?                 | `2410`. The Hash-Mode for Cisco-ASA MD5 in hashcat is 2410. It's also listed as cisco_asa in Passlib and asa-md5 in John the Ripper.     |
 | What hashing algorithm is used in Cisco-IOS if it starts with $9$? | `scrypt`. If a Cisco-IOS password hash begins with \(9\), it indicates that the scrypt algorithm was used to generate the hash. This algorithm is considered more secure than older algorithms like MD5 and has been implemented in later Cisco operating systems. The scrypt algorithm uses an 80-bit salt and is not NIST (National Institute of Standards and Technology)-approved.  |
+
+---
+
+<sub>🔗 References & Resources:
+TryHackMe — Hashing Basics | Cyber Security 101 (THM) [TryHackMe](https://tryhackme.com/room/hashingbasics)</sub>
