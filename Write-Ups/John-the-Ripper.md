@@ -11,7 +11,7 @@ Today, we'll go through the practical use of John the Ripper - Jumbo John across
 - [Unshadow](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cracking-Hashes-Types.md#-unshadowing-the-files) **Linux `/etc/shadow` hashes** to reveal user passwords + [Single Crack Mode](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cracking-Hashes-Types.md#single-crack-mode)
 - John's [Custom Rules](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Custom-Rules.md)
 - Breaking into **[password-protected ZIP](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cracking-pswd-zips.md#cracking-zip-file-passwords) and [RAR archives](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cracking-pswd-zips.md#cracking-rar-file-passwords)**, a common challenge in forensic investigations.
-- Cracking encrypted **SSH private keys**, useful when access control testing or recovering access to locked-down systems.
+- Cracking encrypted **[SSH private keys](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cracking-pswd-zips.md#cracking-ssh-key-passwords)**, useful when access control testing or recovering access to locked-down systems.
 - [Wordlist Rules](https://www.openwall.com/john/doc/RULES.shtml) (‼️External Link Alert)
 
 ---
