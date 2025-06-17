@@ -10,7 +10,7 @@ Understanding how to recognize and analyze password hashes is key from an **offe
 
 ## 🛠️ Hash Recognition Tools
 
-- Tools like `hashID` exist for **automated hash recognition**.
+- Tools like [`hashID`](https://pypi.org/project/hashID/) exist for **automated hash recognition**.
 - ⚠️ However, they are **unreliable for some formats** — especially hashes without prefixes.
 - Use both:
   - 🔧 **Tools**
