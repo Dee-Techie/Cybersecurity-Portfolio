@@ -8,6 +8,7 @@ A Level 1 SOC Analyst primarily focuses on monitoring, detection, and initial re
 
 - ls: Lists files and directories in the current location.
 - cd: Changes the current directory.
+- cd ../directoryx: To go to directoryx 
 - pwd: Prints the full path of the current working directory.
 - cat: Displays the content of a file.
 - less: Views file content page by page, allowing scrolling.
