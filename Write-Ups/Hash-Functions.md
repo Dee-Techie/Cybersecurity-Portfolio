@@ -92,3 +92,8 @@ Instead, use more secure hash functions like:
 | Unsafe Algorithms    | MD5, SHA1 (due to known collision attacks).                                |
 
 Hash functions are fundamental in ensuring the integrity and authenticity of digital information in cybersecurity.
+
+---
+
+<sub>🔗 References & Resources:
+TryHackMe — Hashing Basics | Cyber Security 101 (THM) [TryHackMe](https://tryhackme.com/room/hashingbasics)</sub>
