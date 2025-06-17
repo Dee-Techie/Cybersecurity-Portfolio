@@ -200,3 +200,7 @@ Once NTLM hashes are acquired, you can:
 - ✅ **Crack** them with John the Ripper (especially if weak passwords are used).
 - 🔁 **Pass the hash** to authenticate without cracking (commonly used in lateral movement or privilege escalation).
 
+---
+
+<sub>🔗 References & Resources:
+TryHackMe — John The Ripper | Cyber Security 101 (THM) [TryHackMe](https://tryhackme.com/room/johntheripperbasics)</sub>
