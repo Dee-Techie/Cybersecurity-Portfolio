@@ -1,6 +1,8 @@
-# Linux Commands for a Level 1 SOC Analyst (Top 50)
+# 🐧🐧 Linux Commands for a Level 1 SOC Analyst (Top 50)
 
 A Level 1 SOC Analyst primarily focuses on monitoring, detection, and initial response. Their command usage will lean heavily on navigating the system, viewing logs, and understanding basic network activity.
+
+![IpfsInterPlanetaryFileSystemGIF](https://github.com/user-attachments/assets/b317c53f-51dc-44ba-8978-ea8c2c82daf4)
 
 ## File System & Navigation:
 
