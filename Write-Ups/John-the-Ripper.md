@@ -12,6 +12,7 @@ Today, we'll go through the practical use of John the Ripper - Jumbo John across
 - John's [Custom Rules](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Custom-Rules.md)
 - Breaking into **password-protected ZIP and RAR archives**, a common challenge in forensic investigations.
 - Cracking encrypted **SSH private keys**, useful when access control testing or recovering access to locked-down systems.
+- [Wordlist Rules](https://www.openwall.com/john/doc/RULES.shtml) (‼️External Link Alert)
 
 ---
 
