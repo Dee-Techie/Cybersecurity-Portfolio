@@ -6,9 +6,9 @@ Originally developed for Unix-based systems, John the Ripper has evolved to supp
 
 Today, we'll go through the practical use of John the Ripper - Jumbo John across several real-world scenarios, including:
 
-- [Basic installation](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/John-the-Ripper.md#-installation-guide)
-- [Cracking Hashes](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/John-the-Ripper.md#-cracking-hashes-with-john-the-ripper)
-- Attacking **Linux `/etc/shadow` hashes** to reveal user passwords.
+- [Basic installation](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/John-the-Ripper.md#-installation-guide) (covered in this article below)
+- [Cracking Hashes](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/John-the-Ripper.md#-cracking-hashes-with-john-the-ripper) (covered in this article below)
+- Attacking **Linux `/etc/shadow` hashes** to reveal user passwords (covered in a different article)
 - Breaking into **password-protected ZIP and RAR archives**, a common challenge in forensic investigations.
 - Cracking encrypted **SSH private keys**, useful when access control testing or recovering access to locked-down systems.
 
