@@ -107,6 +107,14 @@ After:
 mike:1efee03cdcb96d90ad48ccc7b8666033
 ```
 
+---
+Practical Exercise
+- Now that you’re familiar with the Syntax for John’s single crack mode, access the hash and crack it, assuming that the user it belongs to is called “Joker”. The file is located in ~/John-the-Ripper-The-Basics/Task07/. What is Joker’s password?
+  - Answer : Jok3r
+    - Steps to reproduce the answer
+      ![image](https://github.com/user-attachments/assets/3bedfa9f-0670-484a-b6ec-0538a3b870f7)
+    - Use [CrackStation](https://crackstation.net/) to get the result
+      ![image](https://github.com/user-attachments/assets/962eeb0c-4760-4713-91c5-aee8a9d87f5a)
 
 ---
 
