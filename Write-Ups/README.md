@@ -31,12 +31,10 @@ These writeups are meant to:
 
 ## ✍️ Featured Writeups
 
-- ### 🚧 🆘 Lost in Acronyms? </br>
-[Here is your go-to guide](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Common_Abbreviations.md) for making sense of all those abbreviations.
+- 🚧 🆘 Lost in Acronyms? [Here is your go-to guide](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Common_Abbreviations.md) for making sense of all those abbreviations.
 
 
-- ### 🚪📨 Who’s Listening? Common Protocols & Their Ports
-Every protocol has a home — here’s [where they live!](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Common_Protocols_and_Ports.md)
+- 🚪📨 Who’s Listening? Common Protocols & Their Ports. Every protocol has a home — here’s [where they live!](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Common_Protocols_and_Ports.md)
 
 - 👩‍💻 Here are some commonly used Linux commands
 [50 Most Common Linux Commands](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Common-Linux-Cmd.md)
