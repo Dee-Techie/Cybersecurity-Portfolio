@@ -1,6 +1,6 @@
 # 🧮 What is a Hash Function?
 
-A **hash function** is a cryptographic function that takes an input of arbitrary size and produces a **fixed-size output**, known as a **hash value** or **digest**. Unlike encryption, there is **no key** involved, and it is designed to be **irreversible**—meaning you cannot reconstruct the original input from the output.
+A **hash function** is a cryptographic function that takes an input of arbitrary size and produces a <ins>**fixed-size output**</ins>, known as a **hash value** or **digest**. Unlike encryption, there is **no key** involved, and it is designed to be **irreversible**—meaning you cannot reconstruct the original input from the output.
 
 ## Key Properties of Hash Functions
 
