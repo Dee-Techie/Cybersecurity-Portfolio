@@ -98,3 +98,19 @@ msf6 exploit(...) > info
 ---
 
 **Note:** Module rankings (e.g., Excellent, Great, Normal, Average) indicate reliability and stability. See the [Metasploit Wiki - Exploit Ranking](https://github.com/rapid7/metasploit-framework/wiki/Exploit-Ranking) for more details.
+
+---
+
+## Quick Questions
+
+- ❓How would you set the LPORT value to 6666?
+  - set LPORT 6666
+
+- ❓How would you set the global value for RHOSTS to 10.10.19.23 ?
+  - setg RHOSTS 10.10.19.23
+
+- ❓What command would you use to clear a set payload?
+  - unset PAYLOAD
+
+- ❓What command do you use to proceed with the exploitation phase?
+  - exploit
