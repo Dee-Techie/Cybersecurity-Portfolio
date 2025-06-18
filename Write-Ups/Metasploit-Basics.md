@@ -82,7 +82,7 @@ exploits/
 └── ...
 ```
 
-### ⏸️ NOPs
+### ⏸️ [NOPs](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Metasploit-Basics.md#%EF%B8%8F-nops-1)
 "Do-nothing" instructions used as padding (e.g., x86 NOP is `0x90`).
 ```
 nops/
