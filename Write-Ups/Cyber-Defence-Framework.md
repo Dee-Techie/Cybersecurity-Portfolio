@@ -3,7 +3,7 @@
 ## Hey there, cyber explorers! 👋  
 This blog is all about the awesome frameworks that help blue teamers (like you and I) understand how attackers think — and how we can stop them in their tracks. 🚫🎯
 
-#### These frameworks aren't just theory — they're our cheat codes towards understanding, spotting, and outsmarting real-world threats. 🎮🔍"
+#### These frameworks aren't just theory — they're our cheat codes towards understanding, spotting, and outsmarting real-world threats. 🎮🔍
 ---
 
 ## 🔍 What’s Inside?
@@ -25,6 +25,7 @@ Below is a growing collection of bite-sized articles that unpack each major cybe
 ## 💬 Why This Blog?
 
 Because frameworks shouldn’t feel like reading a textbook. 😴  
+
 I’m writing these articles to be simple, memorable, and actually useful — whether you're studying for a cert 🧾, doing blue team ops 🛡️, or just curious about how attackers operate.  
 
 Stick around, bookmark the ones you like, and let’s level up together! 🙌
