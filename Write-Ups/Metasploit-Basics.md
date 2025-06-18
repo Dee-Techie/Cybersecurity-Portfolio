@@ -94,10 +94,10 @@ nops/
 ### 📦 Payloads
 Payloads run on the target system and can be:
 
-- **Adapters**: Wrap payloads into different formats.
-- **Singles**: Self-contained (e.g., add user, open calc.exe).
-- **Stagers**: Setup connection channel.
-- **Stages**: Downloaded by stagers, allow large payloads.
+- ⭕**Adapters**: Wrap payloads into different formats.
+- ⭕**Singles**: Self-contained (e.g., add user, open calc.exe).
+- ⭕**Stagers**: Setup connection channel.
+- ⭕**Stages**: Downloaded by stagers, allow large payloads.
 
 **Naming Tip**:  
 - `windows/x64/shell/reverse_tcp`: Staged payload  
