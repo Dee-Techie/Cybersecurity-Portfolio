@@ -86,8 +86,8 @@ These links bypass Outlook's default security warnings — making them especiall
 >
 > ---
 
-<sub>🔗 References & Resources:
-- TryHackMe — Moniker Link | Cyber Security 101 (THM) [TryHackMe](https://tryhackme.com/room/monikerlink)</sub>
-- Wanna read more about [Moniker Link](https://research.checkpoint.com/2024/the-risks-of-the-monikerlink-bug-in-microsoft-outlook-and-the-big-picture/)
-- Access [CVE Records](https://www.cve.org/CVERecord?id=CVE-2024-21413)
+<sub>🔗 References & Resources:</sub>
+- <sub>TryHackMe — Moniker Link | Cyber Security 101 (THM) [TryHackMe](https://tryhackme.com/room/monikerlink)</sub>
+- <sub>Wanna read more about [Moniker Link](https://research.checkpoint.com/2024/the-risks-of-the-monikerlink-bug-in-microsoft-outlook-and-the-big-picture/)</sub>
+- <sub>Access [CVE Records](https://www.cve.org/CVERecord?id=CVE-2024-21413)</sub>
 
