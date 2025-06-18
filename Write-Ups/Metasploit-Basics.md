@@ -219,7 +219,7 @@ Metasploit can automatically include NOP sleds to improve exploit reliability.
 ---
 
 ## Quick Question
--❓Is "windows/x64/pingback_reverse_tcp" among singles or staged payload?
+- ❓Is "windows/x64/pingback_reverse_tcp" among singles or staged payload?
   - Singles
     - Here's the logic behind that reasoning:
       Metasploit Naming Convention: In Metasploit, a common convention is that payloads with a forward slash (/) in their name (e.g., windows/meterpreter/reverse_tcp) are staged payloads. Payloads with an underscore (_) (e.g., windows/shell_reverse_tcp or windows/x64/pingback_reverse_tcp) are typically singles (or          stageless) payloads.
