@@ -170,6 +170,6 @@ rule EXPL_CVE_2024_21413_Microsoft_Outlook_RCE_Feb24 {
 
 <sub>🔗 References & Resources:</sub>
 - <sub>TryHackMe — Moniker Link | Cyber Security 101 (THM) [TryHackMe](https://tryhackme.com/room/monikerlink)</sub>
-- <sub>Wanna read more about [Moniker Link](https://research.checkpoint.com/2024/the-risks-of-the-monikerlink-bug-in-microsoft-outlook-and-the-big-picture/)</sub>
+- <sub>Wanna read more about [Moniker Link](https://research.checkpoint.com/2024/the-risks-of-the-monikerlink-bug-in-microsoft-outlook-and-the-big-picture/) and Microsoft's article on [Moniker Links](https://learn.microsoft.com/en-us/windows/win32/com/url-monikers)</sub>
 - <sub>Access [CVE Records](https://www.cve.org/CVERecord?id=CVE-2024-21413)</sub>
 
