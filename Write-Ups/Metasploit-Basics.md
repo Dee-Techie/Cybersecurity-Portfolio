@@ -39,7 +39,7 @@ Each module performs a specific task (e.g., exploit a vulnerability, scan a syst
 
 ## 🧬 Module Categories
 
-### Auxiliary
+### 🛠️ Auxiliary
 Supporting modules: scanners, fuzzers, crawlers, spoofers, etc.
 
 Example structure:
@@ -52,7 +52,7 @@ auxiliary/
 └── ...
 ```
 
-### Encoders
+### 🔐 Encoders
 Used to encode payloads to bypass signature-based antivirus detection.
 ```
 encoders/
@@ -62,7 +62,7 @@ encoders/
 └── ...
 ```
 
-### Evasion
+### 🥷 Evasion
 Attempts to evade antivirus protections.
 ```
 evasion/windows/
@@ -71,7 +71,7 @@ evasion/windows/
 └── ...
 ```
 
-### Exploits
+### 🎯 Exploits
 Organized by target OS and platforms.
 ```
 exploits/
@@ -91,7 +91,7 @@ nops/
 └── ...
 ```
 
-### Payloads
+### 📦 Payloads
 Payloads run on the target system and can be:
 
 - **Adapters**: Wrap payloads into different formats.
@@ -103,7 +103,7 @@ Payloads run on the target system and can be:
 - `windows/x64/shell/reverse_tcp`: Staged payload  
 - `generic/shell_reverse_tcp`: Single payload
 
-### Post
+### 🧠 Post
 Post-exploitation modules used after a successful compromise.
 ```
 post/
@@ -115,7 +115,7 @@ post/
 
 ---
 
-## Module Directory Location (on AttackBox)
+## 📘 Module Directory Location (on AttackBox)
 
 ```
 /opt/metasploit-framework/embedded/framework/modules
