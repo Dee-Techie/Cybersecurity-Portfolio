@@ -102,7 +102,7 @@ responder -I ens5
 
 ## 🔎 Detection
 
-### 🧪 YARA Rule (by Florian Roth)
+### 🧪 YARA Rule (by [Florian Roth](https://github.com/CMNatic/CVE-2024-21413))
 
 ```yara
 rule EXPL_CVE_2024_21413_Microsoft_Outlook_RCE_Feb24 {
