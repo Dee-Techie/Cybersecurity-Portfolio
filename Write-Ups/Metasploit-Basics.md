@@ -221,10 +221,10 @@ Metasploit can automatically include NOP sleds to improve exploit reliability.
 ## Quick Question
 - ❓Is "windows/x64/pingback_reverse_tcp" among singles or staged payload?
   - Singles
-    - Here's the logic behind that reasoning:
-      Metasploit Naming Convention: In Metasploit, a common convention is that payloads with a forward slash (/) in their name (e.g., windows/meterpreter/reverse_tcp) are staged payloads. Payloads with an underscore (_) (e.g., windows/shell_reverse_tcp or windows/x64/pingback_reverse_tcp) are typically singles (or          stageless) payloads.
+    - Here's the logic behind that reasoning:</br>
+      <ins>Metasploit Naming Convention</ins>: In Metasploit, a common convention is that payloads with a forward slash (/) in their name (e.g., windows/meterpreter/reverse_tcp) are staged payloads. Payloads with an underscore (_) (e.g., windows/shell_reverse_tcp or windows/x64/pingback_reverse_tcp) are typically     singles (or          stageless) payloads.
 
-      The "Pingback" Nature: As the name suggests, "pingback" payloads are designed for a very specific, minimal purpose: to simply confirm remote execution on a target. They send a small "ping" (a UUID) back to the attacker and then exit. They are non-interactive and do not establish a persistent shell or full             session like a Meterpreter or a standard command shell.
+      <ins>The "Pingback" Nature</ins>: As the name suggests, "pingback" payloads are designed for a very specific, minimal purpose: to simply confirm remote execution on a target. They send a small "ping" (a UUID) back to the attacker and then exit. They are non-interactive and do not establish a persistent shell or full             session like a Meterpreter or a standard command shell.
 
       Staged payloads are designed to be very small initially (the "stager") to fit into tight exploit conditions, then download a larger, more fully featured "stage" (like a Meterpreter or a full shell). This process requires multiple network communications.
       Singles/Stageless payloads are self-contained. They include all the necessary code to perform their function in one go, without needing to download a second stage.
