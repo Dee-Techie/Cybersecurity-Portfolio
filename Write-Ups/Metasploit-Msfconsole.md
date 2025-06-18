@@ -86,6 +86,9 @@ msf6 exploit(...) > info
 | `use <module>`      | Load a module                                    |
 | `show options`      | View configurable options for a module           |
 | `set <option> <val>`| Set a module option                              |
+| `setg <option> <val>`| Set global module option                        |
+| `unset <option> <val>`| Resets a module option                         |
+| `unset all`          | Resets all the settings                         |
 | `run` or `exploit`  | Execute the loaded module                        |
 | `back`              | Exit module context                              |
 | `info`              | View detailed module info                        |
