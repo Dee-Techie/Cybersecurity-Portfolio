@@ -10,7 +10,7 @@ This blog is all about the awesome frameworks that help blue teamers (like you a
 
 Below is a growing collection of bite-sized articles that unpack each major cyber defence model — with real talk, examples, and maybe a meme or two. 😄👇
 
-| #️⃣ | 🧩 Framework | 🔗 Link | 💡 What It’s About |
+| #️⃣ | 🧩 Framework |  Link | 💡 What It’s About |
 |-----|--------------|---------|---------------------|
 | 1️⃣ | Pyramid of Pain | [Read](./pyramid-of-pain.md) | How much it *hurts* attackers when we disrupt different indicators. Spoiler: some hurt more than others. 😈 |
 | 2️⃣ | Cyber Kill Chain | [Read](./cyber-kill-chain.md) | A classic model from Lockheed Martin that maps how attacks unfold — and where to stop them. 🎯 |
