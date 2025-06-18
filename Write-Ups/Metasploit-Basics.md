@@ -39,7 +39,7 @@ Each module performs a specific task (e.g., exploit a vulnerability, scan a syst
 
 ## 🧬 Module Categories
 
-### 🛠️ Auxiliary
+### 🛠️ [Auxiliary](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Metasploit-Basics.md#-auxiliary-modules-the-recon-and-utility-tools)
 Supporting modules: scanners, fuzzers, crawlers, spoofers, etc.
 
 Example structure:
@@ -52,7 +52,7 @@ auxiliary/
 └── ...
 ```
 
-### 🔐 Encoders
+### 🔐 [Encoders](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Metasploit-Basics.md#-encoders-the-disguise-kit)
 Used to encode payloads to bypass signature-based antivirus detection.
 ```
 encoders/
@@ -71,7 +71,7 @@ evasion/windows/
 └── ...
 ```
 
-### 🎯 Exploits
+### 🎯 [Exploits](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Metasploit-Basics.md#-exploits-the-lock-pickers)
 Organized by target OS and platforms.
 ```
 exploits/
@@ -82,7 +82,7 @@ exploits/
 └── ...
 ```
 
-### ⏸️ [NOPs](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Metasploit-Basics.md#%EF%B8%8F-nops-1)
+### ⏸️ [NOPs](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Metasploit-Basics.md#%EF%B8%8F-nop-generators-the-slippery-slides)
 "Do-nothing" instructions used as padding (e.g., x86 NOP is `0x90`).
 ```
 nops/
@@ -91,7 +91,7 @@ nops/
 └── ...
 ```
 
-### 📦 Payloads
+### 📦 [Payloads](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Metasploit-Basics.md#-payloads-the-secret-messagestools-you-send-in)
 Payloads run on the target system and can be:
 
 - ⭕**Adapters**: Wrap payloads into different formats.
@@ -103,7 +103,7 @@ Payloads run on the target system and can be:
 - `windows/x64/shell/reverse_tcp`: Staged payload  
 - `generic/shell_reverse_tcp`: Single payload
 
-### 🧠 Post
+### 🧠 [Post](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Metasploit-Basics.md#-post-exploitation-modules-the-deepening-your-access-tools)
 Post-exploitation modules used after a successful compromise.
 ```
 post/
