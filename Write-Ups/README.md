@@ -24,7 +24,7 @@ These writeups are meant to:
 | 💻 LinuxShells      | [Linux Shells 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Linux%20Shells.md)                | ✅ Complete |
 | 🌐 Networking        | [Network Essentials 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Networking.md)               | ✅ Complete |
 | 🧶 Cryptography        | [Cryptography Basics 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cryptography.md)                 | ✅ Complete |
-| 🔐 Exploitation           | [Exploitation Basics](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Exploitation.md)            | 🛠️ In Progress |
+| 🔐 Exploitation           | [Exploitation Basics 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Exploitation.md)            | 🛠️ In Progress |
 | 🧠 Blue Team Foundations       | SOC Level 1                         | 🔜 Coming Soon  |
 
 ---
