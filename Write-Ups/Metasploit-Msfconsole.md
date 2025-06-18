@@ -1,5 +1,4 @@
-# Metasploit Basics Summary
-
+# Metasploit Common Commands
 ## Launching Metasploit
 Once launched, the Metasploit prompt changes to `msf6>` (or `msf5>` depending on version). You can use standard Linux commands like `ls`, `ping`, and `clear`, though features like output redirection (e.g., `help > help.txt`) are not supported.
 
