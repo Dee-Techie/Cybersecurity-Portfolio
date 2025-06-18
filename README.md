@@ -6,3 +6,5 @@
   - [Networking](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Networking.md)
   - [Cryptography](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cryptography.md)
   - [Exploitation](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Exploitation.md)
+## 🧪 Labs: [Click Here]()
+## 🪪 Security Policies: [Click Here]()
