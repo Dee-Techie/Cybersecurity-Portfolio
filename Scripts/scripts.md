@@ -15,7 +15,7 @@ Whether you're a beginner building your hacking lab, a blue teamer writing detec
 
 ---
 
-## 🗃️ Latest Script Articles:
+## 🗃️ Latest Script Articles: 🚧🚧🚧 WIP
 Check out the latest tutorials and code-focused breakdowns:
 
 - [1. Automated Reverse Shell Generator 🔁](#)
