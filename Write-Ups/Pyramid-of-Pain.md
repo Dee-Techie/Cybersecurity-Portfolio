@@ -20,7 +20,7 @@ The **Pyramid of Pain**, introduced by David Bianco in 2013, ranks indicators by
 
 - **What?** Malicious IPs or subnets.  
 - **Defender gain:** Quick blocks via firewalls or TIPs (e.g., Recorded Future, Anomali).
-- **Attacker trick:** IP rotation, cloud proxies, Fast Flux DNS.
+- **Attacker trick:** IP rotation, cloud proxies, [Fast Flux](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Pyramid-of-Pain.md#glossary) DNS.
 - **Use case:** Sandboxes like ANY.RUN reveal dynamic IP behavior.
 
 <img src="https://github.com/user-attachments/assets/30cb980c-c292-4c00-807c-45a9c53c63a6" alt="Domain/IP Reports" width="1350" /></br>
@@ -49,7 +49,7 @@ The **Pyramid of Pain**, introduced by David Bianco in 2013, ranks indicators by
 
 ## 🌐 5. Network Artifacts (Annoying)
 
-- **What?** Behavioral network indicators — unusual HTTP POST URIs, custom user‑agents, C2 patterns. An attacker might use a User-Agent string that hasn’t been observed in your environment before or seems out of the ordinary. The User-Agent is defined by [RFC2616](https://datatracker.ietf.org/doc/html/rfc2616#page-145) as the request-header field that contains the information about the user agent originating the request.
+- **What?** Behavioral network indicators — unusual HTTP POST [URIs](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Pyramid-of-Pain.md#glossary), custom user‑agents, [C2](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Pyramid-of-Pain.md#glossary) patterns. An attacker might use a User-Agent string that hasn’t been observed in your environment before or seems out of the ordinary. The User-Agent is defined by [RFC2616](https://datatracker.ietf.org/doc/html/rfc2616#page-145) as the request-header field that contains the information about the user agent originating the request.
 - **Detect with:** PCAP analysis (Wireshark/TShark), IDS/IPS signatures (Snort, Suricata).  
 - **Why it hurts:** Attackers need to re-engineer their comms, so detection gains you time.
 - P.S. If you can detect the custom User-Agent strings that the attacker is using, you might be able to block them, creating more obstacles and making their attempt to compromise the network more annoying.👿😤
@@ -61,7 +61,7 @@ The **Pyramid of Pain**, introduced by David Bianco in 2013, ranks indicators by
 - **Why it hurts:** Custom-built tools force them to rebuild or abandon their arsenal.
 - **Defender strategies:**
   - YARA rules, antivirus/EDR signatures  
-  - Fuzzy hashing (SSDeep) to detect modified malware.
+  - [Fuzzy hashing](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Pyramid-of-Pain.md#glossary) (SSDeep) to detect modified malware.
   - Use feeds like MalwareBazaar, Malshare, SOC Prime TDM.  
 - **Real-world context:** SentinelOne & Cisco enhance CTI by hunting behaviors, not just signatures.
 
