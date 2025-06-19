@@ -1,7 +1,7 @@
 # 🧗 Pyramid of Pain</br>
 Not all indicators are created equal; some of them are far more valuable than others.
 
-<img src="https://github.com/user-attachments/assets/06bed36b-db06-4dfc-9442-62828687908d" alt="Pyramid of Pain" width="600" />
+<img src="https://github.com/user-attachments/assets/06bed36b-db06-4dfc-9442-62828687908d" alt="Pyramid of Pain" width="500" /></br>
 
 The **Pyramid of Pain**, introduced by David Bianco in 2013, ranks indicators by how much **“pain”** they cause adversaries when detected. Higher layers force attackers to spend more time, money, and skill to reinvent their attacks. 🧩🚧
 
