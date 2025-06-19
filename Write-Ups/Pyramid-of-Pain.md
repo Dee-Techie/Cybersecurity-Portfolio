@@ -10,17 +10,17 @@ The **Pyramid of Pain**, introduced by David Bianco in 2013, ranks indicators by
 ## 🔐 1. Hash Values (Trivial)
 
 - **What?** File fingerprints (MD5, SHA-1, SHA-256).  
-- **Defender tools:** VirusTotal, OPSWAT Metadefender, SIEM ingestion. :contentReference[oaicite:1]{index=1}  
-- **Why attackers don’t care:** Change a byte, get a new hash. Polymorphic malware makes this trivial. :contentReference[oaicite:2]{index=2}  
-- **💡 Tip:** Use YARA rules for stronger detection beyond static hashes. :contentReference[oaicite:3]{index=3}
+- **Defender tools:** VirusTotal, OPSWAT Metadefender, SIEM ingestion. 
+- **Why attackers don’t care:** Change a byte, get a new hash. Polymorphic malware makes this trivial.
+- **💡 Tip:** Use YARA rules for stronger detection beyond static hashes.
 
 ---
 
 ## 🌐 2. IP Addresses (Easy)
 
 - **What?** Malicious IPs or subnets.  
-- **Defender gain:** Quick blocks via firewalls or TIPs (e.g., Recorded Future, Anomali). :contentReference[oaicite:4]{index=4}  
-- **Attacker trick:** IP rotation, cloud proxies, Fast Flux DNS. :contentReference[oaicite:5]{index=5}  
+- **Defender gain:** Quick blocks via firewalls or TIPs (e.g., Recorded Future, Anomali).
+- **Attacker trick:** IP rotation, cloud proxies, Fast Flux DNS.
 - **Use case:** Sandboxes like ANY.RUN reveal dynamic IP behavior.
 
 <img src="https://github.com/user-attachments/assets/30cb980c-c292-4c00-807c-45a9c53c63a6" alt="Domain/IP Reports" width="1350" /></br>
@@ -31,7 +31,7 @@ The **Pyramid of Pain**, introduced by David Bianco in 2013, ranks indicators by
 
 - **What?** Malicious domains or subdomains.  
 - **Defender gain:** Block domains, sinkhole them, analyze proxy logs.  
-- **Attacker trick:** Punycode spoofing (e.g., `xn--addas-o4a.de` → looks like `adidas.de`), URL shorteners (`bit.ly+` preview). :contentReference[oaicite:6]{index=6}
+- **Attacker trick:** Punycode spoofing (e.g., `xn--addas-o4a.de` → looks like `adidas.de`), URL shorteners (`bit.ly+` preview).
 
 ---
 
@@ -39,7 +39,7 @@ The **Pyramid of Pain**, introduced by David Bianco in 2013, ranks indicators by
 
 - **What?** Malware artifacts on endpoints — registry keys, dropped files, strange processes (e.g. Word→PowerShell).  
 - **🤖 Defender Tools:** EDR, SIEM, Process Monitor, Log analysis.  
-- **Attacker pain:** They must change tooling or behavior; more work and cost. :contentReference[oaicite:7]{index=7}
+- **Attacker pain:** They must change tooling or behavior; more work and cost.
 
 <img src="https://github.com/user-attachments/assets/9b329f95-366b-4047-9444-692c02be78b0" alt="Host Artifacts Report 1" width="500" /></br>
 
@@ -51,36 +51,36 @@ The **Pyramid of Pain**, introduced by David Bianco in 2013, ranks indicators by
 
 - **What?** Behavioral network indicators — unusual HTTP POST URIs, custom user‑agents, C2 patterns. An attacker might use a User-Agent string that hasn’t been observed in your environment before or seems out of the ordinary. The User-Agent is defined by [RFC2616](https://datatracker.ietf.org/doc/html/rfc2616#page-145) as the request-header field that contains the information about the user agent originating the request.
 - **Detect with:** PCAP analysis (Wireshark/TShark), IDS/IPS signatures (Snort, Suricata).  
-- **Why it hurts:** Attackers need to re-engineer their comms, so detection gains you time. :contentReference[oaicite:8]{index=8}
+- **Why it hurts:** Attackers need to re-engineer their comms, so detection gains you time.
 - P.S. If you can detect the custom User-Agent strings that the attacker is using, you might be able to block them, creating more obstacles and making their attempt to compromise the network more annoying.👿😤
 ---
 
 ## 🛠️ 6. Tools (Challenging)
 
 - **What?** The actual malware and scripts — backdoors, stegomalware, credential dumpers.  
-- **Why it hurts:** Custom-built tools force them to rebuild or abandon their arsenal. :contentReference[oaicite:9]{index=9}  
+- **Why it hurts:** Custom-built tools force them to rebuild or abandon their arsenal.
 - **Defender strategies:**
   - YARA rules, antivirus/EDR signatures  
-  - Fuzzy hashing (SSDeep) to detect modified malware. :contentReference[oaicite:10]{index=10}  
+  - Fuzzy hashing (SSDeep) to detect modified malware.
   - Use feeds like MalwareBazaar, Malshare, SOC Prime TDM.  
-- **Real-world context:** SentinelOne & Cisco enhance CTI by hunting behaviors, not just signatures. :contentReference[oaicite:11]{index=11}
+- **Real-world context:** SentinelOne & Cisco enhance CTI by hunting behaviors, not just signatures.
 
 ---
 
 ## 🧠 7. TTPs (Tough)
 
-- **What?** Tactics, Techniques & Procedures (e.g., MITRE ATT&CK methods).  
+- **What?** Tactics, Techniques & Procedures (e.g., [MITRE ATT&CK](https://attack.mitre.org/) methods).  
 - **Detection methods:** Behavioral analytics, Windows Event logs, EDR/EDR/XDR correlation.  
-- **Why it’s devastating:** Attackers must fully revamp their campaign — tooling, procedures, and training are all affected. :contentReference[oaicite:12]{index=12}  
-- **Summiting the Pyramid:** MITRE Engenuity’s framework promotes analytic robustness by decomposing tools vs OS-native actions. :contentReference[oaicite:13]{index=13}
+- **Why it’s devastating:** Attackers must fully revamp their campaign — tooling, procedures, and training are all affected. 
+- **Summiting the Pyramid:** MITRE Engenuity’s framework promotes analytic robustness by decomposing tools vs OS-native actions.
 
 ---
 
 ## 🧩 CTI & Real-World Use
 
-- **How to use it:** Match detection efforts with CTI availability. Hashes/IPs are low effort but low impact; TTPs are high effort but high impact. :contentReference[oaicite:14]{index=14}  
-- **EDR evolution:** With proper tools, TTP detection is now more approachable — not just academic theory. :contentReference[oaicite:15]{index=15}  
-- **Threat scenario:** Ransomware ops now often register domains hours before use—illustrating how fast lower-layer indicators expire. :contentReference[oaicite:16]{index=16}
+- **How to use it:** Match detection efforts with CTI availability. Hashes/IPs are low effort but low impact; TTPs are high effort but high impact. 
+- **EDR evolution:** With proper tools, TTP detection is now more approachable — not just academic theory.  
+- **Threat scenario:** Ransomware ops now often register domains hours before use—illustrating how fast lower-layer indicators expire.
 
 ---
 
@@ -103,7 +103,9 @@ The **Pyramid of Pain**, introduced by David Bianco in 2013, ranks indicators by
 Climbing the pyramid equips your blue team with **strategic depth**. Shift from chasing weak signals at the bottom, to creating real **adversary friction** at the top. That's where you force attackers to bleed time, money—and sometimes mission failure.
 
 ## Glossary
-- Command and Control (C2) Infrastructure are a set of programs used to communicate with a victim machine. This is comparable to a reverse shell, but is generally more advanced and often communicate via common network protocols, like HTTP, HTTPS and DNS.
+- Command and Control (C2) Infrastructure are a set of programs used to communicate with a victim machine. This is comparable to a reverse shell, but is generally more advanced and often communicate via common network protocols, like HTTP, HTTPS and DNS. What is [C2](https://www.varonis.com/blog/what-is-c2)
 - URI - Uniform Resource Identifier
+- CTPH (Context Triggered Piecewise Hashes)/Fuzzy Hashing/Ssdeep hashing - Fuzzy hashing helps you to perform similarity analysis - match two files with minor differences based on the fuzzy hash values. One of the examples of fuzzy hashing is the usage of SSDeep; on the SSDeep official website, you can also find the complete explanation for fuzzy hashing.
+- Fast Flux - is a technique where cybercriminals rapidly change the IP address associated with a malicious website's domain name, typically every few minutes or seconds. This uses a large network of compromised computers (a botnet) to act as proxies. It makes it extremely difficult for security teams or law enforcement to block or shut down the malicious site, as its location is constantly shifting. This tactic enhances the resilience and evasiveness of illegal online operations.
 
 Stay sharp, hunt smart 🔍🛡️
