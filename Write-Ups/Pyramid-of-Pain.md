@@ -49,10 +49,10 @@ The **Pyramid of Pain**, introduced by David Bianco in 2013, ranks indicators by
 
 ## 🌐 5. Network Artifacts (Annoying)
 
-- **What?** Behavioral network indicators — unusual HTTP POST URIs, custom user‑agents, C2 patterns. An attacker might use a User-Agent string that hasn’t been observed in your environment before or seems out of the ordinary. The User-Agent is defined by RFC2616 as the request-header field that contains the information about the user agent originating the request.
+- **What?** Behavioral network indicators — unusual HTTP POST URIs, custom user‑agents, C2 patterns. An attacker might use a User-Agent string that hasn’t been observed in your environment before or seems out of the ordinary. The User-Agent is defined by [RFC2616](https://datatracker.ietf.org/doc/html/rfc2616#page-145) as the request-header field that contains the information about the user agent originating the request.
 - **Detect with:** PCAP analysis (Wireshark/TShark), IDS/IPS signatures (Snort, Suricata).  
 - **Why it hurts:** Attackers need to re-engineer their comms, so detection gains you time. :contentReference[oaicite:8]{index=8}
-
+- P.S. If you can detect the custom User-Agent strings that the attacker is using, you might be able to block them, creating more obstacles and making their attempt to compromise the network more annoying.👿😤
 ---
 
 ## 🛠️ 6. Tools (Challenging)
