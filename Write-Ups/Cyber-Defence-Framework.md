@@ -10,15 +10,15 @@ This blog is all about the awesome frameworks that help blue teamers (like you a
 
 Below is a growing collection of bite-sized articles that unpack each major cyber defence model — with real talk, examples, and maybe a meme or two. 😄👇
 
-| #️⃣ | 🧩 Framework |  Link | 💡 What It’s About |
-|-----|--------------|---------|---------------------|
-| 1️⃣ | Pyramid of Pain | [Read](./pyramid-of-pain.md) | How much it *hurts* attackers when we disrupt different indicators. Spoiler: some hurt more than others. 😈 |
-| 2️⃣ | Cyber Kill Chain | [Read](./cyber-kill-chain.md) | A classic model from Lockheed Martin that maps how attacks unfold — and where to stop them. 🎯 |
-| 3️⃣ | Unified Kill Chain | [Read](./unified-kill-chain.md) | Like the Kill Chain... but on steroids. Combines tactics from other frameworks for a fuller picture. 🔗🔍 |
-| 4️⃣ | Diamond Model | [Read](./diamond-model.md) | A visual way to connect the dots: adversary, infrastructure, capability, and victim. 💎✨ |
-| 5️⃣ | MITRE ATT&CK | [Read](./mitre.md) | The go-to playbook of attacker behaviors — used by pros around the world. 🧰🕵️ |
-| 6️⃣ | Summit Framework | [Read](./summit.md) | Helps defenders align, set goals, and actually *do the work* of detecting threats. 🧗‍♀️📈 |
-| 7️⃣ | Eviction Strategy | [Read](./eviction.md) | When and how to boot bad actors off your systems — without setting off alarms. 🚷🧹 |
+| 🧩 Framework |  Link | 💡 What It’s About |
+|--------------|---------|---------------------|
+| Pyramid of Pain | [Read](./pyramid-of-pain.md) | How much it *hurts* attackers when we disrupt different indicators. Spoiler: some hurt more than others. 😈 |
+| Cyber Kill Chain | [Read](./cyber-kill-chain.md) | A classic model from Lockheed Martin that maps how attacks unfold — and where to stop them. 🎯 |
+| Unified Kill Chain | [Read](./unified-kill-chain.md) | Like the Kill Chain... but on steroids. Combines tactics from other frameworks for a fuller picture. 🔗🔍 |
+| Diamond Model | [Read](./diamond-model.md) | A visual way to connect the dots: adversary, infrastructure, capability, and victim. 💎✨ |
+| MITRE ATT&CK | [Read](./mitre.md) | The go-to playbook of attacker behaviors — used by pros around the world. 🧰🕵️ |
+| Summit Framework | [Read](./summit.md) | Helps defenders align, set goals, and actually *do the work* of detecting threats. 🧗‍♀️📈 |
+| Eviction Strategy | [Read](./eviction.md) | When and how to boot bad actors off your systems — without setting off alarms. 🚷🧹 |
 
 ---
 
