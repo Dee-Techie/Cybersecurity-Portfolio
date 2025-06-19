@@ -29,7 +29,7 @@ The **Pyramid of Pain**, introduced by David Bianco in 2013, ranks indicators by
 
 ## 🌍 3. Domain Names (Simple)
 
-- **What?** Malicious domains or subdomains.  
+- **What?** Malicious domains or subdomains to run typo-squatting campaigns.
 - **Defender gain:** Block domains, sinkhole them, analyze proxy logs.  
 - **Attacker trick:** Punycode spoofing (e.g., `xn--addas-o4a.de` → looks like `adidas.de`), URL shorteners (`bit.ly+` preview).
 
@@ -69,7 +69,7 @@ The **Pyramid of Pain**, introduced by David Bianco in 2013, ranks indicators by
 
 ## 🧠 7. TTPs (Tough)
 
-- **What?** Tactics, Techniques & Procedures (e.g., [MITRE ATT&CK](https://attack.mitre.org/) methods).  
+- **What?** Attackers plans and objectives - Tactics, Techniques & Procedures (e.g., [MITRE ATT&CK](https://attack.mitre.org/) methods).  
 - **Detection methods:** Behavioral analytics, Windows Event logs, EDR/EDR/XDR correlation.  
 - **Why it’s devastating:** Attackers must fully revamp their campaign — tooling, procedures, and training are all affected. 
 - **Summiting the Pyramid:** MITRE Engenuity’s framework promotes analytic robustness by decomposing tools vs OS-native actions.
@@ -107,5 +107,6 @@ Climbing the pyramid equips your blue team with **strategic depth**. Shift from 
 - URI - Uniform Resource Identifier
 - CTPH (Context Triggered Piecewise Hashes)/Fuzzy Hashing/Ssdeep hashing - Fuzzy hashing helps you to perform similarity analysis - match two files with minor differences based on the fuzzy hash values. One of the examples of fuzzy hashing is the usage of SSDeep; on the SSDeep official website, you can also find the complete explanation for fuzzy hashing.
 - Fast Flux - is a technique where cybercriminals rapidly change the IP address associated with a malicious website's domain name, typically every few minutes or seconds. This uses a large network of compromised computers (a botnet) to act as proxies. It makes it extremely difficult for security teams or law enforcement to block or shut down the malicious site, as its location is constantly shifting. This tactic enhances the resilience and evasiveness of illegal online operations.
+-  APT (Advanced Persistent Threat Groups) 
 
 Stay sharp, hunt smart 🔍🛡️
