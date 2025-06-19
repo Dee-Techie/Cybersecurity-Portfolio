@@ -103,10 +103,10 @@ The **Pyramid of Pain**, introduced by David Bianco in 2013, ranks indicators by
 Climbing the pyramid equips your blue team with **strategic depth**. Shift from chasing weak signals at the bottom, to creating real **adversary friction** at the top. That's where you force attackers to bleed time, money—and sometimes mission failure.
 
 ## Glossary
-- Command and Control (C2) Infrastructure are a set of programs used to communicate with a victim machine. This is comparable to a reverse shell, but is generally more advanced and often communicate via common network protocols, like HTTP, HTTPS and DNS. What is [C2](https://www.varonis.com/blog/what-is-c2)
+- <ins>Command and Control (C2)</ins>Infrastructure are a set of programs used to communicate with a victim machine. This is comparable to a reverse shell, but is generally more advanced and often communicate via common network protocols, like HTTP, HTTPS and DNS. What is [C2](https://www.varonis.com/blog/what-is-c2)
 - URI - Uniform Resource Identifier
-- CTPH (Context Triggered Piecewise Hashes)/Fuzzy Hashing/Ssdeep hashing - Fuzzy hashing helps you to perform similarity analysis - match two files with minor differences based on the fuzzy hash values. One of the examples of fuzzy hashing is the usage of SSDeep; on the SSDeep official website, you can also find the complete explanation for fuzzy hashing.
-- Fast Flux - is a technique where cybercriminals rapidly change the IP address associated with a malicious website's domain name, typically every few minutes or seconds. This uses a large network of compromised computers (a botnet) to act as proxies. It makes it extremely difficult for security teams or law enforcement to block or shut down the malicious site, as its location is constantly shifting. This tactic enhances the resilience and evasiveness of illegal online operations.
--  APT (Advanced Persistent Threat Groups) 
+- <ins>CTPH (Context Triggered Piecewise Hashes)/Fuzzy Hashing/Ssdeep hashing</ins> - Fuzzy hashing helps you to perform similarity analysis - match two files with minor differences based on the fuzzy hash values. One of the examples of fuzzy hashing is the usage of SSDeep; on the SSDeep official website, you can also find the complete explanation for fuzzy hashing.
+- <ins>Fast Flux</ins>- is a technique where cybercriminals rapidly change the IP address associated with a malicious website's domain name, typically every few minutes or seconds. This uses a large network of compromised computers (a botnet) to act as proxies. It makes it extremely difficult for security teams or law enforcement to block or shut down the malicious site, as its location is constantly shifting. This tactic enhances the resilience and evasiveness of illegal online operations.
+-  <ins>APT</ins>(Advanced Persistent Threat Groups) 
 
 Stay sharp, hunt smart 🔍🛡️
