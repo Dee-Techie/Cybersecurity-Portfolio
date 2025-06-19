@@ -23,6 +23,8 @@ The **Pyramid of Pain**, introduced by David Bianco in 2013, ranks indicators by
 - **Attacker trick:** IP rotation, cloud proxies, Fast Flux DNS. :contentReference[oaicite:5]{index=5}  
 - **Use case:** Sandboxes like ANY.RUN reveal dynamic IP behavior.
 
+<img src="https://github.com/user-attachments/assets/30cb980c-c292-4c00-807c-45a9c53c63a6" alt="Domain/IP Reports" width="1350" /></br>
+
 ---
 
 ## 🌍 3. Domain Names (Simple)
@@ -39,11 +41,15 @@ The **Pyramid of Pain**, introduced by David Bianco in 2013, ranks indicators by
 - **🤖 Defender Tools:** EDR, SIEM, Process Monitor, Log analysis.  
 - **Attacker pain:** They must change tooling or behavior; more work and cost. :contentReference[oaicite:7]{index=7}
 
+<img src="https://github.com/user-attachments/assets/9b329f95-366b-4047-9444-692c02be78b0" alt="Host Artifacts Report 1" width="500" /></br>
+
+<img src="https://github.com/user-attachments/assets/d83133c0-c189-44d3-a01d-4d8a7c58f6f4" alt="Host Artifacts Report 2" width="500" /></br>
+
 ---
 
 ## 🌐 5. Network Artifacts (Annoying)
 
-- **What?** Behavioral network indicators — unusual HTTP POST URIs, custom user‑agents, C2 patterns.  
+- **What?** Behavioral network indicators — unusual HTTP POST URIs, custom user‑agents, C2 patterns. An attacker might use a User-Agent string that hasn’t been observed in your environment before or seems out of the ordinary. The User-Agent is defined by RFC2616 as the request-header field that contains the information about the user agent originating the request.
 - **Detect with:** PCAP analysis (Wireshark/TShark), IDS/IPS signatures (Snort, Suricata).  
 - **Why it hurts:** Attackers need to re-engineer their comms, so detection gains you time. :contentReference[oaicite:8]{index=8}
 
@@ -95,5 +101,9 @@ The **Pyramid of Pain**, introduced by David Bianco in 2013, ranks indicators by
 ## 🧭 Final Word
 
 Climbing the pyramid equips your blue team with **strategic depth**. Shift from chasing weak signals at the bottom, to creating real **adversary friction** at the top. That's where you force attackers to bleed time, money—and sometimes mission failure.
+
+## Glossary
+- Command and Control (C2) Infrastructure are a set of programs used to communicate with a victim machine. This is comparable to a reverse shell, but is generally more advanced and often communicate via common network protocols, like HTTP, HTTPS and DNS.
+- URI - Uniform Resource Identifier
 
 Stay sharp, hunt smart 🔍🛡️
