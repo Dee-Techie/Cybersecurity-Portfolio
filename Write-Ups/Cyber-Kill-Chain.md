@@ -29,7 +29,7 @@ Understanding the kill chain helps security professionals like **SOC Analysts, T
 
 >Each stage is a point where defenders can detect and **interrupt the chain** before serious damage is done. 🔐
 
-# 🔍 Reconnaissance
+# 🔍🔍 Reconnaissance
 
 **Reconnaissance** is the <ins>first and foundational phase</ins> of the Cyber Kill Chain. It involves gathering intel about the target — whether it’s a person, system, or organization. This is the **planning phase** where attackers collect as much public information as possible before launching an attack. 🧠🕵️‍♂️
 
@@ -57,7 +57,7 @@ Imagine an attacker named **Megatron**, planning a high-impact cyberattack. Befo
 
 ---
 
-## 🛠️ Reconnaissance Tools
+## 🛠️🛠️ Reconnaissance Tools
 
 | Tool           | Description                                                                 |
 |----------------|-----------------------------------------------------------------------------|
