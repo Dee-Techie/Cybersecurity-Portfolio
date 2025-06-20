@@ -17,7 +17,7 @@ Understanding the kill chain helps security professionals like **SOC Analysts, T
 
 | Phase              | Description                                                                 |
 |-------------------|-----------------------------------------------------------------------------|
-| 🔍 **Reconnaissance**  | Adversary gathers intel on the target (e.g., open ports, employees, services) |
+| 🔍 [**Reconnaissance**](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cyber-Kill-Chain.md#-reconnaissance)  | Adversary gathers intel on the target (e.g., open ports, employees, services) |
 | 💣 **Weaponization**   | Prepares malware, payloads, or exploits based on discovered vulnerabilities |
 | ✉️ **Delivery**        | Sends malicious content via email, USB, phishing, drive-by downloads, etc.   |
 | 💥 **Exploitation**    | Triggers the malicious code to exploit system vulnerabilities                |
