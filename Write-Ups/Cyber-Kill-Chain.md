@@ -19,7 +19,7 @@ Understanding the kill chain helps security professionals like **SOC Analysts, T
 |-------------------|-----------------------------------------------------------------------------|
 | 🔍 [**Reconnaissance**](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cyber-Kill-Chain.md#-reconnaissance)  | Adversary gathers intel on the target (e.g., open ports, employees, services) |
 | 💣 [**Weaponization**](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cyber-Kill-Chain.md#%EF%B8%8F-weaponization)   | Prepares malware, payloads, or exploits based on discovered vulnerabilities |
-| ✉️ **Delivery**        | Sends malicious content via email, USB, phishing, drive-by downloads, etc.   |
+| ✉️ [**Delivery**](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cyber-Kill-Chain.md#-delivery)        | Sends malicious content via email, USB, phishing, drive-by downloads, etc.   |
 | 💥 **Exploitation**    | Triggers the malicious code to exploit system vulnerabilities                |
 | 📦 **Installation**    | Installs backdoors, malware, or tools for persistence                        |
 | 🛰️ **Command & Control** | Establishes a remote connection to control the compromised system           |
