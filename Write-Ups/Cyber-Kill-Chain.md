@@ -228,3 +228,182 @@ Defenders can make this step difficult by:
 - Filtering emails 📤
 - Isolating threats early 🔒
 
+---
+
+## 💥 Exploitation
+
+Once the malicious payload is delivered, it’s time for the attacker to **break in**! 🛠️ This is where "Megatron" moves from planning to **action**.
+
+### 🎯 What Happens in This Phase?
+
+The attacker exploits a **vulnerability** to execute malicious code on the victim’s system. This is the point where delivery turns into damage.
+
+Megatron, our villain, went with two attacks:
+- 📩 A phishing email with a **fake Office 365 login page**.
+- 📎 Another with a **macro-enabled document** that launches ransomware when opened.
+
+Both tricks worked — victims clicked, and now the system is compromised. 😬
+
+---
+
+### 🚪 Types of Exploits Used:
+- **Email-based**: Victims open attachments or click phishing links.
+- **Zero-Day Exploits**: 🕳️ Vulnerabilities unknown to the vendor. These are especially dangerous as there's **no patch or signature** yet.
+- **System/Software Exploits**: Bugs in outdated or unpatched software.
+- **Web Vulnerabilities**: SQLi, XSS, RCE — common in poorly secured web apps. Learn more in the [OWASP Top 10](https://tryhackme.com/room/owasptop10) room on TryHackMe.
+
+---
+
+### 🧗 Next Steps for the Attacker:
+Once inside, Megatron might:
+- Use **privilege escalation** techniques to gain admin rights 🔑
+- Move laterally across the network (think: from one compromised machine to another) 🔄
+- Steal credentials, maintain persistence, or install more payloads 👀
+
+> 🛡️ **Tip for Defenders:** Detection is critical here. Endpoint Detection & Response (EDR), email filtering, sandboxing, and patch management can all stop Megatron in his tracks!
+
+---
+
+### 📚 Related Concepts:
+- **Lateral Movement**: Moving within the network after gaining access. Often done using stolen credentials or remote tools.
+- **Social Engineering**: Exploiting human trust is as effective as exploiting code.
+- **Payload Execution**: This is when the malicious code actually runs.
+
+🧠 Knowing how exploitation works helps defenders stop attacks before they escalate.
+
+---
+
+## 🛠️🛠️ Installation
+
+After breaking in, the attacker needs a way to **stay in** — even if the system reboots or patches are applied. That’s where **persistence** comes in.
+
+### 🚪 What’s a Backdoor?
+
+A **backdoor** is an access point that allows attackers to bypass authentication and sneak back into a compromised system anytime they want — like having a hidden spare key under the mat. 🗝️
+
+"**Megatron**" doesn’t want to lose access if the system gets rebooted or the initial exploit is removed. So, he installs a **persistent backdoor** to maintain access.
+
+---
+
+### 🔁 How Persistence is Achieved:
+
+- **🕸️ Web Shells**  
+  Malicious scripts (like `.php`, `.asp`, `.jsp`) uploaded to a web server to execute commands remotely.  
+  ⚠️ These are often hard to detect and blend in as harmless files.
+
+- **💻 Backdoors via Meterpreter**  
+  A Metasploit payload that gives full remote control. Attackers can install it quietly and use it interactively.
+
+- **🔧 Windows Services Modification (T1543.003)**  
+  Adversaries create or tamper with Windows services to run their malware consistently.  
+  They might name them something legit-sounding like `SystemUpdateService.exe` to avoid suspicion.
+
+- **🗝️ Registry Run Keys & Startup Folder (T1547.001)**  
+  Attackers add entries to ensure the malicious payload runs at login — for every user, every time.
+
+- **🕒 Timestomping**  
+  Modify file timestamps (created, modified, accessed) to blend malicious files with legitimate ones and avoid forensic detection.
+
+---
+
+### 🧠 Learn More:
+- Explore [Windows Persistence Techniques](https://tryhackme.com/room/windowsinternals9) on TryHackMe.
+- See [Microsoft’s guide on web shell attacks](https://www.microsoft.com/security/blog/2020/06/25/web-shell-attacks-a-walk-through-of-the-latest-threats/) for real-world insights.
+- Browse [MITRE ATT&CK](https://attack.mitre.org) for more tactics like T1543 and T1547.
+
+> 🔐 **Pro Tip**: Use EDR tools and regularly audit startup items and services to catch hidden persistence tricks.
+
+Persistence isn’t just sneaky — it’s critical for an attacker to maintain long-term access. Detecting and removing it early can break their entire plan! 🚫👣
+
+---
+
+## 🎮 Command & Control (C2)
+
+Now that "Megatron" has persistence, it’s time to **take control**.  
+Welcome to the **Command & Control** phase — where malware phones home. ☎️💀
+
+---
+
+### 🧠 What is C2?
+
+**Command & Control (C2)** — also known as C&C/C2 **Beaconing** — refers to the communication between an attacker’s server and the compromised system.
+
+- The infected host "beacons" back to the attacker's server.
+- Once connected, the attacker can run commands, exfiltrate data, install more malware, or move laterally across the network.
+
+---
+
+### 🌐 C2 in Action
+
+After persistence, Megatron’s malware opens a channel to a C2 server — think of it like malware calling its boss for orders. 📡
+
+Traditionally, attackers used **IRC (Internet Relay Chat)** as their channel, but that’s outdated and easily detected.
+
+### 🔌 Common C2 Channels Today
+
+- **🛰️ HTTP/HTTPS (Ports 80 & 443)**  
+  This is the **most common method** — blends in with regular web traffic, making it stealthy.  
+  Firewalls often let it through unless deep packet inspection is used.
+
+- **🌐 DNS Tunneling**  
+  The malware disguises its data as DNS queries.  
+  These frequent, tiny requests fly under the radar.  
+  Example: Instead of `update.software.com`, the malware might query something like `a1b2c3.attacker.com`.
+
+> 🛡️ *Why it matters*: These covert communication paths are how attackers control your system **after initial compromise** — detecting and cutting them off is vital to break the kill chain!
+
+---
+
+### 👁️‍🗨️ Who Owns the C2?
+
+- The attacker could be directly operating the C2 infrastructure
+- Or they might route it through another **compromised system** — making attribution harder.
+
+---
+
+### 🧰 Detect & Defend
+
+- Monitor for **unusual beaconing patterns** (regular intervals, odd hours)
+- Analyze DNS logs for **suspicious queries**
+- Use EDR/XDR tools to track **outbound connections** from endpoints
+- Deploy **network segmentation** to limit lateral movement
+
+> 🔒 Cutting off C2 = cutting off the attacker’s control 🎯
+
+---
+
+## 🎯 Exfiltration - Actions on Objectives
+
+After climbing every stage of the Cyber Kill Chain, **"Megatron"** is finally ready to achieve what he came for — his ultimate goals. 🧑‍💻💣
+
+---
+
+### 💼 What Happens Here?
+
+This is the final phase where attackers **act on their intent** — whether it's theft, destruction, or disruption.
+
+With hands-on-keyboard access, the attacker can now:
+
+- 🔐 **Steal credentials** (usernames, passwords, tokens)
+- 🧱 **Escalate privileges** to gain elevated access (e.g. Domain Admin)
+- 🕵️‍♂️ **Conduct internal reconnaissance** to map out the network or find more vulnerabilities
+- 🔁 **Move laterally** through other systems or departments
+- 📤 **Exfiltrate sensitive data** (e.g. intellectual property, customer info, source code)
+- 🧹 **Delete backups and Shadow Copies** to prevent recovery
+- 🧨 **Corrupt or overwrite critical data** to cause maximum damage
+
+> ☠️ *This is where the attacker cashes in on all the previous steps.*
+
+---
+
+### 🛡️ Defenders, Pay Attention!
+
+To defend against this phase, security teams should:
+
+- Monitor for **data egress anomalies** (large outbound transfers, encryption)
+- Use **DLP (Data Loss Prevention)** tools
+- Restrict sensitive systems with **network segmentation**
+- Log and alert on **Shadow Copy deletions or backup tampering**
+- Enforce **least privilege access** across the network
+
+> 🎓 *If you've detected the attack at this phase — it may already be too late. The best defense is stopping the attack much earlier in the chain.*
