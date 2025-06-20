@@ -152,5 +152,79 @@ Weaponization is the attacker’s blueprint phase — preparing the digital tool
 
 ---
 
+## 📦📦 Delivery
 
+Now that **Megatron** 🦾 has built his weapon in the Weaponization phase, it’s time to <ins>deliver the malicious package</ins> to his target. The **Delivery** phase is where the attacker **transmits the payload** to the victim — and it’s one of the first points where defenders can actively **intervene**! 🚫🛡️
+
+---
+
+### 🧠 What happens during Delivery?
+
+This phase is all about choosing **how** to get the malware into the hands (or machines) of the victims. Megatron has multiple options — each with different levels of stealth, complexity, and effectiveness.
+
+---
+
+### 📬 Common Delivery Methods
+
+| 🚀 Method                     | 📝 Description |
+|------------------------------|----------------|
+| ✉️ **Phishing Emails**        | Sending emails with malicious attachments or links — sometimes targeted (spearphishing). |
+| 🔌 **USB Drop Attacks**       | Leaving infected USB drives in public or mailing them with fake branding. |
+| 🌐 **Watering Hole Attacks**  | Compromising a trusted website visited by the target and injecting malware. |
+| 📎 **Malicious Attachments**  | Sending infected PDFs, Office docs, or zipped executables. |
+| 📲 **Malicious Mobile Apps**  | Uploading malware-laden apps to app stores or sideloaded channels. |
+
+---
+
+### 💻 Example: Spearphishing in Action
+
+Megatron finds out via LinkedIn that **Nancy** in Sales frequently interacts with **Scott** from another company. He creates a fake email that appears to come from Scott — using a similar-looking domain — and sends Nancy a convincing invoice attachment. 📄📧
+
+The attachment contains Megatron’s payload, masked as a legitimate document. One careless click, and boom — malware is delivered! 💥
+
+---
+
+### ☠️ USB Drop Example
+
+In a more "hands-on" approach, Megatron:
+- Prints USBs with Company A’s logo 🖨️,
+- Loads them with malware disguised as marketing material,
+- Mails them with a handwritten note saying “Thanks for your partnership! 🎁”
+
+Curiosity kills the cat... and the network.
+
+🔗 **Real Case**: [Cybercriminals mailing USB drives](https://www.csoonline.com/article/3644094/cybercriminal-group-mails-malicious-usb-dongles-to-targeted-companies.html) pretending to be gifts. 🚚💣
+
+---
+
+### 🌐 Watering Hole Attack Explained
+
+In this method:
+- Megatron targets a **trusted website** frequently visited by Company A employees,
+- Exploits a vulnerability to inject malicious code,
+- Sends out emails with a “harmless” link to the site.
+
+Once users visit, malware is downloaded without their knowledge — a **drive-by download**. 🕳️🦠
+
+Example: A fake browser update popup appears on the site, urging the user to install a malicious “extension.” 🧩
+
+---
+
+### 🛡️ Defensive Tips
+
+You can block attacks during the Delivery phase by:
+- 🧼 Training employees to spot phishing
+- 📥 Blocking suspicious file types at email gateways
+- 💽 Disabling auto-run on USB ports
+- 🔍 Using secure web gateways & DNS filtering
+- 🛑 Monitoring web traffic for redirection and anomalies
+
+---
+
+The **Delivery** phase is the adversary's first real attempt to reach their target. Whether through clever phishing, rogue USBs, or poisoned websites, the goal is always the same: **get the malware onto the system**.
+
+Defenders can make this step difficult by:
+- Educating users 🙋‍♀️
+- Filtering emails 📤
+- Isolating threats early 🔒
 
