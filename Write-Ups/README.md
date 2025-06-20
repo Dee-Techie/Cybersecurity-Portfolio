@@ -10,7 +10,7 @@ As I journey through the world of **cybersecurity**, I’m documenting everythin
 
 | 🗂️ Topic                        | 🔗 Link                   | 📅 Status       |
 |-------------------------------|------------------------------------|-----------------|
-| 🛡️ Cyber Defence Framework             | [View Frameworks 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cyber-Defence-Framework.md)           | ✅ Complete     |
+| 🛡️ Cyber Defence Framework             | [View Frameworks 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cyber-Defence-Framework.md)           | 🛠️ In Progress     |
 | 🖥️ Windows Basics              | [Windows Command Line 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Windows%20Command%20line.md)           | ✅ Complete     |
 | 💻 PowerShell Fundamentals     | [Windows PowerShell 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Windows%20PowerShell.md)                | ✅ Complete |
 | 💻 LinuxShells      | [Linux Shells 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Linux%20Shells.md)                | ✅ Complete |
