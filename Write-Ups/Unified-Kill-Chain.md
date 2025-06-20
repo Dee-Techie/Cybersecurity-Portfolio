@@ -1,6 +1,6 @@
 # 🔗 Unified Kill Chain: A Complete Look at Modern Cyber Attacks
 
-The **Unified Kill Chain (UKC)** by Paul Pols is a comprehensive model capturing the lifecycle of targeted cyber intrusions. It aligns closely with the [MITRE ATT&CK framework](https://attack.mitre.org) and is structured into three primary phases: **IN**, **THROUGH**, and **OUT**.
+The **[Unified Kill Chain](https://www.unifiedkillchain.com/assets/The-Unified-Kill-Chain.pdf) (UKC)** by Paul Pols is a comprehensive model capturing the lifecycle of targeted cyber intrusions. It aligns closely with the [MITRE ATT&CK framework](https://attack.mitre.org) and is structured into three primary phases: **IN**, **THROUGH**, and **OUT**.
 
 ---
 
