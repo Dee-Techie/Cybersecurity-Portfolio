@@ -2,16 +2,8 @@
 
 Welcome to my **Cybersecurity Writeups Vault** – a curated collection of notes, walkthroughs, and key takeaways from my hands-on learning journey across platforms like **TryHackMe**, **Cisco**, **Microsoft**, **IBM**, and more. This space serves as both a personal reference and a knowledge-sharing hub as I build and document my skills in ethical hacking, networking, and cyber defense.
 
----
-
-## 🎯 Why This Exists
-
 As I journey through the world of **cybersecurity**, I’m documenting everything I learn — from core protocols and attack techniques to defense strategies and tool usage and more.  
 These writeups are meant to:
-
-- 💡 Help me retain and review knowledge
-- 🔍 Showcase my hands-on learning
-- 👥 Support other learners in the community
 
 ---
 
