@@ -59,10 +59,6 @@ The **Pyramid of Pain**, introduced by David Bianco in 2013, ranks indicators by
 
 <img src="https://github.com/user-attachments/assets/d83133c0-c189-44d3-a01d-4d8a7c58f6f4" alt="Host Artifacts Report 2" width="500" /></br>
 
-### Practical Example : 
-- Attack: SilentShadow's ransomware has successfully encrypted some files. To maintain persistence and hide its tracks, it creates a specific registry key: HKCU\Software\SilentShadow\Persistence. It also uses a unique network traffic pattern: small, encrypted UDP packets on port 4444.
-- Your Detection: Your endpoint detection and response (EDR) system identifies the creation of HKCU\Software\SilentShadow\Persistence. Your network monitoring tools detect the unusual UDP traffic on port 4444. You configure your EDR to alert on this registry key and your firewall to block UDP 4444.
-- Adversary's "Pain": Annoying. Now SilentShadow has to start changing more than just network addresses or file hashes. They need to modify their code to use a different registry key location or a different network protocol/port. This takes more development time and might disrupt their established tooling or processes. They're still effective, but you're making them work for it.
 ---
 
 ## 🌐 5. Network Artifacts (Annoying)
@@ -72,13 +68,10 @@ The **Pyramid of Pain**, introduced by David Bianco in 2013, ranks indicators by
 - **Why it hurts:** Attackers need to re-engineer their comms, so detection gains you time.
 - P.S. If you can detect the custom User-Agent strings that the attacker is using, you might be able to block them, creating more obstacles and making their attempt to compromise the network more annoying.👿😤
 
-### Practical Example : 
-- Attack: After analyzing the silent_shadow_vX.exe samples, your incident response team discovers that SilentShadow is consistently using a custom-built, open-source tool called "ShadowSpray" for network scanning and lateral movement within your internal network before deploying the ransomware. ShadowSpray has specific command-line arguments and file names it leaves behind.
-- Your Detection: You develop EDR rules that specifically detect the execution patterns of "ShadowSpray," its common command-line arguments, and its unique file drops. Your security team actively hunts for these tool-specific indicators.
-- Adversary's "Pain": Challenging. SilentShadow now has a significant problem. Their tried-and-true lateral movement tool, "ShadowSpray," is being detected. They can't just change an IP; they have to either:
-  - Find a completely new, comparable tool (which might be expensive or less effective).
-  - Develop a new custom tool from scratch (very time-consuming and costly).
-  - Heavily modify "ShadowSpray" to obscure its unique characteristics, which again requires significant development effort. You've severely hampered their ability to move   within your network, forcing them to re-evaluate their entire reconnaissance and lateral movement phase.
+### Practical Example of Network/Host Artifacts: 
+- Attack: SilentShadow's ransomware has successfully encrypted some files. To maintain persistence and hide its tracks, it creates a specific registry key: HKCU\Software\SilentShadow\Persistence. It also uses a unique network traffic pattern: small, encrypted UDP packets on port 4444.
+- Your Detection: Your endpoint detection and response (EDR) system identifies the creation of HKCU\Software\SilentShadow\Persistence. Your network monitoring tools detect the unusual UDP traffic on port 4444. You configure your EDR to alert on this registry key and your firewall to block UDP 4444.
+- Adversary's "Pain": Annoying. Now SilentShadow has to start changing more than just network addresses or file hashes. They need to modify their code to use a different registry key location or a different network protocol/port. This takes more development time and might disrupt their established tooling or processes. They're still effective, but you're making them work for it.
 ---
 
 ## 🛠️ 6. Tools (Challenging)
@@ -90,6 +83,23 @@ The **Pyramid of Pain**, introduced by David Bianco in 2013, ranks indicators by
   - [Fuzzy hashing](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Pyramid-of-Pain.md#glossary) (SSDeep) to detect modified malware.
   - Use feeds like MalwareBazaar, Malshare, SOC Prime TDM.  
 - **Real-world context:** SentinelOne & Cisco enhance CTI by hunting behaviors, not just signatures.
+
+### Practical Example : 
+- Attack: After analyzing the silent_shadow_vX.exe samples, your incident response team discovers that SilentShadow is consistently using a custom-built, open-source tool called "ShadowSpray" for network scanning and lateral movement within your internal network before deploying the ransomware. ShadowSpray has specific command-line arguments and file names it leaves behind.
+- Your Detection: You develop EDR rules that specifically detect the execution patterns of "ShadowSpray," its common command-line arguments, and its unique file drops. Your security team actively hunts for these tool-specific indicators.
+- Adversary's "Pain": Challenging. SilentShadow now has a significant problem. Their tried-and-true lateral movement tool, "ShadowSpray," is being detected. They can't just change an IP; they have to either:
+  - Find a completely new, comparable tool (which might be expensive or less effective).
+  - Develop a new custom tool from scratch (very time-consuming and costly).
+  - Heavily modify "ShadowSpray" to obscure its unique characteristics, which again requires significant development effort. You've severely hampered their ability to move   within your network, forcing them to re-evaluate their entire reconnaissance and lateral movement phase.
+
+---
+
+## 🧠 7. TTPs (Tough)
+
+- **What?** Attackers plans and objectives - Tactics, Techniques & Procedures (e.g., [MITRE ATT&CK](https://attack.mitre.org/) methods).  
+- **Detection methods:** Behavioral analytics, Windows Event logs, EDR/EDR/XDR correlation.  
+- **Why it’s devastating:** Attackers must fully revamp their campaign — tooling, procedures, and training are all affected. 
+- **Summiting the Pyramid:** MITRE Engenuity’s framework promotes analytic robustness by decomposing tools vs OS-native actions.
 
 ### Practical Example : 
 - Attack:  Your security team, through meticulous analysis of multiple SilentShadow incidents (both against your company and others), identifies their overarching TTPs:
@@ -110,15 +120,6 @@ The **Pyramid of Pain**, introduced by David Bianco in 2013, ranks indicators by
   - Completely rethink their initial access strategy.
   - Develop entirely new ways to execute code, maintain persistence, and move laterally.
   - Invest in significant research and development to discover new vulnerabilities or develop novel evasion techniques. This level of disruption makes their attack campaign incredibly inefficient, costly, and potentially forces them to abandon the attack altogether or redirect their efforts to easier targets. You've not just blocked a single attack; you've dismantled their entire operational approach against your organization.
-
----
-
-## 🧠 7. TTPs (Tough)
-
-- **What?** Attackers plans and objectives - Tactics, Techniques & Procedures (e.g., [MITRE ATT&CK](https://attack.mitre.org/) methods).  
-- **Detection methods:** Behavioral analytics, Windows Event logs, EDR/EDR/XDR correlation.  
-- **Why it’s devastating:** Attackers must fully revamp their campaign — tooling, procedures, and training are all affected. 
-- **Summiting the Pyramid:** MITRE Engenuity’s framework promotes analytic robustness by decomposing tools vs OS-native actions.
 
 ---
 
