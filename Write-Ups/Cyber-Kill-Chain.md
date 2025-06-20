@@ -20,10 +20,10 @@ Understanding the kill chain helps security professionals like **SOC Analysts, T
 | 🔍 [**Reconnaissance**](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cyber-Kill-Chain.md#-reconnaissance)  | Adversary gathers intel on the target (e.g., open ports, employees, services) |
 | 💣 [**Weaponization**](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cyber-Kill-Chain.md#%EF%B8%8F-weaponization)   | Prepares malware, payloads, or exploits based on discovered vulnerabilities |
 | ✉️ [**Delivery**](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cyber-Kill-Chain.md#-delivery)        | Sends malicious content via email, USB, phishing, drive-by downloads, etc.   |
-| 💥 **Exploitation**    | Triggers the malicious code to exploit system vulnerabilities                |
-| 📦 **Installation**    | Installs backdoors, malware, or tools for persistence                        |
-| 🛰️ **Command & Control** | Establishes a remote connection to control the compromised system           |
-| 🎯 **Actions on Objectives** | Executes final goals: data theft, encryption, sabotage, or lateral movement |
+| 💥 [**Exploitation**](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cyber-Kill-Chain.md#-exploitation)    | Triggers the malicious code to exploit system vulnerabilities                |
+| 📦 [**Installation**](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cyber-Kill-Chain.md#%EF%B8%8F%EF%B8%8F-installation)    | Installs backdoors, malware, or tools for persistence                        |
+| 🛰️ [**Command & Control**](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cyber-Kill-Chain.md#-command--control-c2) | Establishes a remote connection to control the compromised system           |
+| 🎯 [**Exfilteration-Actions on Objectives**](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cyber-Kill-Chain.md#-exfiltration---actions-on-objectives) | Executes final goals: data theft, encryption, sabotage, or lateral movement |
 
 ---
 
@@ -74,7 +74,7 @@ Imagine an attacker named **Megatron**, planning a high-impact cyberattack. Befo
 
 ---
 
-## ⚔️ Weaponization
+## ⚔️⚔️ Weaponization
 
 Once our adversary completes his Reconnaissance mission, he moves on to crafting his digital weapon. This stage — **Weaponization** — is all about <ins>creating or acquiring a **malicious payload** that can exploit the target’s system</ins> without needing direct interaction. Think of it as assembling a high-tech trap. 🪤💻
 
@@ -123,7 +123,7 @@ Less-skilled attackers often purchase:
 
 ---
 
-## 🔌 Weaponization Techniques
+## 🔌🔌 Weaponization Techniques
 
 Weaponization isn’t just about writing malware — it's about **delivery strategy**:
 
@@ -230,7 +230,7 @@ Defenders can make this step difficult by:
 
 ---
 
-## 💥 Exploitation
+## 💥💥 Exploitation
 
 Once the malicious payload is delivered, it’s time for the attacker to **break in**! 🛠️ This is where "Megatron" moves from planning to **action**.
 
@@ -317,7 +317,7 @@ Persistence isn’t just sneaky — it’s critical for an attacker to maintain 
 
 ---
 
-## 🎮 Command & Control (C2)
+## 🎮🎮 Command & Control (C2)
 
 Now that "Megatron" has persistence, it’s time to **take control**.  
 Welcome to the **Command & Control** phase — where malware phones home. ☎️💀
@@ -372,7 +372,7 @@ Traditionally, attackers used **IRC (Internet Relay Chat)** as their channel, bu
 
 ---
 
-## 🎯 Exfiltration - Actions on Objectives
+## 🎯🎯 Exfiltration - Actions on Objectives
 
 After climbing every stage of the Cyber Kill Chain, **"Megatron"** is finally ready to achieve what he came for — his ultimate goals. 🧑‍💻💣
 
