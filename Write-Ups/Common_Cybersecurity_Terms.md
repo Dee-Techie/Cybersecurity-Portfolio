@@ -1,4 +1,4 @@
-# 🔐 100 Common Cybersecurity Terms & Definitions
+# 🔐 Most Common Cybersecurity Terms & Definitions
 
 | Term                                    | Description                                                                            |
 |:--------------------------------------|:---------------------------------------------------------------------------------------|
