@@ -8,6 +8,6 @@ This folder contains sample policies, procedures, and compliance artifacts for G
 - 🧳 Acceptable Use Policy
 - 📡 [Incident Response Template](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Security-Policies/Incident-Response-Playbook.md)
 - 🔍 Sample Audit Checklist
-- 📧 [Spotting Fishing emails]
+- 📧 [Spotting Fishing emails](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Security-Policies/Spotting-Fishing-emails.md)
 
 > These samples demonstrate my knowledge of regulatory compliance, governance, and documentation best practices.
