@@ -407,3 +407,9 @@ To defend against this phase, security teams should:
 - Enforce **least privilege access** across the network
 
 > 🎓 *If you've detected the attack at this phase — it may already be too late. The best defense is stopping the attack much earlier in the chain.*
+
+
+---
+
+<sub>🔗 References & Resources:
+TryHackMe — Cyber Kill Chain | Cyber Security 101 (THM) [TryHackMe](https://tryhackme.com/room/cyberkillchainzmt)</sub>
