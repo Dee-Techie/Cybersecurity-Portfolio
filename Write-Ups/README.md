@@ -23,14 +23,13 @@ As I journey through the world of **cybersecurity**, I’m documenting everythin
 
 ## ✍️ Featured Writeups
 
-- 🚧 🆘 Lost in Acronyms? [Here is your go-to guide](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Common_Abbreviations.md) for making sense of all those abbreviations.
+- 🧩 Acronyms Got You Dizzy? [Crack the Code](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Common_Abbreviations.md) — no more guessing what those letters mean!
 
+- 🌐 Port Talk: [Who’s Listening & Where](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Common_Protocols_and_Ports.md)? Know your TCPs from your UDPs like a pro.
 
-- 🚪📨 Who’s Listening? Common Protocols & Their Ports. Every protocol has a home — here’s [where they live!](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Common_Protocols_and_Ports.md)
+- 🖥️ Terminally Curious? [50 Linux Commands](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Common-Linux-Cmd.md) to help you stop Googling every two minutes.
 
-- 👩‍💻 Here are some commonly used Linux commands
-[50 Most Common Linux Commands](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Common-Linux-Cmd.md)
-
+- 🔐 Speak the Lingo: [Cybersecurity Buzzwords](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/100_Common_Cybersecurity_Terms.md) — the terms every cyber rookie needs to drop confidently.
 ---
 
 ## 🧰 Tools I Use
