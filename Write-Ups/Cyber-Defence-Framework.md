@@ -13,7 +13,7 @@ Below is a growing collection of bite-sized articles that unpack each major cybe
 | 🧩 Framework |  Link | 💡 What It’s About |
 |--------------|---------|---------------------|
 | Pyramid of Pain | [Read](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Pyramid-of-Pain.md) | How much it *hurts* attackers when we disrupt different indicators. Spoiler: some hurt more than others. 😈 |
-| Cyber Kill Chain | [Read](./cyber-kill-chain.md) | A classic model from Lockheed Martin that maps how attacks unfold — and where to stop them. 🎯 |
+| Cyber Kill Chain | [Read](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cyber-Kill-Chain.md) | A classic model from Lockheed Martin that maps how attacks unfold — and where to stop them. 🎯 |
 | Unified Kill Chain | [Read](./unified-kill-chain.md) | Like the Kill Chain... but on steroids. Combines tactics from other frameworks for a fuller picture. 🔗🔍 |
 | Diamond Model | [Read](./diamond-model.md) | A visual way to connect the dots: adversary, infrastructure, capability, and victim. 💎✨ |
 | MITRE ATT&CK | [Read](./mitre.md) | The go-to playbook of attacker behaviors — used by pros around the world. 🧰🕵️ |
