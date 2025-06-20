@@ -30,17 +30,6 @@ As I journey through the world of **cybersecurity**, I’m documenting everythin
 
 - 👩‍💻 Here are some commonly used Linux commands
 [50 Most Common Linux Commands](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Common-Linux-Cmd.md)
----
-
-## 📌 What's Next?
-
-🔜 Coming soon:  
-- Web Hacking
-- Offensive Security Tooling
-- Defensive Security Tooling
-- Security Tools
-- Blue Team Tools & Logs   
-- PowerShell for DFIR  
 
 ---
 
@@ -48,10 +37,11 @@ As I journey through the world of **cybersecurity**, I’m documenting everythin
 
 - 🧠 TryHackMe  
 - 📘 Obsidian for note-taking
-- 🔭Remmina for Remote Desktop
+- 🔭 Remmina for Remote Desktop
 - 🐙 GitHub for version control  
 - 🎓 ChatGPT (yes, I did!)  
-- 💻 PowerShell, Wireshark, Netstat, and friends
+- 💻 PowerShell, LinuxShell, Wireshark, Netstat.
+- 🦀 John the Ripper, Metasploit.
 
 ---
 
