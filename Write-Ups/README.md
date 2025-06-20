@@ -29,7 +29,7 @@ As I journey through the world of **cybersecurity**, I’m documenting everythin
 
 - 🖥️ Terminally Curious? [50 Linux Commands](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Common-Linux-Cmd.md) to help you stop Googling every two minutes.
 
-- 🔐 Speak the Lingo: [Cybersecurity Buzzwords](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/100_Common_Cybersecurity_Terms.md) — the terms every cyber rookie needs to drop confidently.
+- 🔐 Speak the Lingo: [Cybersecurity Buzzwords](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Common_Cybersecurity_Terms.md) — the terms every cyber rookie needs to drop confidently.
 ---
 
 ## 🧰 Tools I Use
