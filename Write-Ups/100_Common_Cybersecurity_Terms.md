@@ -1,204 +1,85 @@
 # 🔐 100 Common Cybersecurity Terms & Definitions
 
-| Term | Emoji | Description |
-|------|--------|-------------|
-| Access Control | 🔐 | Security technique to regulate who can view or use resources. |
-| Access Control v2 | 🔐 | Security technique to regulate who can view or use resources. |
-| Access Control v2 | 🔐 | Security technique to regulate who can view or use resources. |
-| Access Control v2 v2 | 🔐 | Security technique to regulate who can view or use resources. |
-| Advanced Persistent Threat (APT) | 🎯 | A prolonged and targeted cyberattack in which an intruder gains access and remains undetected. |
-| Advanced Persistent Threat (APT) v2 | 🎯 | A prolonged and targeted cyberattack in which an intruder gains access and remains undetected. |
-| Advanced Persistent Threat (APT) v2 | 🎯 | A prolonged and targeted cyberattack in which an intruder gains access and remains undetected. |
-| Advanced Persistent Threat (APT) v2 v2 | 🎯 | A prolonged and targeted cyberattack in which an intruder gains access and remains undetected. |
-| Adware | 📢 | Software that displays unwanted ads on your device. |
-| Adware v2 | 📢 | Software that displays unwanted ads on your device. |
-| Adware v2 | 📢 | Software that displays unwanted ads on your device. |
-| Antivirus | 🛡️ | Software designed to detect and destroy computer viruses. |
-| Antivirus v2 | 🛡️ | Software designed to detect and destroy computer viruses. |
-| Antivirus v2 | 🛡️ | Software designed to detect and destroy computer viruses. |
-| Backdoor | 🚪 | Hidden method of bypassing normal authentication. |
-| Backdoor v2 | 🚪 | Hidden method of bypassing normal authentication. |
-| Backdoor v2 | 🚪 | Hidden method of bypassing normal authentication. |
-| Beaconing | 📡 | Regular communication from an infected device to a command & control server. |
-| Beaconing v2 | 📡 | Regular communication from an infected device to a command & control server. |
-| Beaconing v2 | 📡 | Regular communication from an infected device to a command & control server. |
-| Botnet | 🤖 | Network of infected devices controlled as a group. |
-| Botnet v2 | 🤖 | Network of infected devices controlled as a group. |
-| Botnet v2 | 🤖 | Network of infected devices controlled as a group. |
-| Brute Force Attack | 💪 | Trial-and-error method to decode encrypted data such as passwords. |
-| Brute Force Attack v2 | 💪 | Trial-and-error method to decode encrypted data such as passwords. |
-| Brute Force Attack v2 | 💪 | Trial-and-error method to decode encrypted data such as passwords. |
-| Buffer Overflow | 🧠 | Error that occurs when data exceeds a buffer’s storage capacity. |
-| Buffer Overflow v2 | 🧠 | Error that occurs when data exceeds a buffer’s storage capacity. |
-| Buffer Overflow v2 | 🧠 | Error that occurs when data exceeds a buffer’s storage capacity. |
-| CIA Triad | ⚖️ | Model of Confidentiality, Integrity, and Availability in cybersecurity. |
-| CIA Triad v2 | ⚖️ | Model of Confidentiality, Integrity, and Availability in cybersecurity. |
-| CIA Triad v2 | ⚖️ | Model of Confidentiality, Integrity, and Availability in cybersecurity. |
-| Clickjacking | 🖱️ | Malicious technique of tricking a user into clicking something different than they perceive. |
-| Clickjacking v2 | 🖱️ | Malicious technique of tricking a user into clicking something different than they perceive. |
-| Clickjacking v2 | 🖱️ | Malicious technique of tricking a user into clicking something different than they perceive. |
-| Command and Control (C2) | 🕹️ | Servers that attackers use to maintain communications with compromised systems. |
-| Command and Control (C2) v2 | 🕹️ | Servers that attackers use to maintain communications with compromised systems. |
-| Command and Control (C2) v2 | 🕹️ | Servers that attackers use to maintain communications with compromised systems. |
-| Cookie | 🍪 | Small file stored on the user’s computer by a website. |
-| Cookie v2 | 🍪 | Small file stored on the user’s computer by a website. |
-| Cookie v2 | 🍪 | Small file stored on the user’s computer by a website. |
-| Credential Stuffing | 🔑 | Using stolen credentials to access multiple accounts. |
-| Credential Stuffing v2 | 🔑 | Using stolen credentials to access multiple accounts. |
-| Credential Stuffing v2 | 🔑 | Using stolen credentials to access multiple accounts. |
-| Cryptojacking | ⛏️ | Using someone’s computer to mine cryptocurrency without permission. |
-| Cryptojacking v2 | ⛏️ | Using someone’s computer to mine cryptocurrency without permission. |
-| Cryptojacking v2 | ⛏️ | Using someone’s computer to mine cryptocurrency without permission. |
-| DNS Tunneling | 🧩 | Method of bypassing network security using DNS queries. |
-| DNS Tunneling v2 | 🧩 | Method of bypassing network security using DNS queries. |
-| DNS Tunneling v2 | 🧩 | Method of bypassing network security using DNS queries. |
-| Dark Web | 🌑 | Part of the internet not indexed by search engines, often used for illicit activities. |
-| Dark Web v2 | 🌑 | Part of the internet not indexed by search engines, often used for illicit activities. |
-| Dark Web v2 | 🌑 | Part of the internet not indexed by search engines, often used for illicit activities. |
-| Data Breach | 📂 | Unauthorized access and retrieval of sensitive information. |
-| Data Breach v2 | 📂 | Unauthorized access and retrieval of sensitive information. |
-| Data Breach v2 | 📂 | Unauthorized access and retrieval of sensitive information. |
-| Denial of Service (DoS) | 🚫 | Attack meant to shut down a machine or network. |
-| Denial of Service (DoS) v2 | 🚫 | Attack meant to shut down a machine or network. |
-| Denial of Service (DoS) v2 | 🚫 | Attack meant to shut down a machine or network. |
-| Dictionary Attack | 📖 | Cracking passwords using a list of likely possibilities. |
-| Dictionary Attack v2 | 📖 | Cracking passwords using a list of likely possibilities. |
-| Dictionary Attack v2 | 📖 | Cracking passwords using a list of likely possibilities. |
-| Digital Forensics | 🕵️ | Field of retrieving and analyzing data from digital devices. |
-| Digital Forensics v2 | 🕵️ | Field of retrieving and analyzing data from digital devices. |
-| Digital Forensics v2 | 🕵️ | Field of retrieving and analyzing data from digital devices. |
-| Drive-by Download | 🚗 | Unintended download of malicious code to a computer. |
-| Drive-by Download v2 | 🚗 | Unintended download of malicious code to a computer. |
-| Drive-by Download v2 | 🚗 | Unintended download of malicious code to a computer. |
-| Encryption | 🔒 | Process of converting information into code to prevent unauthorized access. |
-| Encryption v2 | 🔒 | Process of converting information into code to prevent unauthorized access. |
-| Encryption v2 | 🔒 | Process of converting information into code to prevent unauthorized access. |
-| Exploit | 💥 | A piece of code that takes advantage of a bug or vulnerability. |
-| Exploit v2 | 💥 | A piece of code that takes advantage of a bug or vulnerability. |
-| Exploit v2 | 💥 | A piece of code that takes advantage of a bug or vulnerability. |
-| Firewall | 🔥 | System that prevents unauthorized access to or from a private network. |
-| Firewall v2 | 🔥 | System that prevents unauthorized access to or from a private network. |
-| Firewall v2 | 🔥 | System that prevents unauthorized access to or from a private network. |
-| Hashing | 🔢 | Transforming data into a fixed-size string of characters. |
-| Hashing v2 | 🔢 | Transforming data into a fixed-size string of characters. |
-| Hashing v2 | 🔢 | Transforming data into a fixed-size string of characters. |
-| Honeypot | 🍯 | Security mechanism set to detect or deflect unauthorized access. |
-| Honeypot v2 | 🍯 | Security mechanism set to detect or deflect unauthorized access. |
-| Honeypot v2 | 🍯 | Security mechanism set to detect or deflect unauthorized access. |
-| Incident Response | 🚨 | Plan for handling cybersecurity breaches or attacks. |
-| Incident Response v2 | 🚨 | Plan for handling cybersecurity breaches or attacks. |
-| Incident Response v2 | 🚨 | Plan for handling cybersecurity breaches or attacks. |
-| Injection Attack | 💉 | Exploiting a computer bug by inserting malicious code. |
-| Injection Attack v2 | 💉 | Exploiting a computer bug by inserting malicious code. |
-| Injection Attack v2 | 💉 | Exploiting a computer bug by inserting malicious code. |
-| Insider Threat | 🏠 | Security risk that originates from within the organization. |
-| Insider Threat v2 | 🏠 | Security risk that originates from within the organization. |
-| Insider Threat v2 | 🏠 | Security risk that originates from within the organization. |
-| Keylogger | 🎹 | Records keystrokes to capture sensitive information. |
-| Keylogger v2 | 🎹 | Records keystrokes to capture sensitive information. |
-| Keylogger v2 | 🎹 | Records keystrokes to capture sensitive information. |
-| Logic Bomb | 🧨 | Code triggered by a specific event. |
-| Logic Bomb v2 | 🧨 | Code triggered by a specific event. |
-| Logic Bomb v2 | 🧨 | Code triggered by a specific event. |
-| Malware | 🐛 | Malicious software like viruses, worms, trojans, etc. |
-| Malware v2 | 🐛 | Malicious software like viruses, worms, trojans, etc. |
-| Malware v2 | 🐛 | Malicious software like viruses, worms, trojans, etc. |
-| Man-in-the-Middle Attack | 🕴️ | Eavesdropping on communication between two parties. |
-| Man-in-the-Middle Attack v2 | 🕴️ | Eavesdropping on communication between two parties. |
-| Man-in-the-Middle Attack v2 | 🕴️ | Eavesdropping on communication between two parties. |
-| Multi-Factor Authentication (MFA) | 📲 | Security system that requires more than one method of authentication. |
-| Multi-Factor Authentication (MFA) v2 | 📲 | Security system that requires more than one method of authentication. |
-| Multi-Factor Authentication (MFA) v2 | 📲 | Security system that requires more than one method of authentication. |
-| Patch Management | 🩹 | Regular updating of software to fix vulnerabilities. |
-| Patch Management v2 | 🩹 | Regular updating of software to fix vulnerabilities. |
-| Patch Management v2 | 🩹 | Regular updating of software to fix vulnerabilities. |
-| Payload | 📦 | Malicious part of malware that performs the attack. |
-| Payload v2 | 📦 | Malicious part of malware that performs the attack. |
-| Payload v2 | 📦 | Malicious part of malware that performs the attack. |
-| Penetration Testing | 🕳️ | Simulated cyberattack to test defenses. |
-| Penetration Testing v2 | 🕳️ | Simulated cyberattack to test defenses. |
-| Penetration Testing v2 | 🕳️ | Simulated cyberattack to test defenses. |
-| Phishing | 🎣 | Tricking people into revealing personal information. |
-| Phishing v2 | 🎣 | Tricking people into revealing personal information. |
-| Phishing v2 | 🎣 | Tricking people into revealing personal information. |
-| Ransomware | 💰 | Malware that locks data and demands ransom for its release. |
-| Ransomware v2 | 💰 | Malware that locks data and demands ransom for its release. |
-| Ransomware v2 | 💰 | Malware that locks data and demands ransom for its release. |
-| Rootkit | 🌱 | Software that allows unauthorized users to control a system. |
-| Rootkit v2 | 🌱 | Software that allows unauthorized users to control a system. |
-| Rootkit v2 | 🌱 | Software that allows unauthorized users to control a system. |
-| SIEM | 📊 | Security Information and Event Management. |
-| SIEM v2 | 📊 | Security Information and Event Management. |
-| SIEM v2 | 📊 | Security Information and Event Management. |
-| SQL Injection | 🗃️ | Injecting SQL commands via input fields to manipulate databases. |
-| SQL Injection v2 | 🗃️ | Injecting SQL commands via input fields to manipulate databases. |
-| SQL Injection v2 | 🗃️ | Injecting SQL commands via input fields to manipulate databases. |
-| Sandboxing | 🏖️ | Running programs in isolated environments for testing. |
-| Sandboxing v2 | 🏖️ | Running programs in isolated environments for testing. |
-| Sandboxing v2 | 🏖️ | Running programs in isolated environments for testing. |
-| Scareware | 😱 | Tricks users into buying unnecessary software. |
-| Scareware v2 | 😱 | Tricks users into buying unnecessary software. |
-| Scareware v2 | 😱 | Tricks users into buying unnecessary software. |
-| Shadow Copy | 🗂️ | Backup copies or snapshots of computer files or volumes. |
-| Shadow Copy v2 | 🗂️ | Backup copies or snapshots of computer files or volumes. |
-| Shadow Copy v2 | 🗂️ | Backup copies or snapshots of computer files or volumes. |
-| Skimming | 💳 | Capturing data from credit cards. |
-| Skimming v2 | 💳 | Capturing data from credit cards. |
-| Skimming v2 | 💳 | Capturing data from credit cards. |
-| Smishing | 📩 | Phishing attack over SMS. |
-| Smishing v2 | 📩 | Phishing attack over SMS. |
-| Smishing v2 | 📩 | Phishing attack over SMS. |
-| Sniffing | 🐽 | Monitoring and capturing network traffic. |
-| Sniffing v2 | 🐽 | Monitoring and capturing network traffic. |
-| Sniffing v2 | 🐽 | Monitoring and capturing network traffic. |
-| Social Engineering | 🎭 | Manipulating people into giving up confidential information. |
-| Social Engineering v2 | 🎭 | Manipulating people into giving up confidential information. |
-| Social Engineering v2 | 🎭 | Manipulating people into giving up confidential information. |
-| Spear Phishing | 🎯 | Phishing targeting a specific individual or organization. |
-| Spear Phishing v2 | 🎯 | Phishing targeting a specific individual or organization. |
-| Spear Phishing v2 | 🎯 | Phishing targeting a specific individual or organization. |
-| Spoofing | 👻 | Disguising communication from an unknown source as being from a known source. |
-| Spoofing v2 | 👻 | Disguising communication from an unknown source as being from a known source. |
-| Spoofing v2 | 👻 | Disguising communication from an unknown source as being from a known source. |
-| Spyware | 🕵️ | Software that secretly gathers user information. |
-| Spyware v2 | 🕵️ | Software that secretly gathers user information. |
-| Spyware v2 | 🕵️ | Software that secretly gathers user information. |
-| Threat Hunting | 🔍 | Proactively searching through systems for malicious activity. |
-| Threat Hunting v2 | 🔍 | Proactively searching through systems for malicious activity. |
-| Threat Hunting v2 | 🔍 | Proactively searching through systems for malicious activity. |
-| Timestomping | ⏰ | Changing timestamps of a file to hide activities. |
-| Timestomping v2 | ⏰ | Changing timestamps of a file to hide activities. |
-| Timestomping v2 | ⏰ | Changing timestamps of a file to hide activities. |
-| Trojan Horse | 🐴 | Malware disguised as legitimate software. |
-| Trojan Horse v2 | 🐴 | Malware disguised as legitimate software. |
-| Trojan Horse v2 | 🐴 | Malware disguised as legitimate software. |
-| Two-Factor Authentication | 🔐 | Using two methods to verify identity. |
-| Two-Factor Authentication v2 | 🔐 | Using two methods to verify identity. |
-| Two-Factor Authentication v2 | 🔐 | Using two methods to verify identity. |
-| URL Filtering | 🌐 | Blocking access to specific websites or URLs. |
-| URL Filtering v2 | 🌐 | Blocking access to specific websites or URLs. |
-| URL Filtering v2 | 🌐 | Blocking access to specific websites or URLs. |
-| Virus | 🦠 | Malware that replicates by infecting other programs. |
-| Virus v2 | 🦠 | Malware that replicates by infecting other programs. |
-| Virus v2 | 🦠 | Malware that replicates by infecting other programs. |
-| Vulnerability | 🔓 | Weakness in a system that can be exploited. |
-| Vulnerability v2 | 🔓 | Weakness in a system that can be exploited. |
-| Vulnerability v2 | 🔓 | Weakness in a system that can be exploited. |
-| Watering Hole Attack | 🚰 | Compromising websites often visited by the target. |
-| Watering Hole Attack v2 | 🚰 | Compromising websites often visited by the target. |
-| Watering Hole Attack v2 | 🚰 | Compromising websites often visited by the target. |
-| Web Shell | 🕸️ | Script used to gain and maintain access on a compromised web server. |
-| Web Shell v2 | 🕸️ | Script used to gain and maintain access on a compromised web server. |
-| Web Shell v2 | 🕸️ | Script used to gain and maintain access on a compromised web server. |
-| Whaling | 🐋 | Spear phishing targeting high-profile individuals. |
-| Whaling v2 | 🐋 | Spear phishing targeting high-profile individuals. |
-| Whaling v2 | 🐋 | Spear phishing targeting high-profile individuals. |
-| Worm | 🪱 | Self-replicating malware that spreads without human action. |
-| Worm v2 | 🪱 | Self-replicating malware that spreads without human action. |
-| Worm v2 | 🪱 | Self-replicating malware that spreads without human action. |
-| YARA Rules | 📜 | Rules used to identify malware patterns. |
-| YARA Rules v2 | 📜 | Rules used to identify malware patterns. |
-| YARA Rules v2 | 📜 | Rules used to identify malware patterns. |
-| Zero-Day Exploit | 🧨 | Attack exploiting a previously unknown vulnerability. |
-| Zero-Day Exploit v2 | 🧨 | Attack exploiting a previously unknown vulnerability. |
-| Zero-Day Exploit v2 | 🧨 | Attack exploiting a previously unknown vulnerability. |
+| Term                                  | Emoji   | Description                                                                            |
+|:--------------------------------------|:--------|:---------------------------------------------------------------------------------------|
+| Access Control                        | 🔐      | Mechanism that restricts access to resources to authorized users.                      |
+| Advanced Persistent Threat (APT)      | 🎯      | Prolonged and targeted cyberattack by a well-funded threat actor.                      |
+| Adware                                | 📢      | Software that automatically displays or downloads ads.                                 |
+| Antivirus                             | 🛡️      | Software that detects and removes malicious software.                                  |
+| Backdoor Entry                        | 🚪      | A hidden method to gain unauthorized access to a system.                               |
+| Beaconing                             | 📡      | Periodic communication from a compromised device to a C2 server.                       |
+| Botnet                                | 🤖      | Network of infected devices controlled by a hacker.                                    |
+| Brute Force Attack                    | 💪      | Attempt to crack a password by trying many combinations.                               |
+| Bug Bounty                            | 💰      | Reward program for discovering security vulnerabilities.                               |
+| Clickjacking                          | 🖱️      | Tricking a user into clicking something different than intended.                       |
+| Command and Control (C2)              | 🕹️      | Channel used by attackers to communicate with compromised systems.                     |
+| Credential Stuffing                   | 🧠      | Using leaked credentials to access other accounts.                                     |
+| Cryptojacking                         | ⛏️      | Unauthorized use of someone’s computer to mine cryptocurrency.                         |
+| Cyber Hygiene                         | 🧼      | Practices to maintain good cybersecurity health.                                       |
+| Cyber Threat Intelligence             | 📘      | Information about threats to help defend systems.                                      |
+| DLP (Data Loss Prevention)            | 🛑      | Tools to prevent sensitive data from being shared.                                     |
+| DNS Tunneling                         | 🌐      | Method to transmit data through DNS queries for C2.                                    |
+| Dark Web                              | 🌑      | Part of the internet not indexed by search engines, often used for illegal activities. |
+| Data Breach                           | 📂      | Exposure of confidential data to unauthorized parties.                                 |
+| Denial of Service (DoS)               | 🚫      | Attack that makes a service unavailable.                                               |
+| Digital Forensics                     | 🔍      | Investigation of digital devices for legal evidence.                                   |
+| Drive-by Download                     | 🚗      | Download of malicious software without user consent.                                   |
+| Email Spoofing                        | ✉️      | Faking the sender's address in an email message.                                       |
+| Encryption                            | 🔒      | Scrambling data to prevent unauthorized access.                                        |
+| Endpoint Detection and Response (EDR) | 🎛️      | Tools for monitoring and responding to threats on endpoints.                           |
+| Exploit                               | 💥      | Code used to take advantage of a vulnerability.                                        |
+| Firewall                              | 🔥      | Network security device that monitors traffic.                                         |
+| Hashing                               | 🔢      | One-way encryption for verifying data integrity.                                       |
+| Honeypot                              | 🍯      | Decoy system to lure and detect attackers.                                             |
+| Incident Response                     | 🚨      | Plan to handle and recover from cyberattacks.                                          |
+| Indicators of Compromise (IOC)        | 🧾      | Clues that a system may be compromised.                                                |
+| Insider Threat                        | 🏠      | Risk posed by employees or contractors.                                                |
+| Keylogger                             | 🎹      | Software that records keystrokes.                                                      |
+| Least Privilege                       | ⚖️      | Users have only the access they need—no more.                                          |
+| Logic Bomb                            | 💣      | Malicious code that triggers under certain conditions.                                 |
+| MAC Filtering                         | 📋      | Restricting network access by device MAC address.                                      |
+| Malware                               | 🐛      | Malicious software like viruses or ransomware.                                         |
+| Man-in-the-Middle (MitM)              | 🕵️      | Intercepting communication between two parties.                                        |
+| Multi-Factor Authentication (MFA)     | 🔐      | Authentication using two or more verification methods.                                 |
+| NAC (Network Access Control)          | 🌐      | Controls devices' access to the network.                                               |
+| Patch Management                      | 🩹      | Applying software updates to fix vulnerabilities.                                      |
+| Payload                               | 📦      | The malicious part of malware that does the damage.                                    |
+| Penetration Testing                   | 🕳️      | Simulated attack to test a system’s defenses.                                          |
+| Pharming                              | 🌾      | Redirecting users to fake websites without their knowledge.                            |
+| Phishing                              | 🎣      | Fraudulent attempt to obtain sensitive information.                                    |
+| Privilege Escalation                  | 🛡️⬆️    | Gaining higher-level access than permitted.                                            |
+| Ransomware                            | 💰      | Malware that encrypts files and demands payment.                                       |
+| Red Team                              | 🔴      | Simulated attack team in cybersecurity testing.                                        |
+| Risk Assessment                       | 📉      | Evaluating potential security threats.                                                 |
+| Rootkit                               | 🪵      | Stealthy malware that provides privileged access.                                      |
+| SIEM                                  | 📊      | Security Information and Event Management tool.                                        |
+| SQL Injection                         | 🧬      | Inserting SQL commands into input fields to manipulate databases.                      |
+| Sandboxing                            | 🏖️      | Running apps in isolated environments for testing.                                     |
+| Scareware                             | 😱      | Tricks user into thinking their system is infected.                                    |
+| Security Audit                        | 🧾      | Evaluation of a system's security posture.                                             |
+| Smishing                              | 📲      | Phishing using SMS messages.                                                           |
+| Social Engineering                    | 🎭      | Tricking people into giving up sensitive info.                                         |
+| Spear Phishing                        | 🎯      | Targeted phishing aimed at specific individuals.                                       |
+| Spoofing                              | 👻      | Disguising a communication to look legitimate.                                         |
+| Spyware                               | 🕵️      | Software that secretly gathers user info.                                              |
+| Threat Actor                          | 🎭      | Individual or group conducting a cyberattack.                                          |
+| Threat Hunting                        | 🔦      | Proactive search for threats in a network.                                             |
+| Threat Modeling                       | 🧠      | Identifying and prioritizing potential threats.                                        |
+| Timestomping                          | ⏰      | Changing file timestamps to hide evidence.                                             |
+| Token                                 | 🔑      | Small hardware or software-based device for authentication.                            |
+| Trojan Horse                          | 🐴      | Malware disguised as legitimate software.                                              |
+| Two-Factor Authentication             | 📱      | Authentication using two methods.                                                      |
+| URL Filtering                         | 🚦      | Restricting access to specific URLs.                                                   |
+| Virus                                 | 🦠      | Malware that replicates by modifying other programs.                                   |
+| Vishing                               | 📞      | Phishing via voice calls.                                                              |
+| Vulnerability                         | ⚠️      | Weakness that can be exploited by a threat actor.                                      |
+| Watering Hole Attack                  | 💧      | Compromising websites often visited by targets.                                        |
+| Web Application Firewall (WAF)        | 🛡️      | Filters and monitors HTTP traffic to and from a web app.                               |
+| Web Shell                             | 🕸️      | Script used to maintain access on a web server.                                        |
+| Whaling                               | 🐋      | Phishing attack targeting high-level executives.                                       |
+| White Hat                             | 🤍      | Ethical hacker who helps improve security.                                             |
+| Worm                                  | 🪱      | Self-replicating malware that spreads across systems.                                  |
+| XSS (Cross-Site Scripting)            | 🔁      | Injecting malicious scripts into trusted websites.                                     |
+| YARA Rules                            | 📜      | Pattern matching rules for identifying malware.                                        |
+| Zero Trust                            | 🚫      | Security model assuming no implicit trust anywhere in the network.                     |
+| Zero-Day Exploit                      | 🧨      | Exploiting an unknown vulnerability before it's patched.                               |
