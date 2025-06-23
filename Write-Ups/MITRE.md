@@ -83,16 +83,104 @@
 
 ---
 
-## 🧠 Summary
+## 🧪 ATT&CK® Emulation Plans & Threat Intelligence
 
-MITRE has become a **cornerstone in cybersecurity** through its research and publicly available frameworks. Whether you're detecting real-world APT threats or building proactive defenses, MITRE tools help both red and blue teams:
+### 📚 MITRE Engenuity & CTID
+
+If MITRE’s core frameworks weren’t enough, they’ve expanded their research efforts under the **[MITRE Engenuity](https://mitre-engenuity.org/)** initiative, particularly through:
+
+- **🧪 Adversary Emulation Library**
+- **📑 ATT&CK® Emulation Plans**
+
+These resources are developed and shared by the **Center for Threat-Informed Defense (CTID)**—a MITRE initiative backed by global cybersecurity vendors and companies.
+
+### 🧠 CTID – Center for Threat-Informed Defense
+
+CTID is a collaborative R&D organization focused on improving global cyber defense using threat-informed strategies. It leverages the MITRE ATT&CK knowledge base and develops:
+
+- Open-source software 🧰
+- Defensive frameworks 🛡️
+- Public datasets 📂
+
+**Founding and Participant Organizations include:**
+
+- 🧪 [AttackIQ](https://www.attackiq.com/) (Founder)  
+- 🛡️ [Microsoft](https://www.microsoft.com/en-us/security) (Founder)  
+- 📡 [Verizon](https://enterprise.verizon.com)  
+- 🧱 [Red Canary](https://redcanary.com) (Founder)  
+- 📊 [Splunk](https://www.splunk.com)
+
+> _“Together with Participant organizations, we cultivate solutions for a safer world and advance threat-informed defense with open-source software, methodologies, and frameworks.”_ – CTID
+
+🌐 Visit: [center-for-threat-informed-defense.org](https://www.center-for-threat-informed-defense.org)
+
+---
+
+### 🧪 ATT&CK® Emulation Plans
+
+The **[Adversary Emulation Library](https://attack.mitre.org/resources/adversary-emulation-plans/)** provides free, publicly available plans for red and blue teams to **mimic real-world APT groups**.
+
+💡 These plans simulate threat actor behavior using real TTPs and infrastructure associated with known adversaries.
+
+**Examples include:**
+- 🕵️ **APT3**
+- 🧊 **APT29**
+- 💰 **FIN6**
+
+🔍 Use Case: If leadership asks _“How would we fare if APT29 targeted us?”_—you can simulate the full intrusion using these emulation plans and present tangible results.
+
+🧪 These are ideal for:
+- Purple Team exercises  
+- Detection & response testing  
+- SOC readiness assessments
+
+---
+
+### 🛰️ ATT&CK® and Threat Intelligence (CTI)
+
+**Cyber Threat Intelligence (CTI)** refers to data and insights about attacker behaviors, tools, and tactics (TTPs).
+
+When integrated with **ATT&CK**, CTI becomes **actionable intelligence** that improves:
+
+- 📈 Detection strategy  
+- 🔐 Defensive posture  
+- 🧠 Strategic decision-making
+
+🏢 Large enterprises often have dedicated CTI teams, while smaller orgs rely on defenders wearing many hats. In either case, ATT&CK makes it easier to:
+
+- Map IOCs and TTPs to known threat groups  
+- Identify gaps in existing controls  
+- Prioritize mitigation strategies  
+
+🔗 Intel Sources may include:
+- **Open source feeds** (e.g., [MISP](https://www.misp-project.org/))
+- **Premium threat intel services** (e.g., CrowdStrike, Recorded Future)
+
+✅ Goal of CTI: Turn raw threat data into **actionable defense decisions**.
+
+---
+
+## 🧠 Final Summary
+
+MITRE has become a **cornerstone in modern cybersecurity**, offering a wide array of **free, vendor-neutral, and community-driven** resources that support both offensive and defensive security operations.
+
+From **tracking real-world adversary behavior** to **building and validating proactive defenses**, MITRE tools empower defenders at all levels—SOC analysts, red/blue/purple teams, and cybersecurity students alike. 💡
+
+Their ecosystem of tools and initiatives forms a complete threat-informed defense lifecycle:
 
 | MITRE Tool | Purpose | Link |
 |------------|---------|------|
-| 🧩 **ATT&CK®** | Maps attacker behavior to known tactics/techniques | [attack.mitre.org](https://attack.mitre.org) |
-| 📊 **CAR** | Detection logic mapped to ATT&CK | [car.mitre.org](https://car.mitre.org) |
-| 🫱 **ENGAGE** | Proactive defense and adversary engagement | [engage.mitre.org](https://engage.mitre.org) |
-| 🛡️ **D3FEND** | Defensive countermeasures to known attacks | [d3fend.mitre.org](https://d3fend.mitre.org) |
-| 🧪 **AEP** | Emulation of APT behaviors for purple teaming | [AEP Library](https://attack.mitre.org/resources/adversary-emulation-plans/) |
+| 🧩 **[ATT&CK®](https://attack.mitre.org/)** | Maps attacker behavior to known tactics, techniques, and procedures (TTPs) |
+| 📊 **[CAR](https://car.mitre.org/)** | Detection logic and analytics mapped to ATT&CK |
+| 🫱 **[ENGAGE](https://engage.mitre.org/)** | Proactive defense via deception and adversary engagement |
+| 🛡️ **[D3FEND](https://d3fend.mitre.org/)** | Defensive countermeasures mapped to known attacks |
+| 🧪 **[AEP – Emulation Plans](https://attack.mitre.org/resources/adversary-emulation-plans/)** | Simulations of real-world APT groups for purple teaming and testing |
+| 🌐 **[CTID](https://www.center-for-threat-informed-defense.org/)** | Global research initiative for collaborative threat-informed defense |
 
-MITRE’s resources are **free**, **vendor-neutral**, and **community-driven**, making them a must-know for SOC analysts, threat hunters, red/blue/purple teams, and cybersecurity students. 💡
+📦 **MITRE’s Emulation Plans** and the **Center for Threat-Informed Defense (CTID)** bridge the gap between **theory and practice**. With adversary emulation libraries (like APT29 and FIN6) and actionable threat intelligence, defenders can now answer questions like:
+
+> _“How prepared are we if we were targeted by a threat group like APT29?”_
+
+Using MITRE’s tools, that answer is no longer hypothetical—it’s measurable.
+
+✅ Whether your focus is **detection**, **preven**
