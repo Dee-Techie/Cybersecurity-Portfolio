@@ -16,7 +16,7 @@ Below is a growing collection of bite-sized articles that unpack each major cybe
 | Pyramid of Pain | [Read](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Pyramid-of-Pain.md) | How much it *hurts* attackers when we disrupt different indicators. Spoiler: some hurt more than others. 😈 |
 | Cyber Kill Chain | [Read](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cyber-Kill-Chain.md) | A classic model from Lockheed Martin that maps how attacks unfold — and where to stop them. 🎯 |
 | 🦀 Unified Kill Chain (& MITRE) | [Read](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Unified-Kill-Chain.md) | Like the Kill Chain... but on steroids. Combines tactics from other frameworks for a fuller picture. 🔗🔍 |
-| Diamond Model | [Read](./diamond-model.md) | A visual way to connect the dots: adversary, infrastructure, capability, and victim. 💎✨ |
+| Diamond Model | [Read](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Diamond-Model.md) | A visual way to connect the dots: adversary, infrastructure, capability, and victim. 💎✨ |
 | 🦀 MITRE ATT&CK | [Read](./mitre.md) | The go-to playbook of attacker behaviors — used by pros around the world. 🧰🕵️ |
 | Summit Framework | [Read](./summit.md) | Helps defenders align, set goals, and actually *do the work* of detecting threats. 🧗‍♀️📈 |
 | Eviction Strategy | [Read](./eviction.md) | When and how to boot bad actors off your systems — without setting off alarms. 🚷🧹 |
