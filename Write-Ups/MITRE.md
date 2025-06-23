@@ -15,17 +15,6 @@
 
 ---
 
-## 🔑 Common Terminology
-
-### 🎯 APT – Advanced Persistent Threat
-
-- Refers to **threat groups** or **nation-state actors** that conduct long-term, targeted cyberattacks.
-- "Advanced" doesn't always mean complex or zero-day attacks—often they use **well-known techniques** that can be **detected and mitigated** with the right tools and strategies.
-
-📚 For a current list of known APT groups, check out [Mandiant’s APT Profiles](https://www.mandiant.com/resources/apt-groups).
-
----
-
 ## 🚀 Key MITRE Cybersecurity Projects
 
 ### 🧩 1. [ATT&CK® Framework](https://attack.mitre.org/) (Adversarial Tactics, Techniques & Common Knowledge)
