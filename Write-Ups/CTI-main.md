@@ -28,7 +28,7 @@ Here’s how threat analysts use open-source tools in real-world investigations:
 |--------|----------|
 | 🌐 [**UrlScan.io**](https://urlscan.io/) | Scan and analyze suspicious URLs for redirection, malware, or phishing content. |
 | 💣 [**Abuse.ch**](https://abuse.ch/) | Track botnets, ransomware families, and known malware indicators (e.g., IOCs, hashes). [Malware Bazaar](https://bazaar.abuse.ch/), [Feodo Tracker](https://feodotracker.abuse.ch/), [SSL Blacklist](https://sslbl.abuse.ch/), [URLhaus](https://urlhaus.abuse.ch/), [ThreatFox](https://threatfox.abuse.ch/)  |
-| 📬 [**PhishTool**]( | Investigate suspicious emails and identify phishing attempts using advanced analysis. |
+| 📬 [**PhishTool**](https://www.phishtool.com/) | Investigate suspicious emails and identify phishing attempts using advanced analysis. |
 | 🔎 [**Cisco Talos**]( | Perform deep threat research using one of the most comprehensive intel platforms. |
 
 
@@ -55,5 +55,7 @@ Here’s how threat analysts use open-source tools in real-world investigations:
 
 > 📝 *Stay informed. Stay ahead. That’s the CTI mindset.*
 
-[View THM Room](https://tryhackme.com/room/threatinteltools) 
+<sub>🔗 References & Resources:
+[View THM Room](https://tryhackme.com/room/threatinteltools)</sub> |
+<sub>[THM Explanation](https://medium.com/@haircutfish/tryhackme-threat-intelligence-tools-task-4-abuse-ch-38c498112ea5)</sub>
 
