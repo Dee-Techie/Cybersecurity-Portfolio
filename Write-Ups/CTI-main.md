@@ -1,0 +1,48 @@
+# 🧠 Cyber Threat Intelligence (CTI)
+
+Cyber Threat Intelligence (CTI) is all about **knowing your enemy** — who’s targeting you, why, how, and what you can do about it. CTI gives cybersecurity teams the context and insights they need to prevent, detect, and respond to threats faster and smarter. ⚔️🕵️‍♀️
+
+Whether you’re in SOC operations, red teaming, or just threat hunting on a Friday night (hello, overtimers 👋), CTI brings value to every layer of security.
+
+---
+
+## 🔄 CTI Lifecycle
+
+Effective CTI isn’t just about collecting data — it’s about turning raw intel into **actionable insights** that drive smart decisions. Here's how the CTI lifecycle works:
+
+| Phase | Description |
+|-------|-------------|
+| 🎯 **Direction** | Define goals, threat priorities, critical assets, and questions to be answered. |
+| 📦 **Collection** | Gather data from open-source intel, commercial feeds, internal logs, honeypots, and sensors. |
+| 🧹 **Processing** | Normalize and format raw data (e.g., logs, malware hashes, alerts) into usable intel. |
+| 🔍 **Analysis** | Correlate indicators, uncover attacker patterns, and turn data into insights. |
+| 📤 **Dissemination** | Share findings with relevant teams — execs get trends, analysts get IOCs and TTPs. |
+| 🔁 **Feedback** | Refine intel based on what worked, what didn’t, and what’s needed next. |
+
+---
+
+## 🛠️ CTI Tools
+
+CTI thrives on the right set of tools — from detection and collaboration to automation. Here’s your starting lineup:
+
+| Tool | What it Does | Page |
+|------|---------------|------|
+| 🕷️ **YARA** | Pattern-matching tool to identify malware families and suspicious files. | [Read More →](./yara.md) |
+| 🧰 **OpenCTI** | Open-source platform for managing and sharing structured threat intel. | [Read More →](./opencti.md) |
+| 🧠 **MISP** | Threat intel sharing platform used to store, correlate, and distribute IOCs. | [Read More →](./misp.md) |
+| 💼 **Friday Overtime** | Intel feed curated by threat researchers — great for weekly digests and TTPs. | [Read More →](./friday_overtime.md) |
+| 🛡️ **TROOPERS** | Security conference with solid research on attacker behavior and CTI tooling. | [Read More →](./trooper.md) |
+
+---
+
+## 📌 Why CTI Matters
+
+- 🌍 Helps defend against real-world threats, not just theoretical vulnerabilities
+- 🔓 Strengthens detection rules with relevant IOCs & TTPs
+- 🕵️ Informs red/blue team strategies
+- 📈 Supports risk-based decision-making at the business level
+
+---
+
+> 📝 *Stay informed. Stay ahead. That’s the CTI mindset.*
+
