@@ -29,15 +29,15 @@ Here’s how threat analysts use open-source tools in real-world investigations:
 | 🌐 [**UrlScan.io**](https://urlscan.io/) | Scan and analyze suspicious URLs for redirection, malware, or phishing content. |
 | 💣 [**Abuse.ch**](https://abuse.ch/) | Track botnets, ransomware families, and known malware indicators (e.g., IOCs, hashes). [Malware Bazaar](https://bazaar.abuse.ch/), [Feodo Tracker](https://feodotracker.abuse.ch/), [SSL Blacklist](https://sslbl.abuse.ch/), [URLhaus](https://urlhaus.abuse.ch/), [ThreatFox](https://threatfox.abuse.ch/)  |
 | 📬 [**PhishTool**](https://www.phishtool.com/) | Investigate suspicious emails and identify phishing attempts using advanced analysis. |
-| 🔎 [**Cisco Talos**]( | Perform deep threat research using one of the most comprehensive intel platforms. |
+| 🔎 [**Cisco Talos**](https://talosintelligence.com/) [Whitepapers](https://www.talosintelligence.com/docs/Talos_WhitePaper.pdf) | Perform deep threat research using one of the most comprehensive intel platforms. |
 
 
 ## 🧰 CTI Tool Arsenal: Manage, Share & Analyze Threat Intel
 
 | Tool | What it Does | Page |
 |------|---------------|------|
-| 🕷️ **YARA** | Pattern-matching tool to identify malware families and suspicious files. | [Read More →](./yara.md) |
-| 🧰 **OpenCTI** | Open-source platform for managing and sharing structured threat intel. | [Read More →](./opencti.md) |
+| 🕷️ **YARA** | Pattern-matching tool to identify malware families and suspicious files. | WIP 🚧🚧🚧 |
+| 🧰 **OpenCTI** | Open-source platform for managing and sharing structured threat intel. | [Read More →](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Open-CTI.md) |
 | 🧠 **MISP** | Threat intel sharing platform used to store, correlate, and distribute IOCs. | [Read More →](./misp.md) |
 | 💼 **Friday Overtime** | Intel feed curated by threat researchers — great for weekly digests and TTPs. | [Read More →](./friday_overtime.md) |
 | 🛡️ **TROOPERS** | Security conference with solid research on attacker behavior and CTI tooling. | [Read More →](./trooper.md) |
@@ -56,6 +56,6 @@ Here’s how threat analysts use open-source tools in real-world investigations:
 > 📝 *Stay informed. Stay ahead. That’s the CTI mindset.*
 
 <sub>🔗 References & Resources:
-[View THM Room](https://tryhackme.com/room/threatinteltools)</sub> |
+[View THM Room](https://tryhackme.com/room/threatinteltools) |</sub>
 <sub>[THM Explanation](https://medium.com/@haircutfish/tryhackme-threat-intelligence-tools-task-4-abuse-ch-38c498112ea5)</sub>
 
