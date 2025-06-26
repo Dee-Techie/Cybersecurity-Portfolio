@@ -26,10 +26,10 @@ Here’s how threat analysts use open-source tools in real-world investigations:
 
 | 🛠️ Tool | Use Case |
 |--------|----------|
-| 🌐 **UrlScan.io** | Scan and analyze suspicious URLs for redirection, malware, or phishing content. |
-| 💣 **Abuse.ch** | Track botnets, ransomware families, and known malware indicators (e.g., IOCs, hashes). |
-| 📬 **PhishTool** | Investigate suspicious emails and identify phishing attempts using advanced analysis. |
-| 🔎 **Cisco Talos** | Perform deep threat research using one of the most comprehensive intel platforms. |
+| 🌐 [**UrlScan.io**](https://urlscan.io/) | Scan and analyze suspicious URLs for redirection, malware, or phishing content. |
+| 💣 [**Abuse.ch**]( | Track botnets, ransomware families, and known malware indicators (e.g., IOCs, hashes). |
+| 📬 [**PhishTool**]( | Investigate suspicious emails and identify phishing attempts using advanced analysis. |
+| 🔎 [**Cisco Talos**]( | Perform deep threat research using one of the most comprehensive intel platforms. |
 
 
 ## 🧰 CTI Tool Arsenal: Manage, Share & Analyze Threat Intel
