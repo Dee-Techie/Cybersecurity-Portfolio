@@ -13,6 +13,8 @@
 
 📢 _“At MITRE, we solve problems for a safer world.”_ — [MITRE.org](https://www.mitre.org/)
 
+![image](https://github.com/user-attachments/assets/3b1c458a-af9c-442b-8ee8-9c94a0994d29)
+
 ---
 
 ## 🚀 Key MITRE Cybersecurity Projects
