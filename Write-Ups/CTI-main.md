@@ -26,10 +26,10 @@ Here’s how threat analysts use open-source tools in real-world investigations:
 
 | 🛠️ Tool | Use Case |
 |--------|----------|
-| 🌐 [**UrlScan.io**](https://urlscan.io/) | Scan and analyze suspicious URLs for redirection, malware, or phishing content. |
-| 💣 [**Abuse.ch**](https://abuse.ch/) | Track botnets, ransomware families, and known malware indicators (e.g., IOCs, hashes). [Malware Bazaar](https://bazaar.abuse.ch/), [Feodo Tracker](https://feodotracker.abuse.ch/), [SSL Blacklist](https://sslbl.abuse.ch/), [URLhaus](https://urlhaus.abuse.ch/), [ThreatFox](https://threatfox.abuse.ch/)  |
-| 📬 [**PhishTool**](https://www.phishtool.com/) | Investigate suspicious emails and identify phishing attempts using advanced analysis. |
-| 🔎 [**Cisco Talos**](https://talosintelligence.com/) | Perform deep threat research using one of the most comprehensive intel platforms. [Whitepapers](https://www.talosintelligence.com/docs/Talos_WhitePaper.pdf) |
+| [**UrlScan.io**](https://urlscan.io/) | Scan and analyze suspicious URLs for redirection, malware, or phishing content. |
+| [**Abuse.ch**](https://abuse.ch/) | Track botnets, ransomware families, and known malware indicators (e.g., IOCs, hashes). [Malware Bazaar](https://bazaar.abuse.ch/), [Feodo Tracker](https://feodotracker.abuse.ch/), [SSL Blacklist](https://sslbl.abuse.ch/), [URLhaus](https://urlhaus.abuse.ch/), [ThreatFox](https://threatfox.abuse.ch/)  |
+| [**PhishTool**](https://www.phishtool.com/) | Investigate suspicious emails and identify phishing attempts using advanced analysis. |
+| [**Cisco Talos**](https://talosintelligence.com/) | Perform deep threat research using one of the most comprehensive intel platforms. [Whitepapers](https://www.talosintelligence.com/docs/Talos_WhitePaper.pdf) |
 
 
 ## 🧰 CTI Tool Arsenal: Manage, Share & Analyze Threat Intel
