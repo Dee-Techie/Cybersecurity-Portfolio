@@ -102,4 +102,4 @@ Check out OpenCTI's [public documentation](https://docs.opencti.io/latest/), [Gi
 ---
 References :
 - [THM](https://tryhackme.com/room/opencti)
-- [Answer Explanation Guide](https://medium.com/@haircutfish/tryhackme-opencti-task-1-thru-task-5-7b9605694249)
+- [Answer's Explanation Guide](https://medium.com/@haircutfish/tryhackme-opencti-task-1-thru-task-5-7b9605694249)
