@@ -12,8 +12,8 @@ Below is a growing collection of bite-sized articles that unpack each major cybe
 
 | 🧩 Framework |  Link | 💡 What It’s About |
 |--------------|---------|---------------------|
-| CTI | [Read](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/CTI.md) | ♻️ CTI Lifecycle & Framework |
-| STRIDE | [Read](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/STRIDE.md) | 🛡️ Threat Modelling & 🚨 Incident Response
+| CTI | [Read](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/CTI.md) | ♻️Know thy enemy. CTI helps you understand who’s attacking, why, and how — so you can hit back smarter. 🧠 |
+| STRIDE | [Read](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/STRIDE.md) | 🛡️ Microsoft’s threat model that breaks attacks into six flavors: Spoofing, Tampering, Repudiation, Info Disclosure, DoS, and Elevation. 🛡️🚨 |
 | Pyramid of Pain | [Read](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Pyramid-of-Pain.md) | How much it *hurts* attackers when we disrupt different indicators. Spoiler: some hurt more than others. 😈 |
 | Cyber Kill Chain | [Read](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cyber-Kill-Chain.md) | A classic model from Lockheed Martin that maps how attacks unfold — and where to stop them. 🎯 |
 | 🦀 Unified Kill Chain (& MITRE) | [Read](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Unified-Kill-Chain.md) | Like the Kill Chain... but on steroids. Combines tactics from other frameworks for a fuller picture. 🔗🔍 |
