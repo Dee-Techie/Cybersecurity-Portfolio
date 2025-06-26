@@ -8,7 +8,7 @@ Whether you’re in SOC operations, red teaming, or just threat hunting on a Fri
 
 ## 🔄 CTI Lifecycle
 
-Effective CTI isn’t just about collecting data — it’s about turning raw intel into **actionable insights** that drive smart decisions. Here's how the CTI lifecycle works:
+Effective [CTI](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/CTI.md) isn’t just about collecting data — it’s about turning raw intel into **actionable insights** that drive smart decisions. Here's how the CTI lifecycle works:
 
 | Phase | Description |
 |-------|-------------|
