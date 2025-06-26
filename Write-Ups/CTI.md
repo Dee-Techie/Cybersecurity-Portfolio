@@ -1,4 +1,4 @@
-# 🛡️ Cyber Threat Intelligence (CTI) Summary
+# 🛡️ Cyber Threat Intelligence (CTI)
 
 Cyber Threat Intelligence (CTI) refers to **evidence-based knowledge** about cyber adversaries, including their tactics, motivations, indicators, and suggested defensive actions. It empowers cybersecurity teams and business leaders to make informed decisions and proactively defend critical assets.
 
