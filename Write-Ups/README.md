@@ -27,7 +27,7 @@ As I journey through the world of **cybersecurity**, I’m documenting everythin
 | 🔍 Topic | 📄 Description |
 |--------|----------------|
 | 🧩 **Acronyms Got You Dizzy?** | [Crack the Code](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Common_Abbreviations.md) — no more guessing what those letters mean! |
-| 🌐 **Port Talk: [Who’s Listening & Where](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Common_Protocols_and_Ports.md)?** | Know your TCPs from your UDPs like a pro. |
+| 🌐 **Port Talk ~ [Who’s Listening & Where](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Common_Protocols_and_Ports.md)?** Know your TCPs from your UDPs like a pro. |
 | 🖥️ **Terminally Curious?** | [50 Linux Commands](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Common-Linux-Cmd.md) to help you stop Googling every two minutes. |
 | 🔐 **Speak the Lingo:** | [Cybersecurity Buzzwords](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Common_Cybersecurity_Terms.md) — the terms every cyber rookie needs to drop confidently. |
 
