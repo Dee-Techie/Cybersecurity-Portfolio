@@ -98,3 +98,8 @@ When you explore a threat entity (e.g., **Cobalt Strike**), you'll interact with
 ## 📚 Want to Learn More?
 
 Check out OpenCTI's [public documentation](https://docs.opencti.io/latest/), [GitHub](https://github.com/OpenCTI-Platform/opencti) repo, and available [connectors](https://docs.opencti.io/latest/deployment/connectors/).
+
+---
+References :
+- [THM](https://tryhackme.com/room/opencti)
+- [Answer Explanation Guide](https://medium.com/@haircutfish/tryhackme-opencti-task-1-thru-task-5-7b9605694249)
