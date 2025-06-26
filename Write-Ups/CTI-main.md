@@ -12,12 +12,12 @@ Effective CTI isn’t just about collecting data — it’s about turning raw in
 
 | Phase | Description |
 |-------|-------------|
-| 🎯 **Direction** | Define goals, threat priorities, critical assets, and questions to be answered. |
-| 📦 **Collection** | Gather data from open-source intel, commercial feeds, internal logs, honeypots, and sensors. |
-| 🧹 **Processing** | Normalize and format raw data (e.g., logs, malware hashes, alerts) into usable intel. |
-| 🔍 **Analysis** | Correlate indicators, uncover attacker patterns, and turn data into insights. |
-| 📤 **Dissemination** | Share findings with relevant teams — execs get trends, analysts get IOCs and TTPs. |
-| 🔁 **Feedback** | Refine intel based on what worked, what didn’t, and what’s needed next. |
+| 🎯 [**Direction**](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/CTI.md) | Define goals, threat priorities, critical assets, and questions to be answered. |
+| 📦 [**Collection**](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/CTI.md) | Gather data from open-source intel, commercial feeds, internal logs, honeypots, and sensors. |
+| 🧹 [**Processing**](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/CTI.md) | Normalize and format raw data (e.g., logs, malware hashes, alerts) into usable intel. |
+| 🔍 [**Analysis**](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/CTI.md) | Correlate indicators, uncover attacker patterns, and turn data into insights. |
+| 📤 [**Dissemination**](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/CTI.md) | Share findings with relevant teams — execs get trends, analysts get IOCs and TTPs. |
+| 🔁 [**Feedback**](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/CTI.md) | Refine intel based on what worked, what didn’t, and what’s needed next. |
 
 ---
 
