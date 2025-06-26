@@ -12,7 +12,7 @@ Below is a growing collection of bite-sized articles that unpack each major cybe
 
 | 🧩 Framework |  Link | 💡 What It’s About |
 |--------------|---------|---------------------|
-| 🛡️ CTI | [Lifecycle & Frameworks 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/CTI.md)      
+| 🛡️ CTI | [Lifecycle](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/CTI.md)      
 | STRIDE | [Read](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/STRIDE.md) | 🛡️ Threat Modelling & 🚨 Incident Response
 | Pyramid of Pain | [Read](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Pyramid-of-Pain.md) | How much it *hurts* attackers when we disrupt different indicators. Spoiler: some hurt more than others. 😈 |
 | Cyber Kill Chain | [Read](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cyber-Kill-Chain.md) | A classic model from Lockheed Martin that maps how attacks unfold — and where to stop them. 🎯 |
