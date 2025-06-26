@@ -56,6 +56,8 @@ The dashboard provides a real-time snapshot of:
 - View & annotate threat intel reports
 - Example: MITRE’s Triton report integration
 
+![image](https://github.com/user-attachments/assets/4caf3200-5efb-4787-9055-fd898e672166)
+
 ### 📆 Events
 - Record incidents, link to indicators, threats, and observables
 
@@ -104,6 +106,7 @@ When you explore a threat entity (e.g., **Cobalt Strike**), you'll interact with
 ![image](https://github.com/user-attachments/assets/689d2425-4275-435c-ac7b-43ca93b9ea88)
 ![image](https://github.com/user-attachments/assets/7ba9fd79-f715-48d2-8174-2347ca6b3686)
 ![image](https://github.com/user-attachments/assets/18d94d61-6f8f-4585-ae30-31170de91836)
+![image](https://github.com/user-attachments/assets/408852ca-6a62-4949-9d52-0ef3b9069db4)
 
 ---
 
