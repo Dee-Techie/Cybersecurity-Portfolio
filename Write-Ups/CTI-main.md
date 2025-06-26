@@ -20,10 +20,19 @@ Effective [CTI](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/
 | 🔁 [**Feedback**](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/CTI.md) | Refine intel based on what worked, what didn’t, and what’s needed next. |
 
 ---
+## 🔍 Practical CTI in Action
 
-## 🛠️ CTI Tools
+Here’s how threat analysts use open-source tools in real-world investigations:
 
-CTI thrives on the right set of tools — from detection and collaboration to automation. Here’s your starting lineup:
+| 🛠️ Tool | Use Case |
+|--------|----------|
+| 🌐 **UrlScan.io** | Scan and analyze suspicious URLs for redirection, malware, or phishing content. |
+| 💣 **Abuse.ch** | Track botnets, ransomware families, and known malware indicators (e.g., IOCs, hashes). |
+| 📬 **PhishTool** | Investigate suspicious emails and identify phishing attempts using advanced analysis. |
+| 🔎 **Cisco Talos** | Perform deep threat research using one of the most comprehensive intel platforms. |
+
+
+## 🧰 CTI Tool Arsenal: Manage, Share & Analyze Threat Intel
 
 | Tool | What it Does | Page |
 |------|---------------|------|
