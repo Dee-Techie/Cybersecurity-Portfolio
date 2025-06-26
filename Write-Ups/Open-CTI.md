@@ -103,6 +103,7 @@ When you explore a threat entity (e.g., **Cobalt Strike**), you'll interact with
 
 ![image](https://github.com/user-attachments/assets/689d2425-4275-435c-ac7b-43ca93b9ea88)
 ![image](https://github.com/user-attachments/assets/7ba9fd79-f715-48d2-8174-2347ca6b3686)
+![image](https://github.com/user-attachments/assets/18d94d61-6f8f-4585-ae30-31170de91836)
 
 ---
 
