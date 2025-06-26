@@ -89,6 +89,7 @@ Here are some key abbreviations you'll come across often:
 | WPA2             | Wi-Fi Protected Access 2 | A secure wireless security protocol. |
 | XSS              | Cross-Site Scripting | An injection attack targeting users of a web app. |
 | YAML             | Yet Another Markup Language | A human-readable data format used in configurations. |
+| YARA             | Yet Another Ridiculous Acronym | A tool used to identify and classify malware by creating rules that match patterns in files, binaries, or memory. |
 | Zero-Day         | Zero-Day Vulnerability | A security flaw that is unknown to the vendor and exploited in the wild. |
 
 ---
