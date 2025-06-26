@@ -62,6 +62,9 @@ The dashboard provides a real-time snapshot of:
 ### 👁️ Observations
 - Detection rules, artefacts, and technical indicators observed during threat hunts
 
+![image](https://github.com/user-attachments/assets/f2ca0a7b-6a98-4c01-af21-99106403f959)
+
+
 ### ☠️ Threats
 Classifies threat entities into:
 - **Threat Actors**: Malicious individuals/groups
@@ -75,6 +78,11 @@ Lists resources used in or related to attacks:
 - **Courses of Action**: MITRE-mapped defenses
 - **Tools**: Dual-use software like CMD
 - **Vulnerabilities**: CVEs linked to threats
+
+![image](https://github.com/user-attachments/assets/f0635f7b-9837-43fc-bbb6-1a6ee0aba04e)
+![image](https://github.com/user-attachments/assets/06789647-e8d6-4ca3-80e0-1f082d11e94c)
+![image](https://github.com/user-attachments/assets/f01dc6a0-59d5-4e90-9fe5-13bad6605177)
+
 
 ### 🌍 Entities
 Groups info by:
@@ -92,6 +100,9 @@ When you explore a threat entity (e.g., **Cobalt Strike**), you'll interact with
 - **Indicators**: All related IOCs
 - **Data**: Uploaded/generated threat files
 - **History**: Change logs to entities & relationships
+
+![image](https://github.com/user-attachments/assets/689d2425-4275-435c-ac7b-43ca93b9ea88)
+![image](https://github.com/user-attachments/assets/7ba9fd79-f715-48d2-8174-2347ca6b3686)
 
 ---
 
