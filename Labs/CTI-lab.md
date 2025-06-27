@@ -1,4 +1,4 @@
-# 🕵️‍♂️ Friday Overtime - CTI Lab
+# 🕵️‍♂️ Friday Overtime - CTI Lab (THM)
 
 **Tags**: `Cyber Threat Intelligence` `OSINT` `Malware Analysis` `MITRE ATT&CK` `CyberChef` `IOC Hunting`
 
@@ -20,7 +20,7 @@ It's a late **Friday evening** at *PandaProbe Intelligence* when a sudden notifi
 
 They've discovered **suspicious files** and need **immediate analysis**. As the lone CTI Analyst still clocked in, you take charge 💪.
 
-> The attached ZIP file contains potentially **malicious DLLs** — your mission: **analyze, identify, and report.**
+> The ZIP file (not attached here) contains potentially **malicious DLLs** — your mission: **analyze, identify, and report.**
 
 ---
 
