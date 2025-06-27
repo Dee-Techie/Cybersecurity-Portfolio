@@ -50,13 +50,13 @@ You will uncover the following:
   `T1123 - Audio Capture`
 
 - ⌛ **What is the CyberChef defanged URL of the malicious download location first seen on 2020-11-02?**  
-  _Answer format: `hxxp[://]update[.]browser[.]qq[.]com/qmbs/QQ/QQUrlMgr_QQ88_4296.exe`_
+`hxxp[://]update[.]browser[.]qq[.]com/qmbs/QQ/QQUrlMgr_QQ88_4296.exe`_
 
 - ⌛ **What is the CyberChef defanged IP address of the C&C server first detected on 2020-09-14?**  
-  _Answer format: `122[.]10[.]90[.]12`_
+`122[.]10[.]90[.]12`_
 
 - ⌛ **What is the SHA1 hash of the SpyAgent family spyware targeting Android devices on 2022-11-16?**  
-  _Answer format: `1c1fe906e822012f6235fcc53f601d006d15d7be`_
+`1c1fe906e822012f6235fcc53f601d006d15d7be`_
 
 ---
 
