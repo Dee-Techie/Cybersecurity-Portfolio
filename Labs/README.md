@@ -9,7 +9,7 @@ This folder contains hands-on labs I've completed to build practical cybersecuri
 🧠 **Skills:** CTI, OSINT, Malware Analysis, MITRE ATT&CK, CyberChef, IOC Hunting  
 🧰 **Tools:** Terminal, VirusTotal, CyberChef, MITRE, DocIntel, Google  
 📄 **Summary:**  
-Jump into the shoes of a CTI Analyst on a Friday night investigating malware targeting a finance firm. Analyze real-world artefacts, extract IOCs, and map them to MITRE techniques — all while racing against time.  
+As the lone CTI Analyst on a Friday night, I was tasked with investigating malware targeting a financial firm. I analyzed real-world artefacts, extracted IOCs, and mapped them to relevant MITRE ATT&CK techniques — all while racing against the clock. 
 🔗 [View Full Lab ➡️](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Labs/CTI-lab.md)
 
 ---
