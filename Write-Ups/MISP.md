@@ -1,99 +1,104 @@
-# 🧠 MISP – Malware Information Sharing Platform
+# 🧠 MISP – Malware Information Sharing Platform Cheat Sheet
+
+---
 
 ## 🔍 What is MISP?
 
-**[MISP](https://www.misp-project.org/)** is an **open-source threat intelligence platform** designed to facilitate the **collection, storage, sharing, and correlation** of indicators of compromise (IOCs) related to:
+**[MISP](https://www.misp-project.org/)** is an open-source **Threat Intelligence Platform (TIP)** designed to collect, store, share, and correlate **Indicators of Compromise (IOCs)** related to:
 
 - 🦠 Malware
 - 🎣 Phishing
-- 💳 Financial fraud
-- 🛡️ Cyber attacks
+- 💳 Financial Fraud
+- 🛡️ Cyber Attacks
 
-It supports closed, semi-private, and public sharing models and integrates with NIDS, SIEMs, and log analysis tools.
-
----
-
-## 🚀 Key Use Cases
-
-- 🔬 **Malware Reverse Engineering**  
-- 🕵️ **Security Investigations**  
-- 🧠 **Adversary & Threat Intelligence Analysis**  
-- 👮 **Law Enforcement & Forensics**  
-- 📊 **Risk & Threat Research**  
-- 💰 **Fraud Detection & Prevention**  
+It supports private, semi-private, and public threat-sharing communities.
 
 ---
 
-## ⚙️ MISP Core Features
+## 🚀 Use Cases
+
+- 🔬 Malware Reverse Engineering
+- 🕵️ Security Investigations
+- 🧠 Threat Intelligence & Adversary Tracking
+- 👮 Law Enforcement & Forensics
+- 📊 Risk Research
+- 💰 Financial Fraud Detection
+
+---
+
+## ⚙️ Key Features
 
 | Feature | Description |
 |--------|-------------|
-| 🧠 **IOC Database** | Stores technical and contextual data like IPs, hashes, domains |
-| 🔗 **Automatic Correlation** | Identifies links between malware, incidents, or campaigns |
-| 🔁 **Data Sharing** | Uses a decentralized sharing model |
-| ⬇️ **Import/Export** | Integrates with tools like OpenIOC, NIDS, ThreatConnect |
-| 🧬 **Event Graph** | Visualizes relationships between events, objects, attributes |
-| 📡 **API Support** | Enables automation and integration with internal tools |
+| 🧠 IOC Database | Store malware, attack, and threat-related data |
+| 🔗 Correlation Engine | Connect events and attributes across campaigns |
+| 🔁 Distributed Sharing | Supports granular sharing permissions |
+| ⬇️ Import/Export | Compatible with formats like OpenIOC and ThreatConnect |
+| 📡 API Integration | Automate ingestion and export of events |
+| 🧬 Event Graph | Visualize relationships between indicators |
 
 ---
 
 ## 🧩 Key Terminologies
 
-- **🗂️ Events**: Group of related indicators and metadata.
-- **📍 Attributes**: Data points (e.g., IPs, hashes).
-- **🔘 Objects**: Structured groupings of attributes.
-- **🔁 Object References**: Relationships between objects.
-- **🕓 Sightings**: Time-stamped observations of an attribute.
-- **🏷️ Tags**: Labels applied for classification and filtering.
-- **📚 Taxonomies**: Standardized tag libraries.
-- **🌌 Galaxies**: Threat actor profiles or attack patterns.
-- **🚨 Indicators**: Observable items that signal malicious activity.
+- **Events** – Container for grouped attributes and metadata  
+- **Attributes** – Individual data points (e.g., IPs, hashes)  
+- **Objects** – Groups of related attributes  
+- **Tags & Taxonomies** – Classification for attributes/events  
+- **Sightings** – Logs of observed IOCs  
+- **Galaxies** – High-level threat actor or malware context  
 
 ---
 
-## 🧪 Event Management Workflow
+## 🛠️ Event Management Workflow
 
-### 1️⃣ Event Creation
-- Add description, date/time, and threat level.
-- Choose a **distribution level**:
-  - 🔒 Organisation only
-  - 👥 Community only
-  - 🌐 Connected Communities
-  - 🕸️ All Communities
-- Optionally assign **sharing groups**.
+1. **Create Event** – Add title, risk level, and sharing scope
+2. **Add Attributes** – Input IOCs manually or in batch
+3. **Attach Files** – Upload malware binaries or reports
+4. **Tag with Taxonomies** – Enrich with standardized context
+5. **Publish Event** – Submit for organizational or public visibility
+
+---
+
+## 🌐 Feeds & Tagging
+
+- 🔄 **Feeds** – External threat data sources auto-updated into MISP
+- 🏷️ **Tags** – Classify data and improve filtering
+- 📚 **Taxonomies** – Use standard vocabularies like TLP, Confidence, Threat Level
+
+### Tagging Best Practices
+
+- Apply tags at **event level** unless exceptions apply.
+- Use critical tags such as:
+  - **TLP** (Traffic Light Protocol)
+  - **Confidence**
+  - **Origin**
+  - **Permissible Actions Protocol**
+
+---
+
+## 🧰 Practical Use for SOC Analysts
+
+SOC analysts use MISP to:
+
+- 📥 Enrich alerts from SIEM with threat intel
+- 🧠 Search IOCs to validate alerts
+- 📡 Share validated threats across trusted communities
+- 🤖 Automate IOC ingestion and distribution using APIs
+
+Example: If a phishing domain is flagged in the SIEM, MISP can help verify if it has been previously seen or tagged malicious, and help track related IOCs.
+
 ![image](https://github.com/user-attachments/assets/14d60b35-61af-4bcc-964d-32132eb0b00a)
 ![image](https://github.com/user-attachments/assets/1268010e-2a90-4430-927a-c9a3af818393)
-
-
-### 2️⃣ Attributes & Attachments
-- Add IOCs (e.g., Emotet IPs, hashes, URLs).
-- Attach binaries (e.g., Cobalt Strike EXEs).
-- Enable **IDS export** for detection systems.
-- Use **batch import** for multiple indicators.
-
-### 3️⃣ Event Publishing
-- Events are published by the Org Admin.
-- Shared across selected MISP community levels.
+![image](https://github.com/user-attachments/assets/2f9be0ec-1b82-465a-b3d8-c6f5b4d10a63)
 
 ---
 
-## 🌐 Feeds
+## 📚 Resources
 
-MISP feeds provide **up-to-date threat data** that analysts can preview, import, and correlate with existing events. Admins control feed availability.
-
-📦 Feeds help with:
-- 🚚 Data ingestion
-- 🔍 Threat correlation
-- 📈 Event enrichment
-
----
-
-## 🏷️ Taxonomies & Tagging
-
-### 🧮 Taxonomies
-Used to:
-- Set classification tags (e.g., **TLP**, **confidence**)
-- Standardize data labeling for tools like VirusTotal
-- Enable structured exports
-
-🔤 **Machine Tags Format**:
+- 📘 [MISP Book](https://www.misp-project.org/book/)
+- 🛠️ [MISP GitHub](https://github.com/MISP/MISP)
+- 🎓 [CIRCL MISP Training Module 1](https://www.circl.lu/doc/misp/)
+- 🎓 [CIRCL MISP Training Module 2](https://www.circl.lu/doc/misp-training/)
+- [View THM Room](https://tryhackme.com/room/misp)
+- [THM Explanation](https://medium.com/@haircutfish/tryhackme-misp-task-4-feeds-taxonomies-task-5-scenario-event-task-6-conclusion-1eab9d364039)
