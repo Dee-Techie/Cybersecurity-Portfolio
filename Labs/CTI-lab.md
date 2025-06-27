@@ -43,14 +43,14 @@ You will uncover the following:
 - ✅ **What is the SHA1 hash of the file `pRsm.dll` inside `samples.zip`?**  
   `9d1ecbbe8637fed0d89fca1af35ea821277ad2e8`
 
-- ✅ **Which malware framework utilizes these DLLs as add-on modules?**  
+- ✅ **Which malware framework utilizes `pRsm.dll` as add-on modules?**  
   `MgBot`
 
 - ✅ **Which MITRE ATT&CK Technique is linked to using `pRsm.dll` in this malware framework?**  
   `T1123 - Audio Capture`
 
 - ⌛ **What is the CyberChef defanged URL of the malicious download location first seen on 2020-11-02?**  
-  _Answer format: `*****://********.*********.****.****/****/**/********_****_*****.****`_
+  _Answer format: `hxxp[://]update[.]browser[.]qq[.]com/qmbs/QQ/QQUrlMgr_QQ88_4296.exe`_
 
 - ⌛ **What is the CyberChef defanged IP address of the C&C server first detected on 2020-09-14?**  
   _Answer format: `****.****.****.***`_
@@ -64,9 +64,14 @@ You will uncover the following:
 
 ### 1. 🔓 Extracting the Samples
 
-📸 *Screenshot Placeholder - Unzipping `samples.zip` in terminal*
+![image](https://github.com/user-attachments/assets/a2a8c623-de4a-45e1-97cb-c1a05ed0ad42)
 
 - Isolated VM booted
+- Commands used :
+  - cd : to enter a directory
+  - ls : for listing content
+  - unzip samples.zip : for unzipping
+  - sha1sum pRsm.dll : for fetching SHA1 hash for the file
 - Files extracted securely
 - SHA1 hash calculated for `pRsm.dll`
 
@@ -83,7 +88,9 @@ You will uncover the following:
 
 ### 3. 🔍 Manual Deep Dive
 
-📸 *Screenshot Placeholder - Inspecting code and behaviors*
+![image](https://github.com/user-attachments/assets/9f3abcaf-eea0-4880-9691-7c2807073bd8)
+![image](https://github.com/user-attachments/assets/30cbe44a-8725-4fa1-b54c-d89320d7e000)
+![image](https://github.com/user-attachments/assets/c432ff5b-fe9a-40b3-9dce-12ff341058f8)
 
 - Observed DLL behavior
 - Noticed audio capture and stealth functionality
@@ -93,17 +100,18 @@ You will uncover the following:
 
 ### 4. 🌐 Threat Intel Correlation
 
-📸 *Screenshot Placeholder - DocIntel/OSINT/MITRE ATT&CK*
+![image](https://github.com/user-attachments/assets/539285c4-d962-4ab7-872e-41c2b421907d)
 
 - Confirmed `T1123` (Audio Capture)
 - Checked timeline of C&C server activity
 - Identified IP and download URL
+- Cross-referenced with [MITRE](https://attack.mitre.org/versions/v12/techniques/T1123/)
 
 ---
 
 ### 5. 🧪 CyberChef Usage
 
-📸 *Screenshot Placeholder - CyberChef transformation for URL & IP*
+![image](https://github.com/user-attachments/assets/3a2bacc1-1ec6-420a-aa8a-5954a086ab3e)
 
 - URL defanged  
 - IP address defanged
@@ -129,6 +137,7 @@ You will uncover the following:
 - 🧪 MITRE mapping helps contextualize behaviors quickly
 - 🔍 CyberChef and VirusTotal are go-to tools for fast IOC enrichment
 - 🧱 Never underestimate the importance of an isolated VM
+- 🛡️ Always defang (replace . with [.]) IOCs before including them in reports, blogs, or communications.
 
 ---
 
@@ -138,11 +147,11 @@ You will uncover the following:
 - [VirusTotal](https://virustotal.com/)
 - [CyberChef](https://gchq.github.io/CyberChef/)
 - [DocIntel](https://www.docintel.io/)  
-- [MgBot Analysis - External Blog Reference](_Insert Link_)
+- [MgBot Analysis - External Blog Reference](https://www.welivesecurity.com/2023/04/26/evasive-panda-apt-group-malware-updates-popular-chinese-software/)
 
 ---
 
 > ✍️ **Authored by:** *Dee Bhatnagar*  
 > 🗓️ *Date:* June 2025  
-> 🔗 *More labs:* [Visit my GitHub Labs Section](#)
+> 🔗 *More labs:* [Visit my GitHub Labs Section](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Labs/README.md)
 
