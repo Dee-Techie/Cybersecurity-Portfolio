@@ -53,10 +53,10 @@ You will uncover the following:
   _Answer format: `hxxp[://]update[.]browser[.]qq[.]com/qmbs/QQ/QQUrlMgr_QQ88_4296.exe`_
 
 - ⌛ **What is the CyberChef defanged IP address of the C&C server first detected on 2020-09-14?**  
-  _Answer format: `****.****.****.***`_
+  _Answer format: `122[.]10[.]90[.]12`_
 
 - ⌛ **What is the SHA1 hash of the SpyAgent family spyware targeting Android devices on 2022-11-16?**  
-  _Answer format: `****************************************`_
+  _Answer format: `1c1fe906e822012f6235fcc53f601d006d15d7be`_
 
 ---
 
@@ -79,7 +79,15 @@ You will uncover the following:
 
 ### 2. 🧬 Initial Triage
 
-📸 *Screenshot Placeholder - Automated scan results (VirusTotal or in-VM analysis)*
+![image](https://github.com/user-attachments/assets/f9e64342-c7dc-4334-bb17-109095bff711)
+![image](https://github.com/user-attachments/assets/9d2528f4-7501-4e41-ab93-81ffdff0358e)
+
+ ```bash
+http://cgi1.apnic.net/cgi-bin/my-ip.php
+http://loc.map.baidu.com/sdk.php
+http://loc.map.baidu.com/sdk_ep.php
+ ```
+![image](https://github.com/user-attachments/assets/2ade1974-ad00-4989-9bf8-b098b67c502d)
 
 - Tools used: VirusTotal, CyberChef, strings, etc.
 - Basic characteristics of DLLs noted
@@ -88,8 +96,8 @@ You will uncover the following:
 
 ### 3. 🔍 Manual Deep Dive
 
+![image](https://github.com/user-attachments/assets/c536de56-78ca-4666-8ad8-cdabb29c2182)
 ![image](https://github.com/user-attachments/assets/9f3abcaf-eea0-4880-9691-7c2807073bd8)
-![image](https://github.com/user-attachments/assets/30cbe44a-8725-4fa1-b54c-d89320d7e000)
 ![image](https://github.com/user-attachments/assets/c432ff5b-fe9a-40b3-9dce-12ff341058f8)
 
 - Observed DLL behavior
@@ -112,6 +120,7 @@ You will uncover the following:
 ### 5. 🧪 CyberChef Usage
 
 ![image](https://github.com/user-attachments/assets/3a2bacc1-1ec6-420a-aa8a-5954a086ab3e)
+![image](https://github.com/user-attachments/assets/30cbe44a-8725-4fa1-b54c-d89320d7e000)
 
 - URL defanged  
 - IP address defanged
