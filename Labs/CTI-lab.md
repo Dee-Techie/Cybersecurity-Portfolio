@@ -134,9 +134,9 @@ http://loc.map.baidu.com/sdk_ep.php
 | SHA1 (`pRsm.dll`)     | `9d1ecbbe8637fed0d89fca1af35ea821277ad2e8` |
 | Malware Family        | `MgBot` |
 | MITRE Technique       | `T1123 - Audio Capture` |
-| Defanged URL          | _[To be added]_ |
-| Defanged IP           | _[To be added]_ |
-| Android SpyAgent SHA1| _[To be added]_ |
+| Defanged URL          | `hxxp[://]update[.]browser[.]qq[.]com/qmbs/QQ/QQUrlMgr_QQ88_4296.exe`_ |
+| Defanged IP           | `122[.]10[.]90[.]12`_ |
+| Android SpyAgent SHA1| `1c1fe906e822012f6235fcc53f601d006d15d7be`_ |
 
 ---
 
