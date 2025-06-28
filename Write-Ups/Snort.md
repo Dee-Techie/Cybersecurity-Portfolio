@@ -23,7 +23,7 @@ Snort is an open-source, **rule-based** **Network IDS/IPS** developed by **Marti
 
 # 🧪 First Interaction with Snort
 
-Before diving deep into packet analysis, let’s perform some essential **setup and verification tasks** for Snort! 🐗
+Before diving deep into packet analysis, let’s perform some essential **setup and verification tasks** for Snort! 🐽
 
 ---
 
