@@ -191,3 +191,6 @@ Phishing attacks usually aim to:
 ---
 
 > ⚠️ Stay vigilant and always analyze emails carefully—when in doubt, do not click!
+
+<sub>🔗 References & Resources:</sub>
+- <sub>TryHackMe — Phishing Fundamentals | SOC Analyst (THM) [TryHackMe](https://tryhackme.com/room/phishingemails1tryoe)</sub>
