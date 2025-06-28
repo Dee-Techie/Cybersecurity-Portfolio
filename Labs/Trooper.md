@@ -1,6 +1,6 @@
 # 🕵️‍♂️ Trooper - CTI Investigation Lab
 
-> **Premium Room | TryHackMe**  
+> **Goal**  
 > Use Cyber Threat Intelligence knowledge and tools to investigate a real-world APT scenario targeting a multinational tech company.
 
 ---
@@ -10,7 +10,7 @@
 A multinational technology company has experienced multiple targeted cyber attacks. These attacks have resulted in the theft of sensitive intellectual property and disruptions to business operations.
 
 A **threat advisory report** has been shared detailing similar attacks:
-🔗 [TrendMicro Report on Tropic Trooper](https://www.trendmicro.com/en_us/research/20/e/tropic-troopers-back-usbferry-attack-targets-air-gapped-environments.html)
+🔗 [TrendMicro Report](https://www.trendmicro.com/en_us/research/20/e/tropic-troopers-back-usbferry-attack-targets-air-gapped-environments.html)
 
 As a **CTI Analyst**, your mission is to:
 
@@ -24,8 +24,6 @@ As a **CTI Analyst**, your mission is to:
 
 - 🧠 [MITRE ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/)
 - 🛰️ [OpenCTI](https://www.opencti.io/)
-- 🌐 OSINT sources
-- 🧪 [VirusTotal](https://www.virustotal.com/)
 
 ---
 
@@ -52,19 +50,13 @@ Below are snapshots of the tools and resources used during analysis:
 
 ### 🔍 MITRE ATT&CK Navigator
 
-![MITRE Navigator Screenshot](./images/mitre-navigator-placeholder.png)
+![image](https://github.com/user-attachments/assets/ef619bc3-bc11-4c1c-9e3c-b4074c95b7ba)
 
 ---
 
 ### 📊 OpenCTI Analysis
 
-![OpenCTI Screenshot](./images/opencti-placeholder.png)
-
----
-
-### 🔬 VirusTotal Investigation
-
-![VirusTotal Screenshot](./images/virustotal-placeholder.png)
+![image](https://github.com/user-attachments/assets/f9affb9f-8ef8-4524-96ea-6f76bb794c3c)
 
 ---
 
