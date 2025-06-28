@@ -1,4 +1,4 @@
-## 🐷 What is Snort?
+## 🐷 What is Snort? (WIP 🚧🚧🚧)
 
 Snort is an open-source, **rule-based** **Network IDS/IPS** developed by **Martin Roesch** and maintained by the **Cisco Talos** team.
 
