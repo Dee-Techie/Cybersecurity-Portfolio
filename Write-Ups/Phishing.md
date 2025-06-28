@@ -19,7 +19,7 @@ Stay one step ahead of attackers by mastering phishing email detection and defen
 
 ---
 
-### 🛡️ 4. [Phishing Prevention]()
+### 🛡️ 4. [Phishing Prevention](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Phishing-Prevention.md)
 💡 Learn strategies and best practices to defend users and networks from phishing emails before damage is done.
 
 ---
