@@ -19,12 +19,12 @@ Stay one step ahead of attackers by mastering phishing email detection and defen
 
 ---
 
-### 🛡️ 4. [Phishing Prevention](./phishing-prevention.md)
+### 🛡️ 4. [Phishing Prevention]()
 💡 Learn strategies and best practices to defend users and networks from phishing emails before damage is done.
 
 ---
 
-### 🎯 5. [The Greenholt Phish](./the-greenholt-phish.md)
+### 🎯 5. [The Greenholt Phish]()
 🧪 Apply what you've learned to analyze a malicious email targeting the fictional Greenholt Corporation.
 
 ---
