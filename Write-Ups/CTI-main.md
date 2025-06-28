@@ -40,7 +40,7 @@ Here’s how threat analysts use open-source tools in real-world investigations:
 | 🧰 **OpenCTI** | Open-source platform for managing and sharing structured threat intel. | [Read More →](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Open-CTI.md) |
 | 🧠 **MISP** | Threat intel sharing platform used to store, correlate, and distribute IOCs. | [Read More →](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/MISP.md) |
 | 💼 **Friday Overtime** | Intel feed curated by threat researchers — great for weekly digests and TTPs. | [Read More →](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Labs/CTI-lab.md) |
-| 🛡️ **TROOPERS** | Security conference with solid research on attacker behavior and CTI tooling. | [Read More →](./trooper.md) |
+| 🛡️ **TROOPERS** | Security conference with solid research on attacker behavior and CTI tooling. | [Read More →](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Labs/Trooper.md) |
 
 ---
 
