@@ -17,6 +17,7 @@ This section explores real phishing email samples and the various techniques use
 - Urgent subject line prompts quick reaction
 - Only interactive element: **Cancel the Order** button
 - Uses shortened URLs to mask the true destination
+![image](https://github.com/user-attachments/assets/85b3548f-a6b6-4507-885f-ac39c6857e2a)
 
 ➡️ **Tip:** Use online tools to preview shortened URLs before clicking.
 
@@ -35,6 +36,8 @@ This section explores real phishing email samples and the various techniques use
 - Embedded tracking pixel image (`Tracking.png`)
 - Yahoo blocked image loading to prevent tracking
 - Link points to a shady, suspicious domain
+<img src="https://github.com/user-attachments/assets/570d90ce-4edc-427c-9b4c-aa1df3db023e" alt="Fake Email Sample 1" />
+<img src="https://github.com/user-attachments/assets/1ae5f9f9-990d-48a7-bc9c-41d9207ec1e3" alt="Fake email 1 HTML" />
 
 🔍 **Insight:** Tracking pixels can inform attackers that a user opened the email.
 
@@ -55,10 +58,10 @@ This section explores real phishing email samples and the various techniques use
 - URLs do not relate to Microsoft or Adobe
 - Page titles and layout mimic real services, but contain spelling errors
 - Fake login page captures credentials for criminal use
-<img src="https://github.com/user-attachments/assets/8c4fcbfa-58eb-4c76-a025-4d8391fd6aa9" alt="Urgent Request Emails" width="400" />
-<img src="https://github.com/user-attachments/assets/2beb4dcd-9305-477d-bcde-2ef6d7a37b40" alt="Fake Outlook page" width="400" />
-<img src="https://github.com/user-attachments/assets/84e4aa03-fbf4-4aa5-ba4f-0da1b8098bd5" alt="Fake Adobe Page" width="400" />
-<img src="https://github.com/user-attachments/assets/f18e101b-87fa-4e51-ba2f-b37967f83aea" alt="Credential Farming" width="400" />
+<img src="https://github.com/user-attachments/assets/8c4fcbfa-58eb-4c76-a025-4d8391fd6aa9" alt="Urgent Request Emails"  />
+<img src="https://github.com/user-attachments/assets/2beb4dcd-9305-477d-bcde-2ef6d7a37b40" alt="Fake Outlook page"  />
+<img src="https://github.com/user-attachments/assets/84e4aa03-fbf4-4aa5-ba4f-0da1b8098bd5" alt="Fake Adobe Page"  />
+<img src="https://github.com/user-attachments/assets/f18e101b-87fa-4e51-ba2f-b37967f83aea" alt="Credential Farming"  />
 
 ⚠️ **Reminder:** Victims are **not** logging into a real service — credentials are sent to attacker-controlled servers.
 
