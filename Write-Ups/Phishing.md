@@ -9,7 +9,7 @@ Stay one step ahead of attackers by mastering phishing email detection and defen
 
 ---
 
-### 📨 2. [Phishing Emails in Action](./phishing-emails-in-action.md)
+### 📨 2. [Phishing Emails in Action](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Phishing-Emails-in-Action.md)
 🧠 Explore real-world phishing emails. Identify red flags like spoofed addresses, suspicious links, and malicious attachments.
 
 ---
