@@ -23,3 +23,13 @@ Analyzed a real-world threat campaign by Tropic Trooper (APT X) using USBferry m
 > 🔗 [View Full Lab ➡️](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Labs/Trooper.md)
 
 ---
+
+## 📧 Phishing Email Analysis Lab 
+
+### 👨‍💻 [Snapped Phish-ing Line – Email Analysis Exercise](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Labs/Phishing-Email-Analysis-1.md)
+📅 **Date:** June 2025  
+🧠 **Skills:** Email Header Analysis, URL Inspection, OSINT, Threat Hunting, Security Awareness  
+🧰 **Tools:** PhishTool, VirusTotal, CyberChef 
+📄 **Summary:**  
+As a Level 1 SOC Analyst, I was tasked with analyzing multiple suspicious emails reported by coworkers. This lab involved extracting data from email headers and bodies, identifying spoofed addresses, shortened URLs, and determining the origin IPs and suspicious domains. The objective was to gather actionable intelligence to help the team proactively prevent similar phishing attempts in the future.
+> 🔗 View Full Lab ➡️ [Read the Lab Report](link-to-your-github-lab.md)
