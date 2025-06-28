@@ -12,7 +12,7 @@ Snort is an open-source, **rule-based** **Network IDS/IPS** developed by **Marti
 - Cross-platform (Linux/Windows)
 
 ### 🧰 Snort Modes:
-- 👀 **Sniffer Mode** – Displays live packet data.
+- 👀 [**Sniffer Mode**](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Snort.md#-snort-sniffer-parameters) – Displays live packet data.
 - 🗂️ **Packet Logger Mode** – Saves packet logs for later analysis.
 - 🧱 **NIDS/NIPS Mode** – Logs/drops malicious packets using predefined rules.
 
