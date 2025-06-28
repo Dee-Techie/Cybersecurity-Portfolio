@@ -18,7 +18,7 @@ As I journey through the world of **cybersecurity**, I’m documenting everythin
 | 🛡️ Cyber Defence Framework   | [View Frameworks 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cyber-Defence-Framework.md)          | ✅ Complete | 
 | 🧶 Cryptography        | [Cryptography Basics 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cryptography.md)                 | ✅ Complete |
 | 🔐 Exploitation           | [Exploitation Basics 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Exploitation.md)            | 🛠️ In Progress |
-| 💻 Phishing      | [Phishing Analysis 📎]()                | ✅ Complete |
+| 💻 Phishing      | [Phishing Analysis 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Phishing.md)                | ✅ Complete |
 | 🛜 Network Security and Traffic Analysis   | [IDS/IPS📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/IDS-IPS.md); [Snort📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Snort.md)             | 🛠️ In Progress  |
 | 🧠 Blue Team Foundations       | SOC Level 1                         | 🔜 Coming Soon  |
 
