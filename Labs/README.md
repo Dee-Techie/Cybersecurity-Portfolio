@@ -4,7 +4,7 @@ This folder contains hands-on labs I've completed to build practical cybersecuri
 
 ## 🔬 Cyber Threat Intelligence Labs
 
-### 🕵️‍♂️ [Friday Overtime - CTI Lab](labs/friday-overtime-lab.md)
+### 🕵️‍♂️ [Friday Overtime - CTI Lab](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Labs/CTI-lab.md)
 📅 **Date:** June 2025  
 🧠 **Skills:** CTI, OSINT, Malware Analysis, MITRE ATT&CK, CyberChef, IOC Hunting  
 🧰 **Tools:** Terminal, VirusTotal, CyberChef, MITRE, DocIntel, Google  
