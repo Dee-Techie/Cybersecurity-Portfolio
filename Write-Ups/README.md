@@ -10,12 +10,13 @@ As I journey through the world of **cybersecurity**, I’m documenting everythin
 
 | 🗂️ Topic                        | 🔗 Link                   | 📅 Status       |
 |-------------------------------|------------------------------------|-----------------|
-| 🕵️ CTI  | [Lifecycle & Tools 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/CTI-main.md)     | ✅ Complete |
+| 🕵️ Cyber Threat Intelligence  | [Lifecycle & Tools 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/CTI-main.md)     | ✅ Complete |
 | 🛡️ Cyber Defence Framework   | [View Frameworks 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cyber-Defence-Framework.md)          | ✅ Complete |    |
 | 🖥️ Windows Basics              | [Windows Command Line 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Windows%20Command%20line.md)           | ✅ Complete     |
 | 💻 PowerShell Fundamentals     | [Windows PowerShell 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Windows%20PowerShell.md)                | ✅ Complete |
 | 💻 LinuxShells      | [Linux Shells 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Linux%20Shells.md)                | ✅ Complete |
-| 🌐 Networking        | [Network Essentials 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Networking.md)               | ✅ Complete |
+| 🌐 Networking        | [Network Essential 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Networking.md)               | ✅ Complete |
+| 🛜 Network Security and Traffic Analysis   | [Probing Network Anomalies 📎]()               | ✅ Complete |
 | 🧶 Cryptography        | [Cryptography Basics 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Cryptography.md)                 | ✅ Complete |
 | 🔐 Exploitation           | [Exploitation Basics 📎](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Exploitation.md)            | 🛠️ In Progress |
 | 🧠 Blue Team Foundations       | SOC Level 1                         | 🔜 Coming Soon  |
