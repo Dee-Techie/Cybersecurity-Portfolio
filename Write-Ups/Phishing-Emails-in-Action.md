@@ -17,6 +17,7 @@ This section explores real phishing email samples and the various techniques use
 - Urgent subject line prompts quick reaction
 - Only interactive element: **Cancel the Order** button
 - Uses shortened URLs to mask the true destination
+
 ![image](https://github.com/user-attachments/assets/85b3548f-a6b6-4507-885f-ac39c6857e2a)
 
 ➡️ **Tip:** Use online tools to preview shortened URLs before clicking.
