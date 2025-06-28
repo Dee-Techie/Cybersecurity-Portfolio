@@ -52,8 +52,8 @@ Three main protocols enable the flow of emails across networks:
 7. Email is placed in **POP3/IMAP** server, waiting for Billy.
 8. **Billy’s email client** checks for new messages.
 9. The email is either **copied** (IMAP) or **downloaded** (POP3) to Billy's inbox.
-10. 
-![image](https://github.com/user-attachments/assets/0e43a5f8-77bf-4cb0-9fdd-fc46b4c3a0cd)
+
+<img src="https://github.com/user-attachments/assets/0e43a5f8-77bf-4cb0-9fdd-fc46b4c3a0cd" alt="How email travels" width="600" />
 
 ---
 
