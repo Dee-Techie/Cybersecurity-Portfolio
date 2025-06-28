@@ -22,15 +22,4 @@ As the lone CTI Analyst on a Friday night, I was tasked with investigating malwa
 Analyzed a real-world threat campaign by Tropic Trooper (APT X) using USBferry malware against air-gapped networks. Identified phishing tactics, STIX-based IOCs, tools, and mapped TTPs to MITRE ATT&CK using OpenCTI and Navigator to build a threat profile and perform behavior-based attribution.  
 > 🔗 [View Full Lab ➡️](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Labs/Trooper.md)
 
---- 
-
-| 🧰 Lab Title                     | 🔍 Focus Area                          | 🛠️ Tools Used / Notes                           | 🔗 Link to Lab                             |
-|----------------------------------|----------------------------------------|-------------------------------------------------|--------------------------------------------|
-| 🔍 Wireshark Packet Analysis     | Network Traffic Inspection             | Wireshark, TCP/IP analysis, packet dissection   | [View Lab](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Labs/Wireshark_PCAP)                              |
-| 📊 Splunk SIEM Investigations    | Log Analysis, Threat Detection         | Splunk, correlation rules, dashboards           | [View Lab](#)                              |
-| 🧬 Network Traffic Analysis       | Deep Packet & Flow Analysis            | Wireshark, Zeek, network behavior insights      | [View Lab](#)                              |
-| 🖥️ Open Source Tools Exploration | IDS & Traffic Monitoring               | Zeek, Suricata, PCAP exploration                | [View Lab](#)                              |
-| 🛡️ Malware Traffic Analysis      | Malicious Network Behavior Detection   | PCAP files, threat hunting, signature detection | [View Lab](#)                              |
-
-
-> These labs reflect my capability in log analysis, threat detection, and blue team operations.
+---
