@@ -14,7 +14,7 @@ Stay one step ahead of attackers by mastering phishing email detection and defen
 
 ---
 
-### 🛠️ 3. [Phishing Analysis Tools](./phishing-analysis-tools.md)
+### 🛠️ 3. [Phishing Analysis Tools](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Phishing-Analysis-Tools.md)
 🔧 Discover the tools analysts use to safely dissect, decode, and investigate suspicious emails and URLs.
 
 ---
