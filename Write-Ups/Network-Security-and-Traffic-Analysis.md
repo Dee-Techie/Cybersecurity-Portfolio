@@ -20,22 +20,28 @@ Network Security is a crucial subdomain of cybersecurity focused on protecting d
 ## ⚙️ Security Approaches
 
 ### ✅ Access Control
-- 🔥 **Firewalls**
-- 🛑 **Network Access Control (NAC)**
-- 🧾 **Identity & Access Management (IAM)**
-- ⚖️ **Load Balancing**
-- 🧱 **Network Segmentation**
-- 🔐 **VPNs**
-- 🚫 **Zero Trust Model**
+Controls that determine who can access what within a network and under what conditions.
+
+**🔑 Key Elements of Access Control**
+- 🔥 **Firewalls** – Monitor and control incoming/outgoing traffic based on security rules.
+- 🛑 **Network Access Control (NAC)** – Ensures devices meet security requirements before granting network access.
+- 🧾 **Identity & Access Management (IAM)** – Manages user identities and controls access to systems and data.
+- ⚖️ **Load Balancing** – Distributes network traffic evenly to optimize resource use and avoid overload.
+- 🧱 **Network Segmentation** – Divides networks into zones to contain threats and limit lateral movement.
+- 🔐 **VPNs** – Create secure, encrypted tunnels for private communication over public networks.
+- 🚫 **Zero Trust Model** – Grants minimum access with a 'never trust, always verify' approach.
 
 ### ⚠️ Threat Control
-- 🚨 **IDS/IPS**
-- 📤 **Data Loss Prevention (DLP)**
-- 🖥️ **Endpoint Protection**
-- ☁️ **Cloud Security**
-- 📊 **SIEM**
-- 🤖 **SOAR**
-- 🌐 **Network Traffic Analysis / NDR**
+Controls designed to detect, prevent, and respond to malicious activities, intrusions, and vulnerabilities.
+
+**🛡️ Key Elements of Threat Control**
+- 🚨 **IDS/IPS** – Detects (IDS) and blocks (IPS) suspicious or malicious traffic in real-time.
+- 📤 **Data Loss Prevention (DLP)** – Prevents unauthorized transmission of sensitive data.
+- 🖥️ **Endpoint Protection** – Secures endpoint devices with antivirus, encryption, and threat detection tools.
+- ☁️ **Cloud Security** – Safeguards data, applications, and infrastructure in cloud environments.
+- 📊 **SIEM** – Collects and analyzes log data to detect and respond to security incidents.
+- 🤖 **SOAR** – Automates security tasks and orchestrates response actions across tools and teams.
+- 🌐 **Network Traffic Analysis / NDR** – Examines traffic patterns to detect and respond to anomalies or threats.
 
 ---
 
