@@ -19,7 +19,8 @@ According to the [**MITRE ATT&CK Framework**](https://attack.mitre.org/technique
 ---
 
 ## 📌 SPF (Sender Policy Framework)
-![image](https://github.com/user-attachments/assets/90fd473e-6a12-4b9c-9e0b-d549add6de50)
+<img src="https://github.com/user-attachments/assets/8531c504-67cf-475d-8994-dab3a453166c" alt="SPF" width="800" />
+
 > Note:  Credit to dmarcian for the above image.
 
 ### ❓ What is SPF?
