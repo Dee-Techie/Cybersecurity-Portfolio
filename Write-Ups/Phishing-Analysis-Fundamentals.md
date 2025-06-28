@@ -187,7 +187,7 @@ Phishing attacks usually aim to:
 
 - 📤 Impersonate the user
 - 💰 Convince others to perform unauthorized or fraudulent actions (e.g., wire transfers, data leaks)
-
+> Read more on [BEC](https://www.proofpoint.com/us/threat-reference/business-email-compromise)
 ---
 
 > ⚠️ Stay vigilant and always analyze emails carefully—when in doubt, do not click!
