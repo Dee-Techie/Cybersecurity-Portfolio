@@ -57,6 +57,8 @@ Below are snapshots of the tools and resources used during analysis:
 ### 📊 OpenCTI Analysis
 
 ![image](https://github.com/user-attachments/assets/f9affb9f-8ef8-4524-96ea-6f76bb794c3c)
+![image](https://github.com/user-attachments/assets/ccfffb4a-45c4-4b78-a65d-345ad4191c15)
+![image](https://github.com/user-attachments/assets/3367dc33-b740-4464-825c-594872516a61)
 
 ---
 
