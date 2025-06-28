@@ -35,7 +35,7 @@ Controls that determine who can access what within a network and under what cond
 Controls designed to detect, prevent, and respond to malicious activities, intrusions, and vulnerabilities.
 
 **🛡️ Key Elements of Threat Control**
-- 🚨 **IDS/IPS** – Detects (IDS) and blocks (IPS) suspicious or malicious traffic in real-time.
+- 🚨 [**IDS/IPS**](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/IDS-IPS.md) – Detects (IDS) and blocks (IPS) suspicious or malicious traffic in real-time.
 - 📤 **Data Loss Prevention (DLP)** – Prevents unauthorized transmission of sensitive data.
 - 🖥️ **Endpoint Protection** – Secures endpoint devices with antivirus, encryption, and threat detection tools.
 - ☁️ **Cloud Security** – Safeguards data, applications, and infrastructure in cloud environments.
