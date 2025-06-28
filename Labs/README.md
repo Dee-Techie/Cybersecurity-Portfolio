@@ -4,7 +4,7 @@ This folder contains hands-on labs I've completed to build practical cybersecuri
 
 ## 🔬 Cyber Threat Intelligence Labs
 
-### 🕵️‍♂️ [Friday Overtime - CTI Lab](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Labs/CTI-lab.md)
+### 👩‍⚖️ [Friday Overtime - CTI Lab](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Labs/CTI-lab.md)
 📅 **Date:** June 2025  
 🧠 **Skills:** CTI, OSINT, Malware Analysis, MITRE ATT&CK, CyberChef, IOC Hunting  
 🧰 **Tools:** Terminal, VirusTotal, CyberChef, MITRE, DocIntel, Google  
@@ -14,7 +14,7 @@ As the lone CTI Analyst on a Friday night, I was tasked with investigating malwa
 
 ---
 
-### 🕵️‍♂️ Trooper - APT Threat Attribution Lab  
+### 🕵️‍♂️ [Trooper - APT Threat Attribution Lab](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Labs/Trooper.md)
 📅 **Date:** June 2025  
 🧠 **Skills:** CTI, OSINT, Threat Attribution, MITRE ATT&CK Mapping, Intelligence Correlation  
 🧰 **Tools:** OpenCTI, MITRE Navigator, VirusTotal, OSINT  
