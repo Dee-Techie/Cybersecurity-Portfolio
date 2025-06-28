@@ -1,4 +1,4 @@
-# 🐷 IDS, IPS & Snort
+#  🫷 IDS & IPS - A brief overview (THM)
 
 ---
 
@@ -42,29 +42,6 @@
 | Action | Detects only | Detects & blocks |
 | Intervention | Needs human input | Blocks autonomously |
 | Use Case | Alerting & monitoring | Prevention & blocking |
-
----
-
-## 🐗 What is Snort?
-
-Snort is an open-source, **rule-based** **Network IDS/IPS** developed by **Martin Roesch** and maintained by the **Cisco Talos** team.
-
-### 🔧 Snort Capabilities:
-- Live traffic analysis
-- Attack detection
-- Packet logging & sniffing
-- Protocol & payload analysis
-- Real-time alerting
-- Rule-based logic
-- Cross-platform (Linux/Windows)
-
-### 🧰 Snort Modes:
-- 👀 **Sniffer Mode** – Displays live packet data.
-- 🗂️ **Packet Logger Mode** – Saves packet logs for later analysis.
-- 🧱 **NIDS/NIPS Mode** – Logs/drops malicious packets using predefined rules.
-
-### 📄 Official Description
-> “Snort can be deployed inline to stop packets... It can be used as a sniffer, a logger, or a full-blown network intrusion prevention system.”
 
 ---
 
