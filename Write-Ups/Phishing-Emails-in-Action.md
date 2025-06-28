@@ -71,5 +71,76 @@ This email sample can be explored on Any.Run:
 👉 [View Full Analysis](https://app.any.run/tasks/12dcbc54-be0f-4250-b6c1-94d548816e5c/#)
 
 ---
+# 🧠 More Phishing Email Examples
 
-> 🧠 Always examine headers, links, and urgency in suspicious emails. If it feels off, verify before interacting!
+This section highlights more real-world phishing emails showcasing common social engineering tactics and technical tricks used to deceive victims.
+
+---
+
+## 🔔 "Please Update Your Payment Details" (Netflix Impersonation)
+
+### Techniques Used:
+- 📬 Spoofed email address
+- ⏰ Urgency
+- 🎨 HTML impersonation (Netflix)
+- ❌ Poor grammar/typos
+- 📎 Malicious attachment (PDF)
+
+### Key Observations:
+- Appears from "Netflix Billing" but sender is `z99@musacombi.online`
+- Subject line urges user to act due to account suspension
+- Several misspellings of "Netflix" — possibly to bypass filters
+- PDF attachment prompts the user to "Update Payment Account"
+- Phone number listed is suspicious for a US-based victim
+
+⚠️ **Beware:** Opening such attachments can lead to phishing pages or malware infections.
+
+---
+
+## 💸 "Your Recent Purchase" (Apple Support Impersonation)
+
+### Techniques Used:
+- 📬 Spoofed email address
+- 🕵️ BCCed recipient
+- ⏰ Urgency
+- ❌ Poor grammar/typos
+- 📎 Malicious attachment (.DOT file)
+
+### Key Observations:
+- Sent from `gibberish@sumpremed.com` pretending to be Apple
+- Victim BCCed; sender/recipient emails contain typos like "donoreply" and "payament"
+- No email body — only a Word template file (.DOT) attached
+- File contains a fake Apple receipt image with misleading links
+
+🚨 **Red Flag:** A .DOT file is unusual and often used for macro-based malware attacks.
+
+---
+
+## 📦 "DHL Express Courier Shipping Notice"
+
+### Techniques Used:
+- 📬 Spoofed email address
+- 🎨 HTML impersonation (DHL)
+- 📎 Malicious attachment (Excel document)
+
+### Key Observations:
+- Sender email doesn’t match DHL's domain
+- Email body mimics DHL layout using HTML
+- Email link (View as webpage) has no real destination
+- Victim is lured to open an Excel file attachment
+- Attachment runs a payload that eventually throws an error
+
+🛑 **Caution:** Malicious Excel files often contain macros that execute malware when opened.
+
+---
+
+> 📌 **Always validate sender addresses, check for urgency or unexpected attachments, and avoid clicking suspicious links.** If unsure, report the email to your SOC or security team.
+
+---
+
+#### 🔗 References & Resources:</sub>
+- <sub>TryHackMe — Phishing Emails in Action | SOC Analyst (THM) [TryHackMe](https://tryhackme.com/room/phishingemails2rytmuv)
+- [Knowbe4](https://www.knowbe4.com/phishing)
+- [IT Governance](https://www.itgovernance.co.uk/blog/5-ways-to-detect-a-phishing-email)
+- [Cheap SSL Security](https://cheapsslsecurity.com/blog/10-phishing-email-examples-you-need-to-see/)
+- [Phishing Quiz](https://phishingquiz.withgoogle.com)
