@@ -77,8 +77,6 @@ Below are snapshots of the tools and resources used during analysis:
 - [TrendMicro: Tropic Troopers Back USBferry Attacks](https://www.trendmicro.com/en_us/research/20/e/tropic-troopers-back-usbferry-attack-targets-air-gapped-environments.html)
 - [MITRE ATT&CK](https://attack.mitre.org/)
 - [OpenCTI](https://www.opencti.io/)
-- [VirusTotal](https://www.virustotal.com/)
-
 ---
 
 ## 🧷 Tags
