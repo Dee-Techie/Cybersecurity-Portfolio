@@ -57,7 +57,7 @@ It's essential for:
 ### 🔬 Disciplines Involving Traffic Analysis
 - 🐍 **Network Sniffing and Packet Analysis** – (Wireshark Room)
 - 🛰️ **Network Monitoring** – (Zeek Room)
-- 🛡️ **Intrusion Detection & Prevention** – (Snort Room)
+- 🛡️ **Intrusion Detection & Prevention** – ([Snort](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Snort.md))
 - 🧪 **Network Forensics** – (NetworkMiner Room)
 - 🎯 **Threat Hunting** – (Brim Room)
 
