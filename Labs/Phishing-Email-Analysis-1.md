@@ -1,4 +1,4 @@
-# 🧪 Phishing Lab Blog: Investigating Suspicious Emails
+# 🧪 Phishing Lab Blog I: Investigating Suspicious Emails
 
 ## 🔍 Scenario
 You are a **Level 1 SOC Analyst** 🧑‍💻. Several suspicious emails have been forwarded to you from coworkers. Your mission is to **analyze the emails** and extract key details so your team can implement rules to block similar future phishing or spam messages.
@@ -53,7 +53,7 @@ hxxps[://]t[.]co/yuxfzm8kpg?amp=1
 
 ## 🖼️ Screenshots
 ![image](https://github.com/user-attachments/assets/5827732b-43d5-4b21-b58f-51f30ff26039)
-![image](https://github.com/user-attachments/assets/f09c8e2f-5c4e-44da-879d-fce19741a07f)
+<img src="https://github.com/user-attachments/assets/f09c8e2f-5c4e-44da-879d-fce19741a07f" alt="Phishing email url" width="600" height="300" />
 
 
 ---
