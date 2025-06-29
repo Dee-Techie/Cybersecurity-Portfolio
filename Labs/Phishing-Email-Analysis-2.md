@@ -85,5 +85,3 @@ This lab helped simulate how real SOC teams use **sandboxing and automated analy
 ---
 
 🔗 [TryHackMe Room](https://tryhackme.com/room/phishingemails3tryoe)
-
-📚 Stay tuned for **Phishing Lab III**, where I’ll dig deeper into payload behavior and chain analysis! 🧵
