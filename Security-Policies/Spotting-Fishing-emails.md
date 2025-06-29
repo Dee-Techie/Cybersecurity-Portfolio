@@ -105,14 +105,5 @@ If you think you’ve received a phishing email:
 
 ---
 
-## 📎 Related Docs
-
-- 📄 [Phishing Incident Response Playbook](./playbooks/phishing-playbook.md)
-- 🔑 [Password Policy](./docs/password-policy.md)
-- 🛡️ [MFA Setup Guide](./docs/mfa-policy-guide.md)
-- 📧 [Zero Trust Email Policy](./docs/zero-trust-policy.md)
-
----
-
 > 💬 **Remember**: If something looks off, it probably is.  
 > 📣 _“Think before you click!”_
