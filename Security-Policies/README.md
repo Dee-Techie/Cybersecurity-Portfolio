@@ -14,7 +14,7 @@ Welcome to the centralized hub for all security-related documentation, playbooks
 | 🔐 MFA Policy                | MFA Setup Guide     | `.md`               |
 | 🙎‍♂️ IAM Onboarding           | [Access Provisioning Guide](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Security-Policies/IAM-Onboarding.md) | `.md`          |
 | 👋 Offboarding               | Employee Offboarding Checklist | `.md`      |
-| 📧 Email Security            | Spotting Phishing Emails | `.md`        |
+| 📧 Email Security            | [Spotting Phishing Emails](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Security-Policies/Spotting-Fishing-emails.md) | `.md`        |
 | 🕵️‍♂️ Security Audits         | Sample Audit Checklist | `.md`        |
 
 ---
