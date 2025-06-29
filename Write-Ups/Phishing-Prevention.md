@@ -19,9 +19,6 @@ According to the [**MITRE ATT&CK Framework**](https://attack.mitre.org/technique
 ---
 
 ## 📌 SPF (Sender Policy Framework)
-<img src="https://github.com/user-attachments/assets/8531c504-67cf-475d-8994-dab3a453166c" alt="SPF" width="800" />
-
-> Note:  Credit to dmarcian for the above image.
 
 ### ❓ What is SPF?
 
@@ -34,8 +31,9 @@ An SPF record is a **DNS TXT record** that lists the IP addresses authorized to 
 ---
 
 ### 🔄 SPF Workflow (Visual)
-*(Image credit: dmarcian – not included in this summary)*
+<img src="https://github.com/user-attachments/assets/8531c504-67cf-475d-8994-dab3a453166c" alt="SPF" width="800" />
 
+> Note:  Credit to dmarcian for the above image.
 ---
 
 ### 🔤 Example SPF Record
