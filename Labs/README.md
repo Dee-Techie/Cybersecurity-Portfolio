@@ -45,8 +45,8 @@ As part of an ongoing phishing investigation, I analyzed a suspicious email atta
 
 ---
 
-## 🔬 [Network Traffic Analysis Labs](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Labs/Wireshark-SMTP-Traffic.md)  
-### ✉️ SMTP Packet Dive - Wireshark Lab  
+## 🔬 Network Traffic Analysis Labs 
+### ✉️ [SMTP Packet Dive - Wireshark Lab](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Labs/Wireshark-SMTP-Traffic.md) 
 📅 **Date:** June 2025  
 🧠 **Skills:** SMTP Protocol Analysis, Email Forensics, Packet Inspection  
 🧰 **Tools:** Wireshark  
