@@ -156,10 +156,13 @@ Phishing is a **social engineering attack** that uses deceptive emails to trick 
 
 - ✅ Enforce SPF, DKIM, and DMARC ✅
 - ✅ Use **Multi-Factor Authentication (MFA)** on all accounts
+- ✅ Add Email Labels (alert users that an incoming email is from an outside source)
+- ✅ SPAM Filters (flags or blocks incoming emails based on reputation)
+- ✅ Email Address/Domain/URL Blocking (based on reputation or explicit denylist)
 - ✅ Disable automatic download of remote content in email
-- ✅ Train users with phishing simulations (KnowBe4, GoPhish)
 - ✅ Use attachment sandboxing
 - ✅ Enforce minimal permissions (Least Privilege)
+- ✅ Train users with phishing simulations (KnowBe4, GoPhish)
 
 ---
 
