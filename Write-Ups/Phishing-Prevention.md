@@ -4,7 +4,7 @@
 
 There are various actions a defender can take to help protect users from falling victim to a malicious email. Here are some key preventive measures:
 
-- ✅ **Email Security** ([SPF](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Phishing-Prevention.md#-spf-sender-policy-framework), [DKIM](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Phishing-Prevention.md#-what-is-dkim), [DMARC](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Phishing-Prevention.md#-what-is-dmarc), [S/MIME](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Phishing-Prevention.md#-what-is-smime))
+- ✅ **Email Security** - [SPF](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Phishing-Prevention.md#-spf-sender-policy-framework), [DKIM](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Phishing-Prevention.md#-what-is-dkim), [DMARC](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Phishing-Prevention.md#-what-is-dmarc), [S/MIME](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Phishing-Prevention.md#-what-is-smime)
 - 🫷 [**Domain Health Checker**](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Write-Ups/Phishing-Prevention.md#-domain-health-checker-example-microsoft)
 - 🧱 **SPAM Filters** – Flags or blocks incoming emails based on reputation
 - 🏷️ **Email Labels** – Alerts users that an incoming email is from an outside source
