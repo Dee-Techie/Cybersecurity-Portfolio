@@ -24,14 +24,4 @@ Stay one step ahead of attackers by mastering phishing email detection and defen
 
 ---
 
-### 🎯 5. [The Greenholt Phish]()
-🧪 Apply what you've learned to analyze a malicious email targeting the fictional Greenholt Corporation.
-
----
-
-### 🎣 6. [Snapped Phish-ing Line](./snapped-phish-ing-line.md)
-🕵️ Dive deeper into an actual phishing campaign. Investigate malicious emails and URLs, uncovering a widespread attack.
-
----
-
 > 💡 **Tip**: Use this page as your basecamp. Click through the sections in order or jump to any topic that interests you most. Stay curious, stay secure!
