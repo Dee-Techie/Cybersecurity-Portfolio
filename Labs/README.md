@@ -44,3 +44,12 @@ As part of an ongoing phishing investigation, I analyzed a suspicious email atta
 > [🔗 View Full Lab ➡️](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Labs/Phishing-Email-Analysis-2.md)
 
 ---
+
+## 🔬 [Network Traffic Analysis Labs](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Labs/Wireshark-SMTP-Traffic.md)  
+### ✉️ SMTP Packet Dive - Wireshark Lab  
+📅 **Date:** June 2025  
+🧠 **Skills:** SMTP Protocol Analysis, Email Forensics, Packet Inspection  
+🧰 **Tools:** Wireshark  
+📄 **Summary:**  
+In this lab, I examined captured SMTP traffic using Wireshark to understand how email communications flow at the protocol level. I filtered SMTP responses, identified status codes like `220` and `553`, and reviewed blocked messages flagged by spamhaus.org. The lab helped me recognize malicious attachments and analyze SMTP commands in depth — one packet at a time.
+> [🔗 View Full Lab ➡️](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Labs/Wireshark-SMTP-Traffic.md)
