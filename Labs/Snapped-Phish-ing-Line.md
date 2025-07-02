@@ -22,20 +22,6 @@ As a cybersecurity responder, your job is to:
 
 ---
 
-## 🛠️ Lab Environment
-
-**VM Credentials**
-- **Username:** `damianhall`
-- **Password:** `Phish321`
-- **IP Address:** `10.10.196.234`
-
-📁 Look inside the `phish-emails` directory on the Desktop. You'll use tools like:
-- Firefox (for safe phishing URL visits)
-- Text Editor
-- Terminal commands (like `grep`)
-
----
-
 ## 📋 Lab Findings
 
 ### 👤 Who received a malicious PDF attachment?
@@ -52,6 +38,7 @@ Accounts.Payable@groupmarketingonline.icu
 ```
 hxxp[://]kennaroads[.]buzz/data/Update365/office365/40e7baa2f826a57fcf04e5202526f8bd/?email=zoe[.]duncan@swiftspend[.]finance&error
 ```
+![image](https://github.com/user-attachments/assets/982893d9-2642-46e7-a4eb-7d66cf31e5e3)
 
 ### 🗜️ What is the URL of the phishing kit ZIP archive? *(defanged format)*
 ```
@@ -62,11 +49,13 @@ hxxp[://]kennaroads[.]buzz/data/Update365[.]zip
 ```
 ba3c15267393419eb08c7b2652b8b6b39b406ef300ae8a18fee4d16b19ac9686
 ```
+![image](https://github.com/user-attachments/assets/ff3331f7-f487-43b7-ad41-a16a5bfab723)
 
 ### ⏱️ When was the phishing kit first submitted? *(UTC format)*
 ```
 2020-04-08 21:55:50 UTC
 ```
+![image](https://github.com/user-attachments/assets/e56ae5ad-332a-49f9-8f11-dd1e691f29e6)
 
 ### 🧾 When was the SSL certificate for the phishing domain first logged?
 ```
@@ -77,11 +66,13 @@ ba3c15267393419eb08c7b2652b8b6b39b406ef300ae8a18fee4d16b19ac9686
 ```
 michael.ascot@swiftspend.finance
 ```
+![image](https://github.com/user-attachments/assets/64417f13-cbdb-4dca-883e-a0bf74cae107)
 
 ### 🎣 What email did the attacker use to collect stolen credentials?
 ```
 jamestanner2299@gmail.com
 ```
+![image](https://github.com/user-attachments/assets/66b3f871-7491-42b0-a035-226df3e46f1b)
 
 ### 📮 Another malicious email address from the phishing kit?
 ```
@@ -112,12 +103,6 @@ THM{pL4y_w1Th_tH3_URL}
 - Users submitting credentials multiple times gives attackers more data.
 - Email artifacts + CTI tools can provide deep adversary insight.
 - **Always analyze email reports inside an isolated environment.**
-
----
-
-## 🖼️ Screenshots
-
-*📷 Insert relevant screenshots of Firefox browsing, email inspection, phishing kit files, and CTI tooling here.*
 
 ---
 
