@@ -26,6 +26,16 @@ Analyzed a real-world threat campaign by Tropic Trooper (APT X) using USBferry m
 
 ## 📧 Phishing Email Analysis Lab 
 
+### 🕵️‍♀️ [SwiftSpend Phishing Incident – Threat Hunt Lab](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Labs/Snapped-Phish-ing-Line.md)
+📅 **Date:** July 2025  
+🧠 **Skills:** Email Threat Analysis, Phishing Investigation, Malware Triage, Threat Intelligence, IOC Extraction  
+🧰 **Tools:** Grep, WHOIS, VirusTotal, AbuseIPDB  
+📄 **Summary:**  
+During a routine summer shift at SwiftSpend Financial, multiple users reported suspicious emails, with some already falling victim to credential harvesting. Acting as an internal IT investigator, I analyzed several phishing emails, deconstructed redirection URLs, and retrieved a real-world phishing kit from an active malicious campaign. Using CTI tools and techniques, I extracted critical indicators like attacker-controlled domains, email addresses, file hashes, and SSL certificate metadata. This investigation strengthened our ability to identify, report, and mitigate real-world phishing threats.
+> 🔗 View Full Lab ➡️ [SwiftSpend Blog Post](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Labs/Snapped-Phish-ing-Line.md)
+
+---
+
 ### 👨‍💻 [Snapped Phish-ing Line – Email Analysis Exercise](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Labs/Phishing-Email-Analysis-1.md)
 📅 **Date:** June 2025  
 🧠 **Skills:** Email Header Analysis, URL Inspection, OSINT, Threat Hunting, Security Awareness  
