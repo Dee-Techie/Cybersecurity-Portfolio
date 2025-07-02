@@ -24,7 +24,7 @@ Stay one step ahead of attackers by mastering phishing email detection and defen
 
 ---
 
-### 🎣 5. [Snapped Phish-ing Line](./snapped-phish-ing-line.md)
+### 🎣 5. [Snapped Phish-ing Line](https://github.com/Dee-Techie/Cybersecurity-Portfolio/blob/main/Labs/Snapped-Phish-ing-Line.md)
 🕵️ Dive deeper into an actual phishing campaign. Investigate malicious emails and URLs, uncovering a widespread attack.
 
 ---
