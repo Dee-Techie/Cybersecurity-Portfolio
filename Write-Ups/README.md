@@ -43,7 +43,7 @@ As I journey through the world of **cybersecurity**, I’m documenting everythin
 - 🐙 GitHub for version control  
 - 🎓 ChatGPT (yes, I did!)  
 - 💻 PowerShell, LinuxShell, Wireshark, Netstat.
-- 🦀 John the Ripper, Metasploit.
+- 🦀 John the Ripper, Metasploit, Snort.
 
 ---
 
